@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-13",
+  "show": "RGV News",
+  "episode_title": "RGV Development Brief",
+  "youtube_title": "RGV Development Brief: Industrial Parks, a $164M Water Bet & the Treaty Risk | Nov 13, 2026",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "scenes": [
+    {
+      "type": "title",
+      "kicker": "RGV DEVELOPMENT BRIEF",
+      "headline": "2 opportunities.\n1 risk to watch.",
+      "sub": "November 13, 2026",
+      "narration": "This is RGV News, your brief on the developments shaping the Rio Grande Valley, and what they mean if you build, buy, or invest here. Today: two opportunities, and one risk you should be watching."
+    },
+    {
+      "type": "section",
+      "tag": "OPPORTUNITY 1",
+      "tone": "up",
+      "headline": "Industrial growth near the Anzalduas bridge",
+      "narration": "First, industrial land in the Mission and McAllen corridor."
+    },
+    {
+      "type": "stat",
+      "tone": "up",
+      "label": "Sharyland Business Park · Mission",
+      "big": "3,400 acres",
+      "caption": "Killam Development master plan, purchased Dec 2019.\nPark sits under a mile from the Anzalduas International Bridge.",
+      "narration": "Killam Development's Sharyland Business Park sits less than a mile from the Anzalduas International Bridge. It's part of a thirty-four hundred acre master plan that Killam bought in late 2019, spanning Mission and McAllen."
+    },
+    {
+      "type": "stat",
+      "tone": "up",
+      "label": "Phase one → planned build-out",
+      "big": "175 → 1,000 acres",
+      "caption": "Ground broken May 2022 · manufacturing, logistics, cold storage\n~$8M in infrastructure already invested (per Killam)",
+      "narration": "Phase one broke ground in May 2022 on a hundred and seventy-five acres, aimed at manufacturing, logistics, and cold storage. Plans call for the park to grow to as much as one thousand acres, and Killam reports about eight million dollars already invested in infrastructure."
+    },
+    {
+      "type": "stat",
+      "tone": "up",
+      "label": "City of McAllen · industrial park",
+      "big": "$6M",
+      "caption": "Federal grant reported in July 2026\n(U.S. Economic Development Administration)",
+      "narration": "Next door, the City of McAllen has received a six million dollar federal grant for its own industrial park project, reported this summer as coming from the U.S. Economic Development Administration."
+    },
+    {
+      "type": "bullets",
+      "tone": "up",
+      "headline": "Why it matters",
+      "bullets": [
+        "Border-adjacent industrial jobs pull demand for workforce housing",
+        "Retail and services follow the corridors that feed them",
+        "Watch where employers actually sign leases"
+      ],
+      "narration": "Why it matters: industrial jobs near a border crossing tend to pull demand for workforce housing, retail, and services along the corridors that feed them. If you're looking at land or entry-level housing in western Hidalgo County, watch where these employers actually sign leases."
+    },
+    {
+      "type": "section",
+      "tag": "OPPORTUNITY 2",
+      "tone": "up",
+      "headline": "A $164 million bet on the Valley's water system",
+      "narration": "Second: a hundred and sixty-four million dollar push to modernize how the Valley moves its water."
+    },
+    {
+      "type": "split",
+      "tone": "up",
+      "label": "Proposed funding · subject to board approvals",
+      "items": [
+        [
+          "Up to $76M",
+          "NADBank financing"
+        ],
+        [
+          "~$70M",
+          "Texas Water Development Board grants"
+        ],
+        [
+          "12",
+          "irrigation districts"
+        ]
+      ],
+      "narration": "The North American Development Bank proposed up to seventy-six million dollars in financing for twelve Lower Rio Grande Valley irrigation districts, with the Texas Water Development Board expected to add nearly seventy million in grants. Both pieces were announced subject to board approval."
+    },
+    {
+      "type": "stat",
+      "tone": "up",
+      "label": "Estimated water saved",
+      "big": "~44,000",
+      "unit": "acre-feet per year",
+      "caption": "Canal lining and conversion to pipe\nCameron · Hidalgo · Starr · Willacy counties",
+      "narration": "The money targets canal lining and converting open canals to pipe, cutting the water lost in transit. Reported estimates put the savings near forty-four thousand acre-feet a year."
+    },
+    {
+      "type": "bullets",
+      "tone": "up",
+      "headline": "Why it matters",
+      "bullets": [
+        "Water is the quiet constraint behind every new subdivision",
+        "Efficiency doesn't create water, but it stretches supply",
+        "Track final approvals from NADBank and TWDB"
+      ],
+      "narration": "For developers, water is the quiet constraint behind every new subdivision. More efficient delivery doesn't create new water, but it stretches what the region already has. Watch for the final approvals."
+    },
+    {
+      "type": "section",
+      "tag": "RISK TO WATCH",
+      "tone": "down",
+      "headline": "The 1944 Water Treaty shortfall",
+      "narration": "Which brings us to the risk."
+    },
+    {
+      "type": "stat",
+      "tone": "down",
+      "label": "Mexico's obligation per 5-year cycle",
+      "big": "1.75M",
+      "unit": "acre-feet",
+      "caption": "≈ 350,000 acre-feet per year on average\nCycle closed Oct 24, 2025: Texas says Mexico fell short",
+      "narration": "Under the 1944 Water Treaty, Mexico owes the United States an average of three hundred fifty thousand acre-feet a year, or one point seven five million over each five-year cycle. When the last cycle closed on October twenty-fourth, 2025, Texas officials said Mexico fell short."
+    },
+    {
+      "type": "bullets",
+      "tone": "down",
+      "headline": "Questions to ask before you underwrite",
+      "bullets": [
+        "How is the city's water supply secured?",
+        "How is new growth being permitted?",
+        "Are utility costs likely to rise?"
+      ],
+      "narration": "The treaty has no direct penalty for missing a target, and Falcon and Amistad reservoirs have run low in recent years. If you're underwriting a project in the Valley, ask how the city's water supply is secured, how new growth is being permitted, and whether utility costs are likely to rise."
+    },
+    {
+      "type": "outro",
+      "headline": "Follow for daily RGV development updates",
+      "sub": "Sources in the description · Not financial advice",
+      "narration": "That's the brief. Sources are in the description. Follow RGV News for daily updates on what's being built in Texas, and what to watch before you invest."
+    }
+  ],
+  "short": {
+    "title": "Mexico Owes Texas Water. Here's Why RGV Developers Should Care",
+    "hook": {
+      "type": "title",
+      "kicker": "RISK TO WATCH",
+      "tone": "down",
+      "headline": "Mexico owes Texas water.\nAnd it's behind.",
+      "narration": "Mexico owes Texas water, and it's behind. Here's why that matters if you build in the Valley."
+    },
+    "scene_indexes": [
+      11,
+      12
+    ],
+    "cta": {
+      "type": "outro",
+      "headline": "Full brief on RGV News",
+      "sub": "Follow for daily updates",
+      "narration": "Full breakdown on the RGV News channel. Follow for daily updates."
+    }
+  },
+  "description": "Today's RGV Development Brief for builders, developers and investors watching the Rio Grande Valley.\n\n00:00 Intro\n00:13 Opportunity 1: Industrial growth near the Anzalduas bridge\n01:28 Opportunity 2: A $164 million bet on the Valley's water system\n02:21 Risk To Watch: The 1944 Water Treaty shortfall\n\nSources:\n- KRGV: Mission ribbon-cutting for Sharyland Business Park https://www.krgv.com/news/mission-officials-hold-ribbon-cutting-ceremony-for-new-sharyland-business-park\n- Texas Border Business: Killam breaks ground on 175-acre Sharyland Business Park https://texasborderbusiness.com/killam-development-broke-ground-on-175-acre-sharyland-business-park\n- KRGV: City of McAllen receives $6 million grant for industrial park project https://www.krgv.com/news/city-of-mcallen-receives-6-million-grant-for-industrial-park-project\n- NADBank: US, Mexico, Texas back major investments for water conservation https://nadbank.org/news/press-release/us-mexico-texas-back-major-investments-for-water-conservation\n- Dallas Express: Proposed $164M water investment targets Rio Grande Valley https://dallasexpress.com/state/proposed-164m-water-investment-targets-rio-grande-valley/\n- Office of the Texas Governor: Abbott demands action on Mexico's water treaty violation https://gov.texas.gov/news/post/governor-abbott-demands-action-on-mexicos-water-treaty-violation\n- Texas Public Radio: U.S.-Mexico water agreement and South Texas https://www.tpr.org/environment/2024-11-10/u-s-mexico-water-agreement-might-bring-relief-to-parched-south-texas\n\nThis video is for information only and is not financial or investment advice. Narration is computer-generated.\n\n#RioGrandeValley #RGV #TexasRealEstate #McAllen #RealEstateInvesting",
+  "tags": [
+    "Rio Grande Valley",
+    "RGV",
+    "McAllen",
+    "Mission Texas",
+    "Texas real estate",
+    "real estate development",
+    "industrial real estate",
+    "Texas water",
+    "1944 water treaty",
+    "NADBank"
+  ]
+}
