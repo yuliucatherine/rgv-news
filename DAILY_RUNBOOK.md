@@ -36,13 +36,21 @@ for someone who builds, buys, or lends.
    (scene types: title, section, stat, split, bullets, outro; `tone` up/down; `short` block
    with hook, scene_indexes, cta; `description`, `tags`, `youtube_title`, `thumb_text`).
    Narration: plain spoken English, numbers written as words, ~150 words per minute.
-4. Render: `python3 pipeline/render.py episodes/YYYY-MM-DD --voice-dir models`.
-5. **Quality check before publishing**: extract a frame from every scene and look at it
+4. Narration (ElevenLabs connector, voice **James**, voice_id `QhpsGjDKZmM9qRYdMhBD`,
+   model `eleven_v4`, `generations_count` 1): create one flow named "RGV News YYYY-MM-DD
+   narration", generate one clip per scene plus `short.hook` and `short.cta`, poll until all
+   are completed (a "concurrency limit" note just means it retries automatically; never
+   re-submit), then download each `content_url` with curl to
+   `episodes/YYYY-MM-DD/audio/scene_NN.mp3`, `short_hook.mp3`, `short_cta.mp3`.
+   Budget: ~1 credit per character, about 3,000 credits per episode. If ElevenLabs is
+   unavailable, skip this step: the renderer falls back to the free local voice.
+5. Render: `python3 pipeline/render.py episodes/YYYY-MM-DD --voice-dir models`.
+6. **Quality check before publishing**: extract a frame from every scene and look at it
    (text not cut off, nothing overlapping); confirm durations; re-read the narration against
    the sources. Fix and re-render if anything is off.
-6. Put the chapter timestamps from `long_meta.json` into the description.
-7. Upload the media and schedule posts (see "Publishing" below).
-8. Commit the episode folder (without the .mp4 files) to `main` so future runs can see what
+7. Put the chapter timestamps from `long_meta.json` into the description.
+8. Upload the media and schedule posts (see "Publishing" below).
+9. Commit the episode folder (without the .mp4 files) to `main` so future runs can see what
    was covered.
 
 ## Publishing
@@ -52,6 +60,12 @@ Networks: YouTube (channel "RGV Today") and the Facebook Page "RGV News".
 brand label is "RGV News" and the YouTube channel ID is UCAPGqmPbbEfxRUI_TkzxD6g. If either
 doesn't match, stop and tell the owner instead of posting. Other channels the owner runs
 (e.g. Tiny Corrections) are handled elsewhere and are off-limits here.
+
+Hosting: copy `long.mp4`, `short.mp4`, `thumb.jpg` into `<date>/` on the `media` branch
+(orphan branch; use a git worktree), commit and push. Public URLs are
+`https://raw.githubusercontent.com/yuliucatherine/rgv-news/media/<date>/<file>`; Metricool
+copies the file to its own storage when the post is created. Keep only the last 14 days of
+media on that branch (delete older date folders) so it stays small.
 
 Posts per episode:
 | Post | YouTube | Facebook |
