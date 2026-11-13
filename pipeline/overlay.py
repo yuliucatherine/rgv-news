@@ -20,8 +20,8 @@ def back(t):  # ease-out with a small overshoot for "pop"
 
 
 def title(d, text, subtitle=None, a=1.0):
-    for yy in range(0, 230, 2):
-        d.rectangle([0, yy, W, yy + 2], fill=NAVY + (int(200 * a * (1 - yy / 230) ** 1.5),))
+    for yy in range(0, 200, 2):
+        d.rectangle([0, yy, W, yy + 2], fill=NAVY + (int(150 * a * (1 - yy / 200) ** 2.2),))
     d.rounded_rectangle([64, 60, 78, 112], 3, fill=ORANGE + (int(255 * a),))
     d.text((96, 58), text, font=F("Black", 44), fill=INK + (int(255 * a),))
     if subtitle:
@@ -38,9 +38,10 @@ def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
     makes the label show a number counting up with the growth factor."""
     for lab, v in pts.items():
         x, y, zc = v[:3]; g = v[3] if len(v) > 3 else 1.0
-        if zc <= 0 or not (0.02 < x < 0.98 and 0.05 < y < 0.95): continue
+        if zc <= 0 or not (0.02 < x < 0.98 and y < 0.95): continue
         px, py = x * W, (1 - y) * H
         if px < avoid_left: continue
+        py = max(py, 300 if (values and lab in values) else 260)   # keep labels clear of the title area
         la = a * (min(1.0, g * 4) if len(v) > 3 else 1.0)
         if la <= 0: continue
         if values and lab in values:
