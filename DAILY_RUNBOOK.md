@@ -81,3 +81,17 @@ Posts per episode:
 - **Review window:** videos are made in the morning and scheduled for the evening; the owner
   gets a summary with the title, the sources, and a link to the post in Metricool so it can be
   edited or deleted before it goes live.
+
+## Style guide (owner's notes)
+- **Narration is always ElevenLabs "James"** (voice_id `QhpsGjDKZmM9qRYdMhBD`). The free local
+  voice is only for internal drafts and demos, never for anything published.
+- **Burned-in captions** on every long video and Short: short phrases (3–5 words), bold, high
+  contrast, kept clear of on-screen credits.
+- **Kinetic emphasis words** for key lines: big words that fade/pop in one at a time on the left
+  third of the frame, timed to the narration. Example: narration "For builders and investors, the
+  question is simple: where will the water be?" → on screen, word by word: WHERE · WILL · THE ·
+  WATER · BE? Use 2–4 of these moments per episode, on the most important questions and numbers.
+- Every real photo/video carries an on-screen credit; maps and 3D carry a data-source line;
+  anything illustrative is labeled "illustrative".
+- Episode format: 8–12 minutes on one development (or closely related ones), plus 2–3 Shorts
+  cut from it. Budget ≈ 50,000 ElevenLabs credits for 3–4 episodes.
