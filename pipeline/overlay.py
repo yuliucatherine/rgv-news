@@ -33,15 +33,31 @@ def credit(d, text):
            stroke_width=3, stroke_fill=NAVY + (160,))
 
 
-def tracked_labels(d, pts, a=1.0, avoid_left=0):
-    for lab, (x, y, zc) in pts.items():
+def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
+    """pts: {label: [x, y, z(, growth)]} in camera-view coords. values: {label: [prefix, value, suffix, decimals, note]}
+    makes the label show a number counting up with the growth factor."""
+    for lab, v in pts.items():
+        x, y, zc = v[:3]; g = v[3] if len(v) > 3 else 1.0
         if zc <= 0 or not (0.02 < x < 0.98 and 0.05 < y < 0.95): continue
         px, py = x * W, (1 - y) * H
         if px < avoid_left: continue
-        d.line([(px, py), (px, py - 80)], fill=(255, 255, 255, int(220 * a)), width=3)
-        d.ellipse([px - 8, py - 8, px + 8, py + 8], fill=(255, 255, 255, int(255 * a)), outline=NAVY + (int(255 * a),), width=3)
-        d.text((px, py - 88), lab, font=F("Bold", 32), fill=INK + (int(255 * a),), anchor="ms",
-               stroke_width=5, stroke_fill=NAVY + (int(220 * a),))
+        la = a * (min(1.0, g * 4) if len(v) > 3 else 1.0)
+        if la <= 0: continue
+        if values and lab in values:
+            pre, val, suf, dec, note = values[lab]
+            big = f"{pre}{val * g:.{dec}f}{suf}"
+            d.text((px, py - 70), big, font=F("Black", 56), fill=INK + (int(255 * la),), anchor="ms",
+                   stroke_width=6, stroke_fill=NAVY + (int(220 * la),))
+            d.text((px, py - 26), lab, font=F("Bold", 30), fill=INK + (int(255 * la),), anchor="ms",
+                   stroke_width=5, stroke_fill=NAVY + (int(220 * la),))
+            if note:
+                d.text((px, py + 8), note, font=F("SemiBold", 24), fill=SUB + (int(255 * la),), anchor="ms",
+                       stroke_width=4, stroke_fill=NAVY + (int(200 * la),))
+            continue
+        d.line([(px, py), (px, py - 80)], fill=(255, 255, 255, int(220 * la)), width=3)
+        d.ellipse([px - 8, py - 8, px + 8, py + 8], fill=(255, 255, 255, int(255 * la)), outline=NAVY + (int(255 * la),), width=3)
+        d.text((px, py - 88), lab, font=F("Bold", 32), fill=INK + (int(255 * la),), anchor="ms",
+               stroke_width=5, stroke_fill=NAVY + (int(220 * la),))
 
 
 def callout(d, text, sub, t):
@@ -100,7 +116,7 @@ def run_config(cfg):
                      for k in cfg.get("kinetic", []))
         la = ease((tr - cfg.get("labels_from", 0.0)) / 0.08)
         if la > 0 and str(i + 1) in labels:
-            tracked_labels(d, labels[str(i + 1)], la, avoid_left=W * 0.47 if kin_on else 0)
+            tracked_labels(d, labels[str(i + 1)], la, avoid_left=W * 0.47 if kin_on else 0, values=cfg.get('label_values'))
         for c in cfg.get("callouts", []):
             s, e = c["start"], c["end"]
             if s <= tn <= e: callout(d, c["text"], c.get("sub", ""), (tn - s) / (e - s))
