@@ -2,3 +2,4 @@ models/
 episodes/*/build/
 *.mp4
 __pycache__/
+voice-test/
