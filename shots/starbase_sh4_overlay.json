@@ -1,0 +1,12 @@
+{
+ "frames_dir": "demo/starbase_frames",
+ "labels_json": "demo/starbase_frames/labels.json",
+ "out_mp4": "demo/shot_starbase_sh4.mp4",
+ "fps_in": 24,
+ "title": "STARBASE · CAMERON COUNTY",
+ "subtitle": "State Highway 4: Brownsville to Boca Chica",
+ "kinetic": [{"words": ["ONE", "ROAD", "IN."], "start": 0.8, "step": 0.45, "hold": 1.5}],
+ "labels_from": 0.42,
+ "callouts": [{"text": "$192.4M", "sub": "planned SH 4 widening (reported)", "start": 4.4, "end": 7.9}],
+ "credit": "Imagery: USGS The National Map · Roads: U.S. Census TIGER · Elevation: AWS Terrain Tiles"
+}
