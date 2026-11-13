@@ -218,6 +218,25 @@ def tts(engine, text, voice, speed, out):
     return len(samples) / sr + GAP
 
 
+def premade(src, out):
+    """Use a pre-generated narration clip (e.g. ElevenLabs mp3): convert to wav and add the gap."""
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-af",
+                    f"apad=pad_dur={GAP}", "-ar", "48000", "-ac", "1", out], check=True)
+    d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                       "-of", "csv=p=0", out]).decode().strip())
+    return d
+
+
+def narrate(eng, ed, name, text, voice, speed, out):
+    """Prefer episodes/<date>/audio/<name>.mp3 if present; otherwise use the free local voice."""
+    src = f"{ed}/audio/{name}.mp3"
+    if os.path.exists(src):
+        return premade(src, out)
+    if eng is None:
+        raise SystemExit(f"missing narration clip {src} and no local voice model loaded")
+    return tts(eng, text, voice, speed, out)
+
+
 def clip(img_path, wav, dur, out, W, H):
     frames = int(math.ceil(dur * FPS))
     # slow push-in: 1.00 -> 1.04 over the scene, rendered from a 2x source for smoothness
@@ -298,10 +317,11 @@ def main():
     ap.add_argument("episode_dir")
     ap.add_argument("--voice-dir", default=os.environ.get("KOKORO_DIR", "./models"))
     a = ap.parse_args()
-    from kokoro_onnx import Kokoro
-    eng = Kokoro(f"{a.voice_dir}/kokoro-v1.0.onnx", f"{a.voice_dir}/voices-v1.0.bin")
-
     ed = a.episode_dir
+    eng = None
+    if os.path.exists(f"{a.voice_dir}/kokoro-v1.0.onnx"):
+        from kokoro_onnx import Kokoro
+        eng = Kokoro(f"{a.voice_dir}/kokoro-v1.0.onnx", f"{a.voice_dir}/voices-v1.0.bin")
     ep = json.load(open(f"{ed}/episode.json"))
     work = f"{ed}/build"; os.makedirs(work, exist_ok=True)
     from datetime import date
@@ -312,7 +332,7 @@ def main():
     parts, durs = [], []
     for i, sc in enumerate(ep["scenes"]):
         wav = f"{work}/a{i:02d}.wav"; png = f"{work}/s{i:02d}.png"; mp4 = f"{work}/c{i:02d}.mp4"
-        dur = tts(eng, sc["narration"], voice, speed, wav)
+        dur = narrate(eng, ed, f"scene_{i:02d}", sc["narration"], voice, speed, wav)
         render_slide(sc, 1920, 1080, date_str).convert("RGB").save(png)
         clip(png, wav, dur, mp4, 1920, 1080)
         parts.append(mp4); durs.append(dur)
@@ -331,10 +351,11 @@ def main():
     sh = ep.get("short")
     if sh:
         scenes = [sh["hook"]] + [ep["scenes"][k] for k in sh["scene_indexes"]] + [sh["cta"]]
+        names = ["short_hook"] + [f"scene_{k:02d}" for k in sh["scene_indexes"]] + ["short_cta"]
         sparts, segs, t = [], [], 0.0
-        for i, sc in enumerate(scenes):
+        for i, (sc, nm) in enumerate(zip(scenes, names)):
             wav = f"{work}/va{i:02d}.wav"; png = f"{work}/vs{i:02d}.png"; mp4 = f"{work}/vc{i:02d}.mp4"
-            dur = tts(eng, sc["narration"], voice, speed * 1.05, wav)
+            dur = narrate(eng, ed, nm, sc["narration"], voice, speed * 1.05, wav)
             render_slide(sc, 1080, 1920, date_str, vertical=True).convert("RGB").save(png)
             clip(png, wav, dur, mp4, 1080, 1920)
             sparts.append(mp4); segs.append((t, dur, sc["narration"])); t += dur
