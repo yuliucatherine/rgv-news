@@ -52,7 +52,7 @@ seg("roar", L, 30.0, 6.0, gain=-3)
 seg("fall", X, 25.0 - 23, 5.0)
 seg("pre", X, 47.5 - 23, 2.5)
 seg("fireball_slow", X, 50.0 - 23, 2.5, slow=2.0)
-seg("cloud", X, 52.5 - 23, 4.0)
+seg("cloud", X, 52.5 - 23, 1.2)
 # Day 2: Ship returns and is caught
 seg("descent", C, 3.0, 6.0)
 seg("catch_slow", C, 9.0, 4.0, slow=2.0)
@@ -100,7 +100,7 @@ f += [txt("THE ROAR HITS THE BEACH", S["roar"] + 0.1, S["roar"] + D["roar"], 300
       txt("~18 SECONDS LATER", S["roar"] + 0.6, S["roar"] + D["roar"], 410, 70, "0xF97316")]
 f += [txt("THE BOOSTER CATCH", S["fall"] + 0.2, S["fall"] + D["fall"], 300, 76),
       txt("WAS CALLED OFF", S["fall"] + 0.7, S["fall"] + D["fall"], 420, 76, "0xF97316")]
-f += [txt("BOOM.", S["fireball_slow"] + 0.3, S["cloud"] + 2.5, 1450, 150, "0xF97316", box=False)]
+f += [txt("BOOM.", S["fireball_slow"] + 0.3, S["cloud"] + D["cloud"], 1450, 150, "0xF97316", box=False)]
 f += [txt("NOV 14 · 22.5 HOURS LATER", S["descent"] + 0.2, S["descent"] + 5.8, 300, 64),
       txt("THE SHIP COMES HOME", S["descent"] + 1.2, S["descent"] + 5.8, 410, 70, "0xF97316")]
 f += [txt("CAUGHT.", S["catch_slow"] + 4.6, S["caught"] + D["caught"], 1400, 160, "0xF97316", box=False),
