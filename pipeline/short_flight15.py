@@ -80,9 +80,25 @@ D = dict(zip([os.path.basename(p)[3:-4] for p, _ in segs], [d for _, d in segs])
 print(json.dumps({k: round(v, 2) for k, v in S.items()}), "total", round(t, 1))
 
 
+# Vertical safe zone (YouTube Shorts / Facebook Reels): keep text clear of the right-side buttons
+# and the bottom caption/title area. Text auto-shrinks to fit SAFE_W and is centred in [SAFE_L, SAFE_R].
+SAFE_L, SAFE_R, SAFE_TOP, SAFE_BOTTOM = 60, 940, 220, 1340
+from PIL import ImageFont
+
+
+def fit(text, size, font, box):
+    pad = 44 if box else 0
+    while size > 28 and ImageFont.truetype(font, size).getlength(text) + pad > (SAFE_R - SAFE_L):
+        size -= 2
+    return size, ImageFont.truetype(font, size).getlength(text)
+
+
 def txt(text, a, b, y, size=92, color="white", font=FONT, box=True, fade=0.25):
+    size, tw = fit(text, size, font, box)
+    y = max(SAFE_TOP, min(y, SAFE_BOTTOM - size))
+    x = int(SAFE_L + ((SAFE_R - SAFE_L) - tw) / 2)
     alpha = f"if(lt(t,{a}+{fade}),(t-{a})/{fade},if(gt(t,{b}-{fade}),({b}-t)/{fade},1))"
-    s = (f"drawtext=fontfile={font}:text='{text}':x=(w-tw)/2:y={y}:fontsize={size}:fontcolor={color}"
+    s = (f"drawtext=fontfile={font}:text='{text}':x={x}:y={y}:fontsize={size}:fontcolor={color}"
          f":alpha='{alpha}':enable='between(t,{a},{b})'")
     if box: s += ":box=1:boxcolor=0x091020@0.62:boxborderw=22"
     return s
@@ -95,18 +111,18 @@ f += [txt("2 DAYS AT STARBASE", h0 + 0.2, h0 + 4.6, 300, 96),
       txt("1 EXPLOSION", h0 + 1.2, h0 + 4.6, 430, 96, "0xF97316"),
       txt("1 HISTORIC CATCH", h0 + 2.2, h0 + 4.6, 560, 96)]
 f += [txt("NOV 13 · STARSHIP FLIGHT 15", h0 + 5.0, h0 + 9.5, 300, 64)]
-f += [txt("LIFTOFF", h0 + 8.0, h0 + 13.6, 1500, 120)]
+f += [txt("LIFTOFF", h0 + 8.0, h0 + 13.6, 1180, 120)]
 f += [txt("THE ROAR HITS THE BEACH", S["roar"] + 0.1, S["roar"] + D["roar"], 300, 70),
       txt("~18 SECONDS LATER", S["roar"] + 0.6, S["roar"] + D["roar"], 410, 70, "0xF97316")]
 f += [txt("THE BOOSTER CATCH", S["fall"] + 0.2, S["fall"] + D["fall"], 300, 76),
       txt("WAS CALLED OFF", S["fall"] + 0.7, S["fall"] + D["fall"], 420, 76, "0xF97316")]
-f += [txt("BOOM.", S["fireball_slow"] + 0.3, S["cloud"] + D["cloud"], 1450, 150, "0xF97316", box=False)]
+f += [txt("BOOM.", S["fireball_slow"] + 0.3, S["cloud"] + D["cloud"], 1150, 150, "0xF97316", box=False)]
 f += [txt("NOV 14 · 22.5 HOURS LATER", S["descent"] + 0.2, S["descent"] + 5.8, 300, 64),
       txt("THE SHIP COMES HOME", S["descent"] + 1.2, S["descent"] + 5.8, 410, 70, "0xF97316")]
-f += [txt("CAUGHT.", S["catch_slow"] + 4.6, S["caught"] + D["caught"], 1400, 160, "0xF97316", box=False),
+f += [txt("CAUGHT.", S["catch_slow"] + 4.6, S["caught"] + D["caught"], 1140, 160, "0xF97316", box=False),
       txt("FIRST-EVER SHIP TOWER CATCH", S["caught"] + 0.2, S["caught"] + D["caught"], 300, 62),
       txt("Source: Aviation Week", S["caught"] + 0.4, S["caught"] + D["caught"], 400, 34, "0xCBD5E1", FONT2, box=False)]
-f += [txt("Filmed by RGV News · Starbase, TX", 0.5, S["card"] - 0.2, 1820, 30, "0xE2E8F0", FONT2, box=False)]
+f += [txt("Filmed by RGV News · Starbase, TX", 0.5, S["card"] - 0.2, 1300, 30, "0xE2E8F0", FONT2, box=False)]
 
 final = os.path.join(OUT, "short_flight15.mp4")
 run("ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-vf", ",".join(f),

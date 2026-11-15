@@ -95,3 +95,7 @@ Posts per episode:
   anything illustrative is labeled "illustrative".
 - Episode format: 8–12 minutes on one development (or closely related ones), plus 2–3 Shorts
   cut from it. Budget ≈ 50,000 ElevenLabs credits for 3–4 episodes.
+- **Vertical safe zone (Shorts/Reels):** all text must fit inside x 60–940 and y 220–1340 on a
+  1080×1920 frame (clear of the right-side buttons and the bottom title/caption overlay). Text
+  auto-shrinks to fit (see `fit()` in pipeline/short_flight15.py). Before posting, render sample
+  frames with the red danger zones drawn on and check nothing overlaps them.
