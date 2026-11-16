@@ -146,6 +146,15 @@ def drawtext(tmp, text, x, y, size, font="Bold", color="white", a=0.0, b=1e9, fa
 
 
 # ---------------------------------------------------------------- block renderer
+def probe_fps(src):
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=avg_frame_rate",
+                        "-of", "csv=p=0", src], capture_output=True, text=True).stdout.strip()
+    try:
+        a, b = r.split("/"); return float(a) / float(b)
+    except Exception:
+        return 30.0
+
+
 def visual_filter(i, v, alloc, vin):
     """returns (input_args, filter_string producing [v{i}])"""
     args, fl = [], ""
@@ -154,6 +163,8 @@ def visual_filter(i, v, alloc, vin):
         avail = probe_dur(src) - ss
         ln = min(v.get("len", avail), avail)
         f = alloc / ln
+        if f > 1.15 and probe_fps(src) < 50:
+            print(f"  warn: {os.path.basename(src)} slowed x{f:.2f} (will look choppy; smooth it with pipeline/smooth.py)")
         args = ["-ss", f"{ss}", "-t", f"{ln + 0.2}", "-i", src]
         base = f"[{vin}:v]setpts=PTS-STARTPTS,setpts={f:.5f}*PTS,fps={FPS}"
         if is_portrait(src):
