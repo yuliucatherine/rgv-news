@@ -197,8 +197,8 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 ---
 
 ## Open items before narration
-- [ ] Verify Terafab figures against the Governor's release text (site wasn't reachable; figures from search summary of the release).
-- [ ] Verify Louisiana $100B from Fortune article text.
+- [x] Terafab verified: Governor's office, Aug 6, 2026 — phase 1 >$16.8B, 3,000 jobs, $30M TEF grant (also Fox 7 Austin, KBTX).
+- [x] Louisiana verified: announced Aug 25, 2026, ~$100B Starbase Louisiana in Vermilion Parish (WAFB, Engadget, gCaptain).
 - [ ] Confirm whether the 445-acre parcel's exact location is public (otherwise the map says "near the Port of Brownsville, approximate").
 - [x] Starbase–Brownsville distance: ~20 miles straight-line (computed from coordinates).
 - [x] Owner approved v1; asked for 10–12 minutes, ≤10,000 credits, lots of Blender shots.

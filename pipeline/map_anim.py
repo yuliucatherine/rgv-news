@@ -149,9 +149,10 @@ def main(data_dir, out, seconds=8.0):
         if a > 0.5:
             d.text((560, 1000), "MEXICO", font=F("Bold", 34), fill=(148, 163, 184, int(180 * a)))
         ta = 0 if CLEAN else min(1, t / 0.08)
-        d.rounded_rectangle([64, 60, 64 + 14, 60 + 52], 3, fill=ORANGE + (int(255 * ta),))
         title = "TEXAS" if z < 0.45 else "THE LOWER RIO GRANDE VALLEY"
-        d.text((96, 58), title, font=fname, fill=(241, 245, 249, int(255 * ta)))
+        if not CLEAN:  # (PIL ignores text alpha on RGB frames, so skip rather than fade to 0)
+          d.rounded_rectangle([64, 60, 64 + 14, 60 + 52], 3, fill=ORANGE + (int(255 * ta),))
+          d.text((96, 58), title, font=fname, fill=(241, 245, 249, int(255 * ta)))
         if z >= 0.45 and not CLEAN:
             d.text((96, 112), "Starr · Hidalgo · Cameron · Willacy counties", font=F("SemiBold", 30), fill=(203, 213, 225, int(255 * ta)))
         src = "Map: U.S. Census Bureau (TIGER)" + (" · Imagery: USGS The National Map" if a > 0 else "")

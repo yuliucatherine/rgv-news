@@ -296,7 +296,8 @@
    "pad": [
     0.6,
     1.2
-   ]
+   ],
+   "credit_y": 1000
   },
   {
    "narr": "n08",
@@ -347,7 +348,8 @@
    "pad": [
     0.6,
     1.2
-   ]
+   ],
+   "credit_y": 1000
   },
   {
    "narr": "n10",
@@ -440,7 +442,8 @@
    "pad": [
     0.6,
     1.2
-   ]
+   ],
+   "credit_y": 1000
   },
   {
    "narr": "n12",
@@ -514,7 +517,8 @@
     0.6,
     1.2
    ],
-   "credit": "Map: U.S. Census Bureau (TIGER) · Imagery: USGS The National Map"
+   "credit": "Map: U.S. Census Bureau (TIGER) · Imagery: USGS The National Map",
+   "credit_y": 1000
   },
   {
    "narr": "n15",
@@ -614,7 +618,8 @@
    "pad": [
     0.6,
     1.2
-   ]
+   ],
+   "credit_y": 1000
   },
   {
    "narr": "n18",
@@ -663,7 +668,8 @@
    "pad": [
     0.6,
     1.2
-   ]
+   ],
+   "credit_y": 1000
   },
   {
    "narr": "n20",
@@ -739,7 +745,8 @@
    "pad": [
     0.6,
     1.2
-   ]
+   ],
+   "credit_y": 1000
   },
   {
    "narr": "n23",
