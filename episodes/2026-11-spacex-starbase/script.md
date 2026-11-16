@@ -1,8 +1,8 @@
-# RGV News — Episode 1 (draft v1)
+# RGV News — Episode 1 (draft v2, expanded to 10–12 min)
 ## "SpaceX's Texas Bets: What Starbase Means for the Rio Grande Valley"
 
-Target: ~10 minutes · ~1,550 words of narration (James) · ~9,500–10,500 ElevenLabs credits
-Status: DRAFT for owner review. Nothing generated or published.
+Target: 10–12 minutes (narration + natural-sound footage beats) · budget ≤ 10,000 ElevenLabs credits
+Status: script approved by owner (v1); v2 adds the housing section and water context.
 
 Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [VISUAL] · (SOURCE)
 
@@ -20,7 +20,7 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 [VISUAL: IMG_9179 — Ship descending, caught by the tower]
 
-**NARRATION:** Twenty-two and a half hours after that, the Ship came home from orbit, and the tower caught it. The first time SpaceX has ever done that.
+**NARRATION:** Twenty-two and a half hours and fourteen orbits later, the Ship came home, and the tower's giant arms caught it. The first time SpaceX has ever done that.
 
 *ON SCREEN: FIRST-EVER SHIP TOWER CATCH (Aviation Week)*
 
@@ -44,6 +44,8 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 [VISUAL: Blender — Starbase flyover; production site + launch site labels]
 
+**NARRATION:** Why does catching a rocket matter to the Valley? Because catching and reusing rockets is how SpaceX plans to launch far more often. More launches means more building, more hiring, and more traffic down that one road to Boca Chica.
+
 **NARRATION:** Two projects are driving the next wave. The first is called GigaBay: a seven-hundred-thousand-square-foot factory, a five-hundred-and-six-million-dollar investment, built to produce Starship rockets at a pace SpaceX describes as a thousand per year.
 
 *ON SCREEN: GIGABAY · $506M · 700,000 sq ft*
@@ -62,7 +64,33 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 ---
 
-### PART 2 — THE ROAD AND THE WATER (3:00–6:00)
+### PART 1B — THE HOUSING QUESTION (3:00–4:45)
+
+[VISUAL: Blender 3D columns — Brownsville vs Texas: median home value $122,400 vs $260,400]
+
+**NARRATION:** Start with Brownsville, the city of about a hundred and eighty-eight thousand people that sits between Starbase and the rest of the Valley.
+
+*ON SCREEN: BROWNSVILLE · ~188,000 people*
+
+**NARRATION:** According to Census survey data, the median home in Brownsville is valued at about a hundred and twenty-two thousand dollars. The Texas median is about two hundred and sixty thousand. That's less than half.
+
+*ON SCREEN (kinetic): LESS · THAN · HALF.*
+
+**NARRATION:** Incomes are lower too. Brownsville's median household income is about forty-nine thousand dollars a year, compared with about seventy-six thousand statewide.
+
+[VISUAL: Blender 3D columns — income $48,675 vs $76,292]
+
+**NARRATION:** For builders, that gap cuts both ways. Low land and home prices are exactly what makes new projects pencil out here. But if thousands of higher-paying aerospace jobs keep arriving, watch for pressure on rents and entry-level homes, especially on the east side of Brownsville along Highway 4, and in the communities closest to Starbase across the water.
+
+[VISUAL: map — Brownsville east side, SH 4 corridor, Port Isabel / Laguna Vista labels]
+
+**NARRATION:** That's the opportunity in one sentence: a fast-growing employer, in one of the most affordable housing markets in Texas. The question is whether the roads, the water, and the zoning can keep up.
+
+(Census Bureau QuickFacts, ACS 2019–2023: Texas median household income $76,292, median home value $260,400. Data USA profile of Brownsville, ACS 2019–2023: population ~188,000, median household income $48,675, median property value $122,400.)
+
+---
+
+### PART 2 — THE ROAD AND THE WATER (4:45–8:00)
 
 [VISUAL: Blender — SH 4 glowing route Brownsville → Starbase; "ONE ROAD IN."]
 
@@ -92,17 +120,27 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 **NARRATION:** That money pays for two projects: a wastewater reclamation plant adding about eight million gallons a day, and a water plant expansion adding about ten million more. Brownsville uses about twenty-one million gallons a day today, and seventy percent of that comes from the Rio Grande.
 
-**NARRATION:** The mayor says the deal could reduce, or even eliminate, the city's reliance on the river. In a region where water is the quiet limit on growth, that's a major opportunity.
+[VISUAL: Blender — Falcon Reservoir drawdown (labeled illustrative); NASA satellite image of Falcon Reservoir]
+
+**NARRATION:** And the river is under strain. Upstream, Falcon and Amistad reservoirs have run low in recent years. Under the 1944 water treaty, Mexico owes the United States one point seven five million acre-feet of water every five years. When the last cycle closed in October twenty twenty-five, Texas officials said Mexico fell short.
+
+*ON SCREEN: 1944 TREATY · 1.75M acre-feet per 5 years · cycle ended Oct 2025*
+
+**NARRATION:** That's why the mayor's comment matters. He says the SpaceX deal could reduce, or even eliminate, the city's reliance on the Rio Grande. In a region where water is the quiet limit on growth, that's a major opportunity.
+
+**NARRATION:** And Brownsville isn't the only place investing. Across the Lower Valley, a proposed one-hundred-and-sixty-four-million-dollar package from the North American Development Bank and the Texas Water Development Board would line and pipe old irrigation canals, so less water is lost before it ever reaches a farm or a faucet. Those approvals are still pending.
+
+*ON SCREEN: $164M CANAL MODERNIZATION · proposed · NADBank + TWDB*
 
 *ON SCREEN (kinetic): WHERE · WILL · THE · WATER · BE?*
 
 **NARRATION:** But there was a catch. SpaceX said the offer was only good if the commission voted that same day. Residents asked why the city was rushing, and what SpaceX planned to do with the land. Even the mayor admitted, quote, "It is rushed. There's no doubt."
 
-(Texas Tribune via KRGV, Aug 31, 2026, Brownsville de-annexation and water deal; KRGV, Aug 28, 2026, SH 4 widening: $192M+, 14 miles, crash rates, bids fall 2027, 2.5–3 years.)
+(Office of the Texas Governor / TCEQ statement on the 1944 Water Treaty cycle ending Oct 24, 2025; NADBank press release and Dallas Express on the proposed $164M canal package; Texas Tribune via KRGV, Aug 31, 2026, Brownsville de-annexation and water deal; KRGV, Aug 28, 2026, SH 4 widening: $192M+, 14 miles, crash rates, bids fall 2027, 2.5–3 years.)
 
 ---
 
-### PART 3 — THE BIGGER PICTURE, AND THE RISKS (6:00–8:30)
+### PART 3 — THE BIGGER PICTURE, AND THE RISKS (8:00–10:15)
 
 [VISUAL: Blender — "SpaceX in Texas" pillars; "WHERE THE MONEY GOES."]
 
@@ -128,7 +166,7 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 ---
 
-### PART 4 — WHAT IT MEANS FOR BUILDERS AND INVESTORS (8:30–9:45)
+### PART 4 — WHAT IT MEANS FOR BUILDERS AND INVESTORS (10:15–11:30)
 
 [VISUAL: map — Brownsville, Port Isabel, Laguna Vista, SH 4 corridor; icons for housing, industrial, water]
 
@@ -136,7 +174,7 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 *ON SCREEN: OPPORTUNITIES*
 
-**NARRATION:** On the opportunity side: a thousand-plus new jobs need places to live, and Brownsville and the communities closest to Starbase are first in line for workforce housing demand. Suppliers, contractors, and industrial users follow big factories. And new water capacity, if it gets built, is what lets new subdivisions get permitted.
+**NARRATION:** On the opportunity side: a thousand-plus new jobs need places to live, in a market where homes cost less than half the state median. Brownsville and the communities closest to Starbase are first in line for workforce housing demand. Suppliers, contractors, and industrial users follow big factories. And new water capacity, if it gets built, is what lets new subdivisions get permitted.
 
 *ON SCREEN: RISKS TO WATCH*
 
@@ -148,7 +186,7 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 
 ---
 
-### OUTRO (9:45–10:15)
+### OUTRO (11:30–12:00)
 
 [VISUAL: owner footage — Ship sitting in the tower at Starbase]
 
@@ -162,5 +200,6 @@ Legend: **NARRATION** (spoken by James) · *ON SCREEN* (text/kinetic words) · [
 - [ ] Verify Terafab figures against the Governor's release text (site wasn't reachable; figures from search summary of the release).
 - [ ] Verify Louisiana $100B from Fortune article text.
 - [ ] Confirm whether the 445-acre parcel's exact location is public (otherwise the map says "near the Port of Brownsville, approximate").
-- [ ] Confirm Starbase–Brownsville distance (~20 miles) from map data.
-- [ ] Owner review of tone, length, and claims.
+- [x] Starbase–Brownsville distance: ~20 miles straight-line (computed from coordinates).
+- [x] Owner approved v1; asked for 10–12 minutes, ≤10,000 credits, lots of Blender shots.
+- [ ] Census figures: Brownsville numbers via Data USA (ACS repackaged) — cross-check on census.gov QuickFacts before publishing.
