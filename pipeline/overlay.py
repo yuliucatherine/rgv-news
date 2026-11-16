@@ -46,7 +46,7 @@ def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
         if la <= 0: continue
         if values and lab in values:
             pre, val, suf, dec, note = values[lab]
-            big = f"{pre}{val * g:.{dec}f}{suf}"
+            big = f"{pre}{val * g:,.{dec}f}{suf}"
             d.text((px, py - 70), big, font=F("Black", 56), fill=INK + (int(255 * la),), anchor="ms",
                    stroke_width=6, stroke_fill=NAVY + (int(220 * la),))
             d.text((px, py - 26), lab, font=F("Bold", 30), fill=INK + (int(255 * la),), anchor="ms",
@@ -112,7 +112,7 @@ def run_config(cfg):
         for k in cfg.get("kinetic", []):
             img = kinetic(img, k["words"], tn, k["start"], k.get("step", 0.35), k.get("hold", 1.2))
         img = img.convert("RGBA"); d = ImageDraw.Draw(img, "RGBA")
-        title(d, cfg.get("title", ""), cfg.get("subtitle"), ease(tr / 0.06))
+        if cfg.get("title"): title(d, cfg["title"], cfg.get("subtitle"), ease(tr / 0.06))
         kin_on = any(k["start"] <= tn <= k["start"] + k.get("step", 0.35) * len(k["words"]) + k.get("hold", 1.2) + 0.25
                      for k in cfg.get("kinetic", []))
         la = ease((tr - cfg.get("labels_from", 0.0)) / 0.08)

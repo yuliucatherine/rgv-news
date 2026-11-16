@@ -1,0 +1,24 @@
+{
+ "frames_dir": "demo/pillars_frames",
+ "labels_json": "demo/pillars_frames/labels.json",
+ "out_mp4": "demo/ep1/v_pillars.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "label_values": {
+  "Grimes County": [
+   "$",
+   16.8,
+   "B",
+   1,
+   "\"Terafab\" chip plant, phase 1"
+  ],
+  "Starbase": [
+   "~$",
+   0.99,
+   "B",
+   2,
+   "GigaBay + launch expansion"
+  ]
+ },
+ "credit": "Sources: Office of the Texas Governor; Texas Tribune / local reporting \u00b7 Map: U.S. Census Bureau"
+}

@@ -1,0 +1,1085 @@
+{
+ "out": "demo/ep1/episode1.mp4",
+ "audio_dir": "episodes/2026-11-spacex-starbase/audio",
+ "narration_json": "episodes/2026-11-spacex-starbase/narration.json",
+ "blocks": [
+  {
+   "narr": "n00",
+   "chapter": "Cold open: two days at Starbase",
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_8758.MOV",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 14
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_8758.MOV",
+    "ss": 6,
+    "gain": -16
+   },
+   "pad": [
+    0.8,
+    0.4
+   ]
+  },
+  {
+   "label": "beat roar",
+   "dur": 8,
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_8758.MOV",
+     "ss": 30,
+     "weight": 1.0,
+     "len": 8
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_8758.MOV",
+    "ss": 30,
+    "gain": -2
+   },
+   "texts": [
+    {
+     "text": "THE ROAR REACHES THE BEACH ~18 SECONDS AFTER LIFTOFF",
+     "x": "(w-tw)/2",
+     "y": 930,
+     "size": 38,
+     "font": "Bold",
+     "box": "0x091020@0.55",
+     "at": 0.5,
+     "until": 7.5
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "data/footage/assets/8769_stab16.mp4",
+     "ss": 3,
+     "weight": 1.0,
+     "len": 6
+    },
+    {
+     "video": "data/footage/assets/8769_stab16.mp4",
+     "ss": 26,
+     "weight": 1.2,
+     "len": 5.5
+    }
+   ],
+   "natural": {
+    "src": "data/footage/assets/8769_stab16.mp4",
+    "ss": 3,
+    "gain": -16
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_9179.MOV",
+     "ss": 3,
+     "weight": 1.0,
+     "len": 14
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_9179.MOV",
+    "ss": 3,
+    "gain": -14
+   },
+   "credit": "Source: Aviation Week; Space.com",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "beat catch",
+   "dur": 6,
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_9179.MOV",
+     "ss": 11,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_9179.MOV",
+    "ss": 11,
+    "gain": -3
+   },
+   "texts": [
+    {
+     "text": "FIRST-EVER SHIP TOWER CATCH",
+     "x": "(w-tw)/2",
+     "y": 880,
+     "size": 64,
+     "font": "Black",
+     "color": "0xF97316",
+     "box": "0x091020@0.6",
+     "at": 1.0,
+     "until": 5.8
+    }
+   ],
+   "credit": "Source: Aviation Week",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "image": "data/footage/assets/plume_a.jpg",
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.4,
+      0.5,
+      0.6,
+      0.5
+     ],
+     "portrait_fill": false,
+     "weight": 1.0
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "LAND",
+     "HIGHWAYS",
+     "WATER",
+     "TAX BREAKS"
+    ],
+    "at": 3.3,
+    "step": 0.55,
+    "hold": 4.0
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "SPACEX'S TEXAS BETS",
+      "sub": "What Starbase means for the Rio Grande Valley"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part1",
+   "dur": 3.5,
+   "chapter": "Part 1: What's being built",
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "WHAT'S BEING BUILT"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/ep1/map_rgv.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "credit": "Map: U.S. Census Bureau (TIGER) \u00b7 Imagery: USGS The National Map",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_bars_workforce.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "300",
+     "\u2192",
+     "3,400+"
+    ],
+    "at": 2.0,
+    "step": 0.6,
+    "hold": 5
+   },
+   "headline": [
+    "SPACEX WORKFORCE AT STARBASE",
+    "2020 \u2192 2024"
+   ],
+   "credit": "Source: Texas Tribune, Jan 29, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_9179.MOV",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 7
+    },
+    {
+     "video": "data/footage/videos/IMG_8758.MOV",
+     "ss": 40,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_8758.MOV",
+    "ss": 40,
+    "gain": -22
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "GIGABAY \u00b7 $506M",
+    "700,000 sq ft factory \u00b7 SpaceX goal: 1,000 rockets a year"
+   ],
+   "credit": "Sources: Texas Tribune; Starbase enterprise-zone nomination reporting",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_8758.MOV",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_8758.MOV",
+    "ss": 0,
+    "gain": -22
+   },
+   "headline": [
+    "LAUNCH EXPANSION \u00b7 $480M",
+    "including two launch pads"
+   ],
+   "credit": "Sources: Texas Tribune; local reporting",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase.mp4",
+     "ss": 3,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "~1,000",
+     "NEW",
+     "JOBS"
+    ],
+    "at": 1.0,
+    "step": 0.5,
+    "hold": 4
+   },
+   "credit": "~500 jobs per project; 25% local-hire pledge (company figures, via local reporting)",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "image": "data/footage/assets/tower_ship_a.jpg",
+     "zoom": [
+      1.0,
+      1.06
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "portrait_fill": true,
+     "weight": 1.0
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "WHERE",
+     "WILL",
+     "THEY",
+     "LIVE?"
+    ],
+    "at": 7.0,
+    "step": 0.4,
+    "hold": 3
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part2",
+   "dur": 3.5,
+   "chapter": "Part 2: The housing question",
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "THE HOUSING QUESTION"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "BROWNSVILLE",
+    "~188,000 people"
+   ],
+   "credit": "Source: Census ACS 2019\u20132023 via Data USA",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_bars_homevalue.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "LESS",
+     "THAN",
+     "HALF."
+    ],
+    "at": 8.6,
+    "step": 0.4,
+    "hold": 3
+   },
+   "headline": [
+    "MEDIAN HOME VALUE",
+    "Brownsville vs. Texas"
+   ],
+   "credit": "Source: U.S. Census Bureau, ACS 2019\u20132023 (QuickFacts; Data USA)",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_bars_income.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "MEDIAN HOUSEHOLD INCOME",
+    "Brownsville vs. Texas"
+   ],
+   "credit": "Source: U.S. Census Bureau, ACS 2019\u20132023 (QuickFacts; Data USA)",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "video": "demo/ep1/map_rgv.mp4",
+     "ss": 4.5,
+     "weight": 1.0,
+     "len": 4.5
+    },
+    {
+     "video": "demo/ep1/v_port.mp4",
+     "ss": 1.5,
+     "weight": 1.0,
+     "len": 5.5
+    }
+   ],
+   "headline": [
+    "WHERE DEMAND COULD SHOW UP",
+    "East Brownsville \u00b7 SH 4 corridor \u00b7 communities near Starbase"
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "beat climb",
+   "dur": 5,
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_8758.MOV",
+     "ss": 76,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_8758.MOV",
+    "ss": 76,
+    "gain": -6
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part3",
+   "dur": 3.5,
+   "chapter": "Part 3: The road and the water",
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "THE ROAD AND THE WATER",
+      "accent": "teal"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "ONE",
+     "ROAD",
+     "IN."
+    ],
+    "at": 1.2,
+    "step": 0.45,
+    "hold": 4
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase.mp4",
+     "ss": 2.5,
+     "weight": 1.0,
+     "len": 5.5
+    }
+   ],
+   "headline": [
+    "SH 4 WIDENING \u00b7 $192M+",
+    "~14 miles \u00b7 2 \u2192 4 divided lanes \u00b7 concrete"
+   ],
+   "credit": "Source: KRGV (TxDOT), Aug 28, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "card": {
+      "type": "timeline",
+      "title": "STATE HIGHWAY 4: THE TIMELINE",
+      "points": [
+       [
+        "TODAY",
+        "2-lane road, high crash rates"
+       ],
+       [
+        "FALL 2027",
+        "construction bids"
+       ],
+       [
+        "~2030",
+        "widening complete"
+       ]
+      ]
+     }
+    }
+   ],
+   "credit": "Source: KRGV (TxDOT), Aug 28, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "~445 ACRES REMOVED FROM CITY LIMITS",
+    "near the Port of Brownsville \u00b7 unanimous vote, August 2026"
+   ],
+   "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "SpaceX to Brownsville, for water projects",
+      "big": "UP TO $220M",
+      "lines": [
+       "$40 million up front",
+       "then 6 quarterly payments of $30 million"
+      ],
+      "accent": "teal"
+     }
+    }
+   ],
+   "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_bars_water.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "BROWNSVILLE WATER SUPPLY",
+    "~21M gal/day today (70% from the Rio Grande) \u00b7 +8M reuse \u00b7 +10M plant expansion"
+   ],
+   "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_falcon.mp4",
+     "ss": 0,
+     "weight": 1.2,
+     "len": 6
+    },
+    {
+     "image": "data/imagery/PIA25446.jpg",
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "pan": [
+      0.5,
+      0.25,
+      0.5,
+      0.6
+     ],
+     "portrait_fill": false,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "THE RIO GRANDE IS UNDER STRAIN",
+    "1944 treaty: 1.75M acre-feet owed every 5 years"
+   ],
+   "credit": "Sources: Office of the Texas Governor / TCEQ \u00b7 Image: NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "image": "data/imagery/PIA25446.jpg",
+     "zoom": [
+      1.06,
+      1.14
+     ],
+     "pan": [
+      0.5,
+      0.6,
+      0.5,
+      0.9
+     ],
+     "portrait_fill": false,
+     "weight": 1.0
+    }
+   ],
+   "credit": "Image: NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "card": {
+      "type": "quote",
+      "quote": "It is rushed. There's no doubt.",
+      "by": "Brownsville Mayor John Cowen Jr.",
+      "source": "at the August 2026 commission meeting, via The Texas Tribune"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "video": "demo/ep1/map_rgv.mp4",
+     "ss": 5.5,
+     "weight": 1.0,
+     "len": 3.5
+    }
+   ],
+   "headline": [
+    "$164M CANAL MODERNIZATION \u00b7 PROPOSED",
+    "NADBank + Texas Water Development Board \u00b7 approvals pending"
+   ],
+   "kinetic": {
+    "words": [
+     "WHERE",
+     "WILL",
+     "THE",
+     "WATER",
+     "BE?"
+    ],
+    "at": 15.0,
+    "step": 0.35,
+    "hold": 3,
+    "size": 110
+   },
+   "credit": "Sources: NADBank; Dallas Express",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part4",
+   "dur": 3.5,
+   "chapter": "Part 4: The bigger picture and the risks",
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "THE BIGGER PICTURE",
+      "accent": "blue"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_pillars.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "kinetic": {
+    "words": [
+     "WHERE",
+     "THE",
+     "MONEY",
+     "GOES."
+    ],
+    "at": 11.5,
+    "step": 0.4,
+    "hold": 4
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n27",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "SpaceX launch site in Louisiana",
+      "big": "$100B",
+      "lines": [
+       "announced August 2026",
+       "Starbase remains the heart of Starship"
+      ],
+      "accent": "blue"
+     }
+    }
+   ],
+   "credit": "Source: Fortune, Aug 27, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n28",
+   "visuals": [
+    {
+     "card": {
+      "type": "quote",
+      "quote": "If the council decides to not deannex, we will look at other opportunities at our other facilities.",
+      "by": "Sheila McCorkle, SpaceX vice president",
+      "source": "to Brownsville commissioners, via The Texas Tribune"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n29",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "STARBASE: A COMPANY TOWN",
+      "items": [
+       "City commission: 3 members, 2 of them SpaceX employees",
+       "Nominated SpaceX for up to $7.5M in state tax refunds",
+       "Critics question who really benefits"
+      ]
+     }
+    }
+   ],
+   "credit": "Source: Texas Tribune, Jan 29, 2026",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n30",
+   "visuals": [
+    {
+     "video": "data/footage/assets/8769_stab16.mp4",
+     "ss": 26,
+     "weight": 1.0,
+     "len": 5
+    },
+    {
+     "video": "data/footage/videos/IMG_9179.MOV",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "natural": {
+    "src": "data/footage/assets/8769_stab16.mp4",
+    "ss": 26,
+    "gain": -18
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "beat catch2",
+   "dur": 4,
+   "visuals": [
+    {
+     "video": "data/footage/videos/IMG_9179.MOV",
+     "ss": 13,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "natural": {
+    "src": "data/footage/videos/IMG_9179.MOV",
+    "ss": 13,
+    "gain": -5
+   },
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part5",
+   "dur": 3.5,
+   "chapter": "Part 5: What it means for builders and investors",
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "WHAT IT MEANS FOR BUILDERS"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n31",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n32",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_bars_money.mp4",
+     "ss": 0,
+     "weight": 1.0
+    }
+   ],
+   "headline": [
+    "OPPORTUNITIES",
+    "announced money flowing into the Valley"
+   ],
+   "credit": "Sources: Texas Tribune; KRGV; local reporting",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n33",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "RISKS TO WATCH",
+      "items": [
+       "Demand concentrated in one company",
+       "SH 4 widening not done until ~2030",
+       "Water projects depend on SpaceX payments",
+       "SpaceX is spreading its bets beyond the Valley"
+      ]
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n34",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "ASK BEFORE YOU BUILD",
+      "items": [
+       "How much of your demand depends on Starbase?",
+       "What's the water and road timeline for your site?",
+       "What happens if launch schedules slip a year?"
+      ],
+      "accent": "teal"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n35",
+   "visuals": [
+    {
+     "image": "data/footage/assets/tower_ship_b.jpg",
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "portrait_fill": true,
+     "weight": 1.0
+    }
+   ],
+   "credit": "Footage and photos: RGV News \u00b7 Not financial advice",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice \u00b7 Sources in the description"
+     }
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

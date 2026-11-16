@@ -1,0 +1,23 @@
+{
+ "frames_dir": "demo/ep1/bars_workforce",
+ "labels_json": "demo/ep1/bars_workforce/labels.json",
+ "out_mp4": "demo/ep1/v_bars_workforce.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "label_values": {
+  "2020": [
+   "",
+   300,
+   "",
+   0,
+   "employees \u00b7 2020"
+  ],
+  "2024": [
+   "",
+   3400,
+   "+",
+   0,
+   "employees \u00b7 2024"
+  ]
+ }
+}

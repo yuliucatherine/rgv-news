@@ -1,0 +1,16 @@
+{
+ "frames_dir": "demo/shot2_frames",
+ "labels_json": "demo/shot2_frames/labels.json",
+ "out_mp4": "demo/ep1/v_falcon.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "callouts": [
+  {
+   "text": "ILLUSTRATIVE",
+   "sub": "water-level drawdown, not measured data",
+   "start": 1.0,
+   "end": 5.9
+  }
+ ],
+ "credit": "Falcon International Reservoir \u00b7 3D terrain: AWS Terrain Tiles (SRTM / USGS 3DEP)"
+}

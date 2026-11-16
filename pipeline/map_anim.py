@@ -111,7 +111,7 @@ def main(data_dir, out, seconds=8.0):
         bb = interp_bbox(b_tx, b_rgv, z)
         frame = Image.new("RGB", (W, H), NAVY)
         # imagery fades in during the last part of the zoom
-        a = max(0.0, min(1.0, (z - 0.55) / 0.4))
+        a = max(0.0, min(1.0, (z - 0.86) / 0.14))
         if a > 0:
             # crop the final-extent imagery to the current view (only valid near the end)
             sx = (bb[0] - b_rgv[0]) / (b_rgv[2] - b_rgv[0]) * W

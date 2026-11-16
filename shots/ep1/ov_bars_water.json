@@ -1,0 +1,7 @@
+{
+ "frames_dir": "demo/ep1/bars_water",
+ "labels_json": "demo/ep1/bars_water/labels.json",
+ "out_mp4": "demo/ep1/v_bars_water.mp4",
+ "fps_in": 24,
+ "labels_from": 2.0
+}

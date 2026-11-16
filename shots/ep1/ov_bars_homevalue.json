@@ -1,0 +1,23 @@
+{
+ "frames_dir": "demo/ep1/bars_homevalue",
+ "labels_json": "demo/ep1/bars_homevalue/labels.json",
+ "out_mp4": "demo/ep1/v_bars_homevalue.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "label_values": {
+  "Brownsville": [
+   "$",
+   122400,
+   "",
+   0,
+   "median home value"
+  ],
+  "Texas": [
+   "$",
+   260400,
+   "",
+   0,
+   "median home value"
+  ]
+ }
+}

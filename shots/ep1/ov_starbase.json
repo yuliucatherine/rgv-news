@@ -1,0 +1,8 @@
+{
+ "frames_dir": "demo/starbase_frames",
+ "labels_json": "demo/starbase_frames/labels.json",
+ "out_mp4": "demo/ep1/v_starbase.mp4",
+ "fps_in": 24,
+ "labels_from": 0.35,
+ "credit": "Imagery: USGS The National Map \u00b7 Roads: U.S. Census TIGER \u00b7 Elevation: AWS Terrain Tiles"
+}

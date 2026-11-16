@@ -6,7 +6,7 @@
  "downsample": 4,
  "fps": 24,
  "seconds": 7,
- "samples": 12,
+ "samples": 8,
  "lens": 28,
  "imagery_glow": 0.35,
  "view_transform": "Standard",

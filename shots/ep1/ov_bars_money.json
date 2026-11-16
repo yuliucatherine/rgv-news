@@ -1,0 +1,37 @@
+{
+ "frames_dir": "demo/ep1/bars_money",
+ "labels_json": "demo/ep1/bars_money/labels.json",
+ "out_mp4": "demo/ep1/v_bars_money.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "label_values": {
+  "GigaBay": [
+   "$",
+   506,
+   "M",
+   0,
+   "factory"
+  ],
+  "Launch expansion": [
+   "$",
+   480,
+   "M",
+   0,
+   "two pads"
+  ],
+  "Water deal": [
+   "up to $",
+   220,
+   "M",
+   0,
+   "SpaceX to Brownsville"
+  ],
+  "SH 4 widening": [
+   "$",
+   192,
+   "M+",
+   0,
+   "TxDOT"
+  ]
+ }
+}

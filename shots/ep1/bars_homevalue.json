@@ -4,7 +4,7 @@
  "max_height": 8.5,
  "radius": 1.1,
  "lens": 35,
- "samples": 10,
+ "samples": 8,
  "camera": {
   "start": {
    "pos": [
@@ -67,5 +67,9 @@
    ]
   }
  ],
- "spacing": 6
+ "spacing": 6,
+ "resolution": [
+  960,
+  540
+ ]
 }
