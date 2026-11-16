@@ -213,8 +213,8 @@
    "narr": "n04",
    "visuals": [
     {
-     "video": "demo/ep1/map_rgv.mp4",
-     "ss": 0,
+     "video": "demo/ep1/map_rgv_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -228,8 +228,8 @@
    "narr": "n05",
    "visuals": [
     {
-     "video": "demo/ep1/v_bars_workforce.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_bars_workforce_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -283,8 +283,8 @@
    "narr": "n07",
    "visuals": [
     {
-     "video": "demo/ep1/v_starbase.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -328,10 +328,10 @@
    "narr": "n09",
    "visuals": [
     {
-     "video": "demo/ep1/v_starbase.mp4",
-     "ss": 3,
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 10.2,
      "weight": 1.0,
-     "len": 5
+     "len": 17.0
     }
    ],
    "kinetic": {
@@ -429,8 +429,8 @@
    "narr": "n11",
    "visuals": [
     {
-     "video": "demo/ep1/v_port.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -449,8 +449,8 @@
    "narr": "n12",
    "visuals": [
     {
-     "video": "demo/ep1/v_bars_homevalue.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_bars_homevalue_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -478,8 +478,8 @@
    "narr": "n13",
    "visuals": [
     {
-     "video": "demo/ep1/v_bars_income.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_bars_income_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -497,16 +497,16 @@
    "narr": "n14",
    "visuals": [
     {
-     "video": "demo/ep1/map_rgv_clean.mp4",
-     "ss": 4.5,
+     "video": "demo/ep1/map_rgv_clean_s.mp4",
+     "ss": 11.25,
      "weight": 1.0,
-     "len": 4.5
+     "len": 11.25
     },
     {
-     "video": "demo/ep1/v_port.mp4",
-     "ss": 1.5,
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 4.05,
      "weight": 1.0,
-     "len": 5.5
+     "len": 14.85
     }
    ],
    "headline": [
@@ -524,10 +524,10 @@
    "narr": "n15",
    "visuals": [
     {
-     "video": "demo/ep1/v_starbase.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0.0,
      "weight": 1.0,
-     "len": 6
+     "len": 20.4
     }
    ],
    "pad": [
@@ -579,10 +579,10 @@
    "narr": "n16",
    "visuals": [
     {
-     "video": "demo/ep1/v_starbase.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0.0,
      "weight": 1.0,
-     "len": 5
+     "len": 17.0
     }
    ],
    "kinetic": {
@@ -604,10 +604,10 @@
    "narr": "n17",
    "visuals": [
     {
-     "video": "demo/ep1/v_starbase.mp4",
-     "ss": 2.5,
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 8.5,
      "weight": 1.0,
-     "len": 5.5
+     "len": 18.7
     }
    ],
    "headline": [
@@ -655,8 +655,8 @@
    "narr": "n19",
    "visuals": [
     {
-     "video": "demo/ep1/v_port.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -697,8 +697,8 @@
    "narr": "n21",
    "visuals": [
     {
-     "video": "demo/ep1/v_bars_water.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_bars_water_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -716,10 +716,10 @@
    "narr": "n22",
    "visuals": [
     {
-     "video": "demo/ep1/v_falcon.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_falcon_s.mp4",
+     "ss": 0.0,
      "weight": 1.2,
-     "len": 6
+     "len": 12.6
     },
     {
      "image": "data/imagery/PIA25446.jpg",
@@ -794,10 +794,10 @@
    "narr": "n24",
    "visuals": [
     {
-     "video": "demo/ep1/map_rgv_clean.mp4",
-     "ss": 5.5,
+     "video": "demo/ep1/map_rgv_clean_s.mp4",
+     "ss": 13.75,
      "weight": 1.0,
-     "len": 3.5
+     "len": 8.75
     }
    ],
    "headline": [
@@ -846,8 +846,8 @@
    "narr": "n26",
    "visuals": [
     {
-     "video": "demo/ep1/v_pillars.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_pillars_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
@@ -1030,10 +1030,10 @@
    "narr": "n31",
    "visuals": [
     {
-     "video": "demo/ep1/v_port.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 0.0,
      "weight": 1.0,
-     "len": 4
+     "len": 10.8
     }
    ],
    "pad": [
@@ -1045,8 +1045,8 @@
    "narr": "n32",
    "visuals": [
     {
-     "video": "demo/ep1/v_bars_money.mp4",
-     "ss": 0,
+     "video": "demo/ep1/v_bars_money_s.mp4",
+     "ss": 0.0,
      "weight": 1.0
     }
    ],
