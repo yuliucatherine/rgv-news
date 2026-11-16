@@ -1145,5 +1145,28 @@
     0.8
    ]
   }
- ]
+ ],
+ "music": {
+  "level_lufs": -27,
+  "credit": [
+   "\"Deliberate Thought\" and \"Unanswered Questions\" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0: http://creativecommons.org/licenses/by/4.0/"
+  ],
+  "segments": [
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 0,
+    "offset": 0
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 4,
+    "offset": 0
+   },
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 5,
+    "offset": 40
+   }
+  ]
+ }
 }

@@ -296,8 +296,13 @@ def main():
     run("ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", joined)
     run("ffmpeg", "-y", "-loglevel", "error", "-i", joined, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tl["out"])
-    json.dump({"duration": t, "chapters": [[round(a, 1), c] for a, c in chapters]},
-              open(os.path.splitext(tl["out"])[0] + "_meta.json", "w"), indent=1)
+    meta = {"duration": t, "chapters": [[round(a, 1), c] for a, c in chapters]}
+    json.dump(meta, open(os.path.splitext(tl["out"])[0] + "_meta.json", "w"), indent=1)
+    if tl.get("music"):   # quiet, ducked background music bed (pipeline/music_bed.py)
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import music_bed
+        nomusic = os.path.join(tmp, "nomusic.mp4"); os.replace(tl["out"], nomusic)
+        music_bed.build(nomusic, meta, tl["music"], tl["out"])
     print("episode ok", tl["out"], f"{t/60:.1f} min")
 
 
