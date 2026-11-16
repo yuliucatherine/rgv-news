@@ -20,6 +20,9 @@ SOURCES
 VISUALS
 Launch and catch footage and photos filmed by RGV News. Maps: U.S. Census Bureau TIGER/Line; imagery: USGS The National Map; satellite image: NASA/METI/AIST/Japan Space Systems and U.S./Japan ASTER Science Team. Elevation: Mapzen/AWS Terrain Tiles. 3D scenes are illustrative, rendered in Blender.
 
+MUSIC
+"Deliberate Thought" and "Unanswered Questions" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
+
 Narration is AI-generated (ElevenLabs) from a script researched and fact-checked against the sources above. This video is for information only and is not financial or investment advice.
 
 #RioGrandeValley #SpaceX #Starbase #Brownsville #RealEstate #Texas

@@ -1,0 +1,18 @@
+{
+ "photo": "assets/ep1_liftoff_still.jpg",
+ "crop": [
+  -600,
+  1880,
+  1890,
+  3280
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "SPACEX'S",
+ "number": "$986M",
+ "headline": [
+  "BET ON",
+  "THE VALLEY"
+ ],
+ "sub": "What Starbase means for land, housing & water",
+ "tag": "STARBASE, TX \u00b7 FILMED NOV 13"
+}
