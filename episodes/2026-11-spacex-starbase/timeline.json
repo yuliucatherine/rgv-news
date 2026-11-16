@@ -950,13 +950,13 @@
      "video": "data/footage/assets/8769_stab16.mp4",
      "ss": 26,
      "weight": 1.0,
-     "len": 5
+     "len": 10.0
     },
     {
      "video": "data/footage/videos/IMG_9179.MOV",
      "ss": 8,
      "weight": 1.0,
-     "len": 7
+     "len": 10.0
     }
    ],
    "natural": {

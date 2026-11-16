@@ -148,7 +148,7 @@ def drawtext(tmp, text, x, y, size, font="Bold", color="white", a=0.0, b=1e9, fa
 # ---------------------------------------------------------------- block renderer
 def probe_fps(src):
     r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=avg_frame_rate",
-                        "-of", "csv=p=0", src], capture_output=True, text=True).stdout.strip()
+                        "-of", "csv=p=0", src], capture_output=True, text=True).stdout.strip().strip(",")
     try:
         a, b = r.split("/"); return float(a) / float(b)
     except Exception:
@@ -163,8 +163,8 @@ def visual_filter(i, v, alloc, vin):
         avail = probe_dur(src) - ss
         ln = min(v.get("len", avail), avail)
         f = alloc / ln
-        if f > 1.15 and probe_fps(src) < 50:
-            print(f"  warn: {os.path.basename(src)} slowed x{f:.2f} (will look choppy; smooth it with pipeline/smooth.py)")
+        if probe_fps(src) / f < FPS * 0.8:
+            print(f"  warn: {os.path.basename(src)} slowed x{f:.2f} -> ~{probe_fps(src) / f:.0f} fps (choppy; lengthen the clip or smooth it with pipeline/smooth.py)")
         args = ["-ss", f"{ss}", "-t", f"{ln + 0.2}", "-i", src]
         base = f"[{vin}:v]setpts=PTS-STARTPTS,setpts={f:.5f}*PTS,fps={FPS}"
         if is_portrait(src):

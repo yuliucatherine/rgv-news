@@ -4,11 +4,11 @@ Two days on the beach across from Starbase: a booster lost, then the first-ever 
 
 CHAPTERS
 0:00 Cold open: two days at Starbase
-1:05 Part 1: What's being built
-2:47 Part 2: The housing question
-4:05 Part 3: The road and the water
-6:58 Part 4: The bigger picture and the risks
-8:40 Part 5: What it means for builders and investors
+1:13 Part 1: What's being built
+2:56 Part 2: The housing question
+4:14 Part 3: The road and the water
+7:07 Part 4: The bigger picture and the risks
+8:49 Part 5: What it means for builders and investors
 
 SOURCES
 - Aviation Week, SpacePolicyOnline, Space.com: Starship Flight 15 coverage (Nov 13–14, 2026)
