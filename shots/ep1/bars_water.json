@@ -1,0 +1,70 @@
+{
+ "seconds": 6,
+ "fps": 24,
+ "max_height": 8.5,
+ "radius": 1.6,
+ "lens": 35,
+ "samples": 10,
+ "camera": {
+  "start": {
+   "pos": [
+    4,
+    -25.299999999999997,
+    10.5
+   ],
+   "look": [
+    0,
+    0,
+    5
+   ]
+  },
+  "end": {
+   "pos": [
+    -4,
+    -20.7,
+    8.4
+   ],
+   "look": [
+    0,
+    0,
+    5.5
+   ]
+  }
+ },
+ "bars": [
+  {
+   "label": "Brownsville water supply",
+   "segments": [
+    {
+     "value": 21,
+     "color": [
+      0.55,
+      0.6,
+      0.7
+     ]
+    },
+    {
+     "value": 8,
+     "color": [
+      0.2,
+      0.83,
+      0.6
+     ]
+    },
+    {
+     "value": 10,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.1,
+    0.85
+   ]
+  }
+ ],
+ "spacing": 6
+}

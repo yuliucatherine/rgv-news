@@ -14,7 +14,7 @@ ORANGE = (249, 115, 22); WATER = (56, 189, 248); ROAD = (226, 232, 240)
 RGV = ["Starr", "Hidalgo", "Cameron", "Willacy"]
 CITIES = [("McAllen", 26.2034, -98.2300), ("Edinburg", 26.3017, -98.1633),
           ("Harlingen", 26.1906, -97.6961), ("Brownsville", 25.9017, -97.4975),
-          ("Rio Grande City", 26.3798, -98.8203)]
+          ("Rio Grande City", 26.3798, -98.8203), ("Port Isabel", 26.0731, -97.2086), ("Starbase", 25.9930, -97.1700)]
 
 
 def F(w, s): return ImageFont.truetype(f"{FD}/Inter-{w}.otf", s)

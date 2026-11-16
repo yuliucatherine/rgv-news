@@ -1,0 +1,105 @@
+{
+ "seconds": 6,
+ "fps": 24,
+ "max_height": 8.5,
+ "radius": 1.1,
+ "lens": 35,
+ "samples": 10,
+ "camera": {
+  "start": {
+   "pos": [
+    6,
+    -32.199999999999996,
+    10.5
+   ],
+   "look": [
+    0,
+    0,
+    3.5
+   ]
+  },
+  "end": {
+   "pos": [
+    -5,
+    -26.45,
+    8.4
+   ],
+   "look": [
+    0,
+    0,
+    4
+   ]
+  }
+ },
+ "bars": [
+  {
+   "label": "GigaBay",
+   "segments": [
+    {
+     "value": 506,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.08,
+    0.35
+   ]
+  },
+  {
+   "label": "Launch expansion",
+   "segments": [
+    {
+     "value": 480,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.2,
+    0.47
+   ]
+  },
+  {
+   "label": "Water deal",
+   "segments": [
+    {
+     "value": 220,
+     "color": [
+      0.2,
+      0.83,
+      0.6
+     ]
+    }
+   ],
+   "grow": [
+    0.32,
+    0.59
+   ]
+  },
+  {
+   "label": "SH 4 widening",
+   "segments": [
+    {
+     "value": 192,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.44,
+    0.71
+   ]
+  }
+ ],
+ "spacing": 5
+}
