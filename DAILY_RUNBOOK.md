@@ -99,3 +99,19 @@ Posts per episode:
   1080×1920 frame (clear of the right-side buttons and the bottom title/caption overlay). Text
   auto-shrinks to fit (see `fit()` in pipeline/short_flight15.py). Before posting, render sample
   frames with the red danger zones drawn on and check nothing overlaps them.
+
+## Credibility and copyright rules (added Nov 16, 2026)
+- Every long episode includes an **"On the record" montage** right after the cold open: 4–6 real headlines
+  from the outlets/officials the episode cites (outlet, exact headline, date), built with
+  `pipeline/headlines.py` from `episodes/<ep>/headlines.json`. Copy headlines exactly from the saved
+  source page (`og:title`); never paraphrase inside quote marks.
+- **Never use TV/news broadcast clips or outlet logos.** Stations use Content ID; one clip can mean a
+  claim or a copyright strike. Quote headlines as text with credit; link sources in the description.
+- Generative-AI video only for clearly generic illustrative b-roll, labeled "Illustrative", and never
+  to depict a real place, person or event. Mark YouTube's altered/synthetic flag when realistic.
+- Episodes render at 60 fps (`"fps": 60` in the timeline); 3D shots held longer than rendered must be
+  smoothed with `pipeline/smooth.py` (the assembler warns when a clip would look choppy).
+- Music: quiet ducked bed via the timeline `"music"` key (`pipeline/music_bed.py`); CC BY tracks only,
+  credited in the description.
+- Thumbnail: `pipeline/thumbnail.py` + `episodes/<ep>/thumbnail.json` (own footage, one sourced number,
+  short headline, brand chip).
