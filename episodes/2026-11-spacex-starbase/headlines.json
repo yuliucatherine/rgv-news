@@ -1,0 +1,11 @@
+{"fps": 60, "seconds": 8.5, "step": 0.7,
+ "title": "ON THE RECORD", "subtitle": "What newsrooms and officials have reported",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {"outlet": "The Texas Tribune", "date": "Jan 29, 2026", "headline": "Critics question SpaceX winning tax credits for jobs"},
+  {"outlet": "Office of the Texas Governor", "date": "Aug 6, 2026", "headline": "Governor Abbott Announces SpaceX Expansion In Grimes County"},
+  {"outlet": "WAFB", "date": "Aug 25, 2026", "headline": "SpaceX announces plan to build $100 billion 'Starbase Louisiana' launch facility"},
+  {"outlet": "KRGV", "date": "Aug 28, 2026", "headline": "Highway 4 set for $192M upgrade between Brownsville and Starbase"},
+  {"outlet": "KRGV / The Texas Tribune", "date": "Aug 31, 2026", "headline": "SpaceX to fund up to $220M in Brownsville water projects in exchange for land"},
+  {"outlet": "Aviation Week", "date": "Nov 2026", "headline": "Starship Flight 15 Ends With First Ship Tower Catch"}
+ ]}

@@ -20,7 +20,7 @@ SOURCES
 - Office of the Texas Governor / TCEQ: 1944 Water Treaty cycle (Oct 24, 2025)
 - NADBank; Dallas Express: proposed $164M canal modernization package
 - Office of the Texas Governor (Aug 6, 2026): Terafab, Grimes County, $16.8B phase 1, 3,000 jobs
-- Fortune and others (Aug 2026): SpaceX $100B Starbase Louisiana
+- WAFB (Aug 25, 2026) and Fortune (Aug 27, 2026): SpaceX $100B Starbase Louisiana
 
 VISUALS
 Launch and catch footage and photos filmed by RGV News. Maps: U.S. Census Bureau TIGER/Line; imagery: USGS The National Map; satellite image: NASA/METI/AIST/Japan Space Systems and U.S./Japan ASTER Science Team. Elevation: Mapzen/AWS Terrain Tiles. 3D scenes are illustrative, rendered in Blender.

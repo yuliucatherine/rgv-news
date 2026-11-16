@@ -176,6 +176,21 @@
    ]
   },
   {
+   "label": "on the record",
+   "dur": 8.5,
+   "visuals": [
+    {
+     "video": "demo/ep1/headlines.mp4",
+     "ss": 0,
+     "len": 8.5
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
    "label": "title",
    "dur": 5,
    "visuals": [
