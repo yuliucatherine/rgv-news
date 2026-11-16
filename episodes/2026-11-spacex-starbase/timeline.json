@@ -1,4 +1,5 @@
 {
+ "fps": 60,
  "out": "demo/ep1/episode1.mp4",
  "audio_dir": "episodes/2026-11-spacex-starbase/audio",
  "narration_json": "episodes/2026-11-spacex-starbase/narration.json",

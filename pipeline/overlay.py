@@ -124,7 +124,7 @@ def run_config(cfg):
         if cfg.get("credit"): credit(d, cfg["credit"])
         img.convert("RGB").save(f"{tmp}/{i:04d}.png")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", f"{tmp}/%04d.png",
-                    "-vf", "fps=30", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", cfg["out_mp4"]], check=True)
+                    "-vf", f"fps={cfg.get('fps_out', 30)}", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", cfg["out_mp4"]], check=True)
     print("overlay ok", cfg["out_mp4"], round(dur, 1), "s")
 
 

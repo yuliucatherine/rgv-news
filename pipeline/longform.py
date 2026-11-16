@@ -1,4 +1,4 @@
-"""Long-form episode assembler (16:9, 1920x1080, 30 fps).
+"""Long-form episode assembler (16:9, 1920x1080; frame rate from the timeline's "fps", default 30).
 A timeline JSON lists blocks; each block = optional narration clip + one or more visuals
 (videos, Blender renders, photos, generated cards) + text layers (headline, kinetic words,
 captions from the narration text, source credit) + optional natural sound.
@@ -274,7 +274,9 @@ def render_block(k, b, cfg, tmp):
 
 
 def main():
+    global FPS
     tl = json.load(open(sys.argv[1]))
+    FPS = int(tl.get("fps", 30))
     only = None
     if "--only" in sys.argv: only = {int(x) for x in sys.argv[sys.argv.index("--only") + 1].split(",")}
     tmp = tl.get("tmp", os.path.splitext(tl["out"])[0] + "_build"); os.makedirs(tmp, exist_ok=True)

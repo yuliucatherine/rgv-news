@@ -2,7 +2,7 @@
 
 The long-form editor stretches a clip to fill its narration block. A 6 s, 24 fps Blender render held
 for 18 s plays at ~8 fps and looks choppy. This tool slows the RAW render (no text) with motion-
-compensated interpolation to `stretch` x its length at 30 fps, re-times labels.json to the new frame
+compensated interpolation to `stretch` x its length at $FPS (default 30), re-times labels.json to the new frame
 count, then re-runs overlay.py, so the overlay text is crisp and never interpolated.
 
 Usage:
@@ -13,8 +13,8 @@ After this, multiply the clip's "ss" and "len" in the timeline by the same stret
 import sys, os, json, glob, shutil, subprocess
 
 sys.path.insert(0, os.path.dirname(__file__))
-FPS = 30
-MI = "minterpolate=fps={f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,setpts={s}*PTS,fps=30"
+FPS = int(os.environ.get("FPS", 30))   # output frame rate (set FPS=60 for 60 fps episodes)
+MI = "minterpolate=fps={f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,setpts={s}*PTS,fps={o}"
 
 
 def scale_times(cfg, s):
@@ -47,20 +47,20 @@ def overlay_mode(cfg_path, s, out_mp4):
     dst = src.rstrip("/") + f"_x{s:g}"
     shutil.rmtree(dst, ignore_errors=True); os.makedirs(dst)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps_src), "-i", f"{src}/f%04d.png",
-                    "-vf", MI.format(f=round(FPS * s, 3), s=s), "-start_number", "1", f"{dst}/f%04d.png"], check=True)
+                    "-vf", MI.format(f=round(FPS * s, 3), s=s, o=FPS), "-start_number", "1", f"{dst}/f%04d.png"], check=True)
     n_out = len(glob.glob(f"{dst}/f*.png"))
     if cfg.get("labels_json"):
         lj = os.path.join(dst, "labels.json")
         retime_labels(cfg["labels_json"], n_src, fps_src, n_out, s, lj); cfg["labels_json"] = lj
-    cfg.update(frames_dir=dst, fps_in=FPS, out_mp4=out_mp4)
+    cfg.update(frames_dir=dst, fps_in=FPS, fps_out=FPS, out_mp4=out_mp4)
     import overlay
     overlay.run_config(scale_times(cfg, s))
-    shutil.rmtree(out_mp4 + ".frames", ignore_errors=True)
+    shutil.rmtree(out_mp4 + ".frames", ignore_errors=True); shutil.rmtree(dst, ignore_errors=True)
     print("smooth ok", out_mp4, n_src, "->", n_out, "frames")
 
 
 def video_mode(src, s, out_mp4):
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-vf", MI.format(f=round(FPS * s, 3), s=s),
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-vf", MI.format(f=round(FPS * s, 3), s=s, o=FPS),
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", out_mp4], check=True)
     print("smooth ok", out_mp4)
 
