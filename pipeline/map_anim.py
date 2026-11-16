@@ -8,6 +8,7 @@ import numpy as np, pandas as pd, geopandas as gpd
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 W, H, FPS = 1920, 1080, 30
+CLEAN = bool(os.environ.get('CLEAN'))  # no baked title/source (for reuse under headlines)
 FD = "/usr/share/fonts/opentype/inter"
 NAVY = (9, 16, 32); INK = (241, 245, 249); MUTED = (148, 163, 184)
 ORANGE = (249, 115, 22); WATER = (56, 189, 248); ROAD = (226, 232, 240)
@@ -147,14 +148,14 @@ def main(data_dir, out, seconds=8.0):
             d.rectangle([0, yy, W, yy + 2], fill=NAVY + (int(200 * (1 - yy / 230) ** 1.5),))
         if a > 0.5:
             d.text((560, 1000), "MEXICO", font=F("Bold", 34), fill=(148, 163, 184, int(180 * a)))
-        ta = min(1, t / 0.08)
+        ta = 0 if CLEAN else min(1, t / 0.08)
         d.rounded_rectangle([64, 60, 64 + 14, 60 + 52], 3, fill=ORANGE + (int(255 * ta),))
         title = "TEXAS" if z < 0.45 else "THE LOWER RIO GRANDE VALLEY"
         d.text((96, 58), title, font=fname, fill=(241, 245, 249, int(255 * ta)))
-        if z >= 0.45:
+        if z >= 0.45 and not CLEAN:
             d.text((96, 112), "Starr · Hidalgo · Cameron · Willacy counties", font=F("SemiBold", 30), fill=(203, 213, 225, int(255 * ta)))
         src = "Map: U.S. Census Bureau (TIGER)" + (" · Imagery: USGS The National Map" if a > 0 else "")
-        d.text((W - 40, H - 40), src, font=fsrc, fill=(203, 213, 225, 220), anchor="rs")
+        if not CLEAN: d.text((W - 40, H - 40), src, font=fsrc, fill=(203, 213, 225, 220), anchor="rs")
         frame.save(f"{tmp}/{i:04d}.png")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{tmp}/%04d.png",
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", out], check=True)

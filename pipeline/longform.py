@@ -109,7 +109,7 @@ def scrims(tmp):
     top = os.path.join(tmp, "scrim_top.png"); left = os.path.join(tmp, "scrim_left.png"); bot = os.path.join(tmp, "scrim_bot.png")
     if not os.path.exists(top):
         a = np.zeros((H, W, 4), np.uint8); a[..., :3] = NAVY
-        y = np.arange(H); a[..., 3] = (np.clip(1 - y / 230, 0, 1) ** 2 * 170)[:, None]
+        y = np.arange(H); a[..., 3] = (np.clip(1 - y / 270, 0, 1) ** 1.6 * 205)[:, None]
         Image.fromarray(a).save(top)
         b = np.zeros((H, W, 4), np.uint8); b[..., :3] = NAVY
         x = np.arange(W); b[..., 3] = (np.clip(1 - x / (W * 0.5), 0, 1) ** 1.5 * 200)[None, :]
@@ -139,7 +139,7 @@ def drawtext(tmp, text, x, y, size, font="Bold", color="white", a=0.0, b=1e9, fa
     h = hashlib.md5(text.encode()).hexdigest()[:10]; tf = os.path.join(tmp, f"t_{h}.txt")
     open(tf, "w").write(text)
     alpha = f"{alpha_max}*if(lt(t,{a}+{fade}),max(0,(t-{a})/{fade}),if(gt(t,{b}-{fade}),max(0,({b}-t)/{fade}),1))"
-    s = (f"drawtext=fontfile={FD}/Inter-{font}.otf:textfile='{esc_path(tf)}':x={x}:y={y}:fontsize={size}"
+    s = (f"drawtext=fontfile={FD}/Inter-{font}.otf:textfile='{esc_path(tf)}':x={x}:y={y}:fontsize={size}:expansion=none"
          f":fontcolor={color}:alpha='{alpha}':enable='between(t,{a},{b})'")
     if box: s += f":box=1:boxcolor={box}:boxborderw=18"
     return s
