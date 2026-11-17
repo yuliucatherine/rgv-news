@@ -8,21 +8,21 @@ Movement rule: something moves on screen at all times; the main visual changes e
 ## COLD OPEN (0:00–0:55)
 [VISUAL: Blender flyover of Falcon Reservoir. The water plane sinks from full to today's level while a counter ticks the year from 2010 to 2026.]
 **N00:** In October of twenty ten, Falcon Reservoir on the Rio Grande was completely full. One hundred percent.
-**N01:** Fourteen years later, it had fallen to thirteen percent. Today, it sits at about twenty-three.
+**N01:** Thirteen years later, in October of twenty twenty-three, it was down to just eight percent, tied for its lowest level in more than three decades. Today, it sits at about twenty-three.
 [VISUAL: animated line chart of Falcon's daily level, 1990 to today, drawing itself left to right]
 **N02:** Almost every faucet, field, and factory in the Lower Rio Grande Valley depends on this river and on two reservoirs upstream. And the Valley is growing fast: new subdivisions, new plants, a rocket company building next door.
 *KINETIC: WILL · THERE · BE · ENOUGH?*
 **N03:** So for anyone who builds, buys, or lends here, the question is simple. Will there be enough water to grow? The answer is more surprising than you might think. This is RGV News.
-(Water Data for Texas, TWDB: Falcon 100% on 2010-11-17; 13.3% on 2024-11-17; 22.8% on 2026-11-17)
+(Water Data for Texas, TWDB: Falcon 100% in Oct 2010; 8.0% on 2023-10-02, tying 2000-04-30 as the lowest since 1990; 22.8% on 2026-11-17)
 
 ## ON THE RECORD (montage, about 8 s)
-- RGV Business Journal, Nov 5, 2026: "New leader takes over water group as South Texas braces for major shortages"
-- RGV Business Journal, Apr 10, 2026: "Edinburg touts growth, new subdivisions, and water supply plans"
-- KRGV: "$1 billion desalination plant coming to South Padre Island"
-- KRGV: "Rio Grande Valley irrigation districts secure millions in funding to convert canals, save water"
-- KSAT, Mar 1, 2024: "Texas' only sugar mill shuts down after 50 years due to water shortage"
-- The Texas Tribune, Nov 4, 2025: Proposition 4 coverage
-(Copy exact headlines from saved og:title before rendering.)
+- RGV Business Journal, Nov 2026: "New leader takes over water group as South Texas braces for major shortages"
+- RGV Business Journal, Apr 2026: "Edinburg touts growth, new subdivisions, and water supply plans"
+- KRGV, 2026: "$1 billion desalination plant coming to South Padre Island"
+- KRGV, 2026: "Rio Grande Valley irrigation districts secure millions in funding to convert canals, save water"
+- KRGV, 2026: "'We have enough:' Mission puts temporary hold on new car washes"
+- KRGV, 2025: "Santa Rosa sugar mill reopening in effort to restore Texas' sugarcane industry"
+(All copied exactly from each page's og:title, saved in data/ep2_sources.)
 
 ## PART 1: WHERE THE WATER COMES FROM (0:55–2:45)
 [VISUAL: map zooms from Texas to the Rio Grande basin. Amistad and Falcon are highlighted, and the river glows as it flows to the Gulf. Labels for Del Rio, Laredo, Falcon, McAllen, Brownsville.]
@@ -35,7 +35,8 @@ Movement rule: something moves on screen at all times; the main visual changes e
 **N07:** This October, the first year of the new cycle closed, and Mexico says it met that minimum. That's real progress. But by most estimates, it still owes more than eight hundred thousand acre-feet from the last cycle.
 *ON SCREEN: Mexico, year 1 of the new cycle: minimum met (350,000 acre-feet) · Still owed from the last cycle: about 830,000 to 860,000 acre-feet*
 (Rio Times / Texas Politics, Oct 2026; Freshplaza; Sen. Cruz's office; State Dept. joint statement, Feb 2026; Baker Institute)
-**N08:** An acre-foot, by the way, is enough water to cover a football field about nine inches deep, or roughly what two to three Valley households use in a year.
+**N08:** An acre-foot, by the way, is enough water to cover a football field about nine inches deep. The state water board says that's about what six Texans use at home in a year.
+(TWDB, "What is an acre-foot": 325,851 gallons; supports municipal use of six Texans for one year)
 [VISUAL: 3D football field filling with water]
 
 ## PART 2: THE RESERVOIRS (2:45–4:00)
@@ -74,7 +75,7 @@ Movement rule: something moves on screen at all times; the main visual changes e
 *ON SCREEN: Irrigated acres lost to urbanization (projected): Hidalgo 10,155 by 2030 → 60,521 by 2080 · Cameron 6,948 → 41,409*
 (Region M plan, Table 6-1)
 **N19:** For developers, that makes water a cost and a timing question. In some Valley cities, proving that a project has its own water supply is a condition of building. Others have been rethinking their rules.
-**N20:** In twenty twenty-four, Mission considered pausing new developments larger than five acres because of water scarcity, then stepped back at the last minute. This spring, it briefly paused new car washes, until a lawsuit ended that moratorium.
+**N20:** In twenty twenty-four, Mission considered pausing new developments larger than five acres because of water scarcity, then stepped back at the last minute. This spring, it put a six-month pause on new car washes, citing water conservation and too many in one area, then repealed it after a lawsuit.
 (MyRGV, Mar 20, 2024; KRGV, Mar–Apr 2026)
 **N21:** Meanwhile, the growth keeps coming. Edinburg says it has at least a hundred and twenty-seven subdivisions under construction, and its mayor has promised an independent water supply by twenty thirty.
 *QUOTE: "Water security is a top priority... we need to think ahead." (Edinburg Mayor Omar Ochoa, to the RGV Business Journal, Apr 2026)*
@@ -106,7 +107,13 @@ Movement rule: something moves on screen at all times; the main visual changes e
 
 ---
 
-## Open items before narration
+## Resolved items (Nov 17, 2026)
+- [x] Headlines copied exactly (og:title).
+- [x] Acre-foot comparison now uses TWDB's figure (six Texans' municipal use per year).
+- [x] Mexico debt shown as a range with both sources.
+- [x] Mission car wash: adopted Mar 24, 2026; lawsuit Apr 17; repealed after the suit (KRGV).
+
+## Old open items
 - [ ] Copy exact "On the record" headlines from saved pages (og:title).
 - [ ] Confirm the "two to three households per acre-foot" comparison (common Texas utility figure; verify a TWDB or Texas water utility source, else drop).
 - [ ] Mexico's outstanding debt: show as a range (830,000–860,000) with both sources.
