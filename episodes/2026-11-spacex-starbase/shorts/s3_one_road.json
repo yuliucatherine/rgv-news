@@ -1,0 +1,4 @@
+{"timeline": "episodes/2026-11-spacex-starbase/timeline.json", "blocks": [25, 26, 27], "out": "demo/shorts/s3_one_road.mp4",
+ "hook": ["STARBASE HAS", "*ONE ROAD IN.*", "THE FIX: AROUND 2030"],
+ "credit": "Source: KRGV (TxDOT), Aug 28, 2026",
+ "music": {"track": "assets/music/Deliberate_Thought.mp3", "offset": 100}}
