@@ -115,3 +115,12 @@ Posts per episode:
   credited in the description.
 - Thumbnail: `pipeline/thumbnail.py` + `episodes/<ep>/thumbnail.json` (own footage, one sourced number,
   short headline, brand chip).
+
+## Platforms and hosting (updated Nov 17, 2026)
+- Brand 8063182 now has YouTube (UCAPGqmPbbEfxRUI_TkzxD6g), Facebook (1468277193033622), Instagram (@rgv.news)
+  and TikTok (RGV News). Long episodes: YouTube + Facebook. Shorts/teasers: YouTube Shorts, Instagram Reels,
+  TikTok, Facebook Reels.
+- GitHub releases and Git LFS are blocked from cloud sessions; the media branch takes files under 100 MB.
+  For long episodes, encode a 2-pass HEVC copy under ~97 MB (`libx265 -preset medium -b:v 1100k`, `-tag:v hvc1`,
+  AAC 128k) and check SSIM against the master (target >= 0.99 on most samples). Episode 1: Metricool post
+  431544038, scheduled Nov 17, 2026 08:55 Central, thumbnail via `videoThumbnailUrl`.
