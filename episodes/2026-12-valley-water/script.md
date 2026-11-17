@@ -27,6 +27,8 @@ Movement rule: something moves on screen at all times; the main visual changes e
 ## PART 1: WHERE THE WATER COMES FROM (0:55–2:45)
 [VISUAL: map zooms from Texas to the Rio Grande basin. Amistad and Falcon are highlighted, and the river glows as it flows to the Gulf. Labels for Del Rio, Laredo, Falcon, McAllen, Brownsville.]
 **N04:** The Valley's water starts far upstream. Two big reservoirs on the Rio Grande, Amistad near Del Rio and Falcon below Laredo, store the supply that flows down to the Valley's cities and irrigation districts.
+**N04b:** In Brownsville, about seventy percent of the city's water comes from the Rio Grande. Across the Valley, the river is the backbone of the supply for cities and farms alike.
+(Texas Tribune via KRGV, Aug 31, 2026: Brownsville about 21M gal/day, 70% from the Rio Grande)
 **N05:** Those reservoirs are shared with Mexico. And under a treaty signed in nineteen forty-four, Mexico owes the United States a share of the water from its rivers that feed the Rio Grande, counted over five-year cycles.
 [VISUAL: animated treaty timeline card]
 **N06:** For years, Mexico fell behind. When the last cycle closed in October of twenty twenty-five, it ended deep in debt. In early twenty twenty-six, after pressure from Washington, Mexico committed to deliver at least three hundred and fifty thousand acre-feet a year, and to repay what it owes.
@@ -54,6 +56,12 @@ Movement rule: something moves on screen at all times; the main visual changes e
 (2026 Rio Grande Regional Water Plan (Region M), Ch. 6, Table 6-2)
 **N15:** We've already seen what that looks like. In twenty twenty-four, the Valley's sugar mill, the last one in Texas, shut down after fifty years, citing heat and a shortage of irrigation water. Hundreds of workers were laid off. The state is now trying to revive it.
 (KSAT, Mar 1, 2024; Texas Workforce Commission notice: 435 layoffs; KRGV on the Santa Rosa Sugar revival)
+**N15b:** But the line between farm water and city water isn't as clean as it sounds. Across much of the Valley, water for towns travels through the same irrigation canals that serve the fields.
+[VISUAL: Blender canal network glowing across a map of Hidalgo and Cameron counties, with town markers fed by canal lines]
+**N15c:** Raymondville, for example, still gets its Rio Grande water delivered through the Delta Lake Irrigation District. Its general manager says the district is running at a fraction of its former capacity.
+(KRGV, irrigation district canal funding report, 2026)
+**N15d:** And those canals need enough water flowing through them to push deliveries down the line. The regional plan warns that as farm water rights are converted away, there's less of that push water, so more has to be diverted to get the same amount to a city's tap. That's one reason fixing the canals matters so much.
+(2026 Region M plan, Sec. 6.1.7)
 
 ## PART 4: WHAT IT MEANS FOR BUILDERS (5:45–8:00)
 *KINETIC: FARM · WATER · BECOMES · CITY · WATER*
@@ -70,6 +78,8 @@ Movement rule: something moves on screen at all times; the main visual changes e
 (MyRGV, Mar 20, 2024; KRGV, Mar–Apr 2026)
 **N21:** Meanwhile, the growth keeps coming. Edinburg says it has at least a hundred and twenty-seven subdivisions under construction, and its mayor has promised an independent water supply by twenty thirty.
 *QUOTE: "Water security is a top priority... we need to think ahead." (Edinburg Mayor Omar Ochoa, to the RGV Business Journal, Apr 2026)*
+**N21b:** The city is studying desalination of brackish groundwater, and capturing stormwater before it drains into the Rio Grande and out to the Gulf. It's also spending thirty-three million dollars to expand its wastewater treatment plant, from about twelve million gallons a day to thirteen and a half.
+(RGV Business Journal, Apr 10, 2026)
 **N22:** And in Brownsville, as we covered in our last episode, SpaceX's land deal is paying for a water reuse plant and a treatment-plant expansion. Water is now part of how big projects get negotiated.
 
 ## PART 5: NEW WATER (8:00–9:30)
@@ -89,6 +99,8 @@ Movement rule: something moves on screen at all times; the main visual changes e
 *LIST: Risks to watch · Reservoir levels and Mexico's deliveries · City water-rights rules for new projects · The price of new water (desalination, reuse) · Moratorium talk during droughts*
 **N29:** Before you buy land or start a project, ask three questions. Who supplies water to this site, a city, a water supply corporation, or an irrigation district? Does the project need to bring its own water rights, and at what cost? And what's that supplier's drought plan when Falcon falls again?
 *LIST: Ask before you build (3 questions)*
+**N29b:** There's an opportunity side too. Projects that come with their own water, through converted rights, reuse, or efficient design, may move faster when cities tighten up. Builders who know the water rules can spot land that others overlook, or avoid deals that look cheap until the water bill arrives.
+**N29c:** And the money now flowing into canals, reuse plants, and desalination means construction and engineering work across the Valley for years to come, whatever the reservoirs do.
 **N30:** The Valley has water to grow. But it's not free, and it's not automatic. The projects that plan for water first will be the ones that pencil out. This is RGV News.
 *END CARD: RGV NEWS · Not financial advice · Sources in the description*
 
