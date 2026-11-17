@@ -124,3 +124,12 @@ Posts per episode:
   For long episodes, encode a 2-pass HEVC copy under ~97 MB (`libx265 -preset medium -b:v 1100k`, `-tag:v hvc1`,
   AAC 128k) and check SSIM against the master (target >= 0.99 on most samples). Episode 1: Metricool post
   431544038, scheduled Nov 17, 2026 08:55 Central, thumbnail via `videoThumbnailUrl`.
+
+## Video hosting: Cloudflare R2 (set up Nov 17, 2026)
+- Bucket `rgv-news-media` (account 9b8e14eb...), public base `https://pub-d5fcbef93b824664bb534c8643fb48b4.r2.dev`.
+- Upload with `python3 pipeline/r2_upload.py <file> <key>`; it prints the public URL to give Metricool.
+  The Cloudflare API token is a network secret on the rgv-news environment (host api.cloudflare.com,
+  R2 Edit only, expires Nov 2027). Never put it in the repo.
+- Upload full-quality masters (no HEVC squeeze needed). Keys: `episodes/<date>/<slug>.mp4`, `shorts/<date>/<slug>.mp4`.
+- Metricool copies media into its own storage when a post is scheduled, so old files can be deleted
+  after the post publishes to stay far below the 10 GB free tier.
