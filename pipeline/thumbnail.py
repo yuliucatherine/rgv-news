@@ -17,6 +17,9 @@ def F(w, s): return ImageFont.truetype(f"{FD}/Inter-{w}.otf", s * S)
 def main(cfg, out):
     src = Image.open(cfg["photo"]).convert("RGB")
     x0, y0, x1, y1 = cfg["crop"]
+    if cfg.get("pad_color") and (x0 < 0 or y0 < 0 or x1 > src.width or y1 > src.height):   # flat padding (charts)
+        cw, ch = x1 - x0, y1 - y0; canvas = Image.new("RGB", (cw, ch), tuple(cfg["pad_color"]))
+        canvas.paste(src, (-x0, -y0)); src = canvas; x0, y0, x1, y1 = 0, 0, cw, ch
     if x0 < 0:   # crop reaches past the left edge: extend with a blurred stretch of the photo
         pad = -x0
         ext = Image.new("RGB", (src.width + pad, src.height))

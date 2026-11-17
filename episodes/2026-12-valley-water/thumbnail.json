@@ -1,0 +1,22 @@
+{
+ "photo": "assets/ep2_falcon_chart.png",
+ "crop": [
+  -700,
+  -120,
+  1960,
+  1376
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "FALCON HIT",
+ "number": "8%",
+ "headline": [
+  "ENOUGH WATER",
+  "TO GROW?"
+ ],
+ "sub": "What the Rio Grande means for Valley builders",
+ "pad_color": [
+  9,
+  16,
+  32
+ ]
+}
