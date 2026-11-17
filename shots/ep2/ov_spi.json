@@ -1,0 +1,16 @@
+{
+ "frames_dir": "demo/ep2/spi_frames",
+ "labels_json": "demo/ep2/spi_frames/labels.json",
+ "out_mp4": "demo/ep2/v_spi.mp4",
+ "fps_in": 24,
+ "labels_from": 0.1,
+ "callouts": [
+  {
+   "text": "Proposed: 50 million gallons a day",
+   "sub": "Seawater desalination · privately owned · site and timeline not final",
+   "start": 1.5,
+   "end": 8.6
+  }
+ ],
+ "credit": "Imagery: USGS The National Map · Elevation: AWS Terrain Tiles"
+}

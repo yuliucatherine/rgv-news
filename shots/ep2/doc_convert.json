@@ -1,0 +1,23 @@
+{
+ "seconds": 17,
+ "fps": 60,
+ "source": "2026 Rio Grande Regional Water Plan (Region M) · Chapter 6",
+ "heading": "6.1.7 Conversion of Water Right Classification",
+ "credit": "Source: 2026 Rio Grande Regional Water Plan (Region M), Sec. 6.1.7 (TCEQ rules)",
+ "paragraphs": [
+  {
+   "text": "This strategy involves converting irrigation water rights to municipal water rights as land is converted from agricultural and rural uses to urban uses.",
+   "highlight": [
+    0.1,
+    0.35
+   ]
+  },
+  {
+   "text": "The Texas Commission on Environmental Quality (TCEQ) rules establish conversion ratios of 2 acre-feet (ac-ft) of Class A irrigation water rights and 2.5 ac-ft Class B water rights to 1 ac-ft of municipal water rights.",
+   "highlight": [
+    0.45,
+    0.8
+   ]
+  }
+ ]
+}

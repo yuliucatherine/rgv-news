@@ -1,0 +1,8 @@
+{
+ "frames_dir": "demo/ep2/edinburg_frames",
+ "labels_json": "demo/ep2/edinburg_frames/labels.json",
+ "out_mp4": "demo/ep2/v_edinburg.mp4",
+ "fps_in": 24,
+ "labels_from": 0.1,
+ "credit": "Imagery: USGS The National Map · Elevation: AWS Terrain Tiles"
+}

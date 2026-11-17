@@ -1,0 +1,53 @@
+{
+ "frames_dir": "demo/ep2/bars_shortfall",
+ "labels_json": "demo/ep2/bars_shortfall/labels.json",
+ "out_mp4": "demo/ep2/v_bars_shortfall.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "label_values": {
+  "Hidalgo": [
+   "",
+   431254,
+   "",
+   0,
+   "acre-feet short"
+  ],
+  "Cameron": [
+   "",
+   362076,
+   "",
+   0,
+   "acre-feet short"
+  ],
+  "Willacy": [
+   "",
+   76349,
+   "",
+   0,
+   ""
+  ],
+  "Maverick": [
+   "",
+   21588,
+   "",
+   0,
+   ""
+  ],
+  "Starr": [
+   "",
+   20685,
+   "",
+   0,
+   ""
+  ]
+ },
+ "callouts": [
+  {
+   "text": "Irrigation shortfall in a drought, 2030",
+   "sub": "Total, Region M: about 888,000 acre-feet a year",
+   "start": 1.5,
+   "end": 7.6
+  }
+ ],
+ "credit": "Source: 2026 Rio Grande Regional Water Plan (Region M), Table 6-2"
+}

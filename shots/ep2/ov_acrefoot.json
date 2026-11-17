@@ -1,0 +1,14 @@
+{
+ "frames_dir": "demo/ep2/acrefoot",
+ "out_mp4": "demo/ep2/v_acrefoot.mp4",
+ "fps_in": 24,
+ "callouts": [
+  {
+   "text": "1 acre-foot",
+   "sub": "= a football field about 9 inches deep (325,851 gallons)",
+   "start": 2.0,
+   "end": 7.8
+  }
+ ],
+ "credit": "Depth exaggerated for visibility · Source: Texas Water Development Board"
+}

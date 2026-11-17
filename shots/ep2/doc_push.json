@@ -1,0 +1,26 @@
+{
+ "seconds": 20,
+ "fps": 60,
+ "source": "2026 Rio Grande Regional Water Plan (Region M) · Chapter 6",
+ "heading": "6.1.7 Conversion of Water Right Classification",
+ "credit": "Source: 2026 Rio Grande Regional Water Plan (Region M), Sec. 6.1.7",
+ "paragraphs": [
+  {
+   "text": "This strategy involves converting irrigation water rights to municipal water rights as land is converted from agricultural and rural uses to urban uses."
+  },
+  {
+   "text": "Therefore, if the infrastructure that was previously used to convey an amount of water associated with irrigation water rights is later used to convey water for the converted municipal water rights, a lesser amount of water would be conveyed. This would result in less available push water.",
+   "highlight": [
+    0.25,
+    0.6
+   ]
+  },
+  {
+   "text": "Because of the current structure and condition of irrigation district (ID) conveyance systems, more water may need to be diverted to convey municipal deliveries to the end user.",
+   "highlight": [
+    0.62,
+    0.85
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "terrain_dir": "data/terrain_spi",
+ "texture": "data/terrain_spi/texture.jpg",
+ "metres_per_unit": 50,
+ "vertical_exaggeration": 4,
+ "downsample": 4,
+ "min_elev": 0.0,
+ "fps": 24,
+ "seconds": 9,
+ "samples": 8,
+ "lens": 28,
+ "imagery_glow": 0.35,
+ "view_transform": "Standard",
+ "routes": [],
+ "camera": {
+  "start": {
+   "over": [
+    -97.235,
+    26.045
+   ],
+   "height": 75,
+   "look_at": [
+    -97.18,
+    26.09
+   ]
+  },
+  "end": {
+   "over": [
+    -97.215,
+    26.06
+   ],
+   "height": 45,
+   "look_at": [
+    -97.165,
+    26.1
+   ]
+  }
+ },
+ "labels": [
+  {
+   "name": "South Padre Island",
+   "lon": -97.166,
+   "lat": 26.105
+  },
+  {
+   "name": "Port Isabel",
+   "lon": -97.212,
+   "lat": 26.074
+  },
+  {
+   "name": "Laguna Madre",
+   "lon": -97.205,
+   "lat": 26.112
+  },
+  {
+   "name": "Gulf of Mexico",
+   "lon": -97.146,
+   "lat": 26.085
+  }
+ ]
+}

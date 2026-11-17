@@ -1,0 +1,126 @@
+{
+ "seconds": 8,
+ "fps": 24,
+ "max_height": 9,
+ "radius": 1.1,
+ "lens": 32,
+ "samples": 8,
+ "spacing": 5.2,
+ "resolution": [
+  960,
+  540
+ ],
+ "camera": {
+  "start": {
+   "pos": [
+    3,
+    -33,
+    10
+   ],
+   "look": [
+    0,
+    0,
+    4
+   ]
+  },
+  "end": {
+   "pos": [
+    -3,
+    -26,
+    8
+   ],
+   "look": [
+    0,
+    0,
+    4.5
+   ]
+  }
+ },
+ "bars": [
+  {
+   "label": "Hidalgo",
+   "segments": [
+    {
+     "value": 431254,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.08,
+    0.4
+   ]
+  },
+  {
+   "label": "Cameron",
+   "segments": [
+    {
+     "value": 362076,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.18,
+    0.5
+   ]
+  },
+  {
+   "label": "Willacy",
+   "segments": [
+    {
+     "value": 76349,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.28,
+    0.6
+   ]
+  },
+  {
+   "label": "Maverick",
+   "segments": [
+    {
+     "value": 21588,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.36,
+    0.68
+   ]
+  },
+  {
+   "label": "Starr",
+   "segments": [
+    {
+     "value": 20685,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.44,
+    0.76
+   ]
+  }
+ ]
+}

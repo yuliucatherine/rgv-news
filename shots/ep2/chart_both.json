@@ -1,0 +1,79 @@
+{
+ "seconds": 21,
+ "fps": 60,
+ "x": [
+  2010,
+  2027.2
+ ],
+ "y": [
+  0,
+  100
+ ],
+ "y_suffix": "%",
+ "x_ticks": [
+  2010,
+  2012,
+  2014,
+  2016,
+  2018,
+  2020,
+  2022,
+  2024,
+  2026
+ ],
+ "y_ticks": [
+  0,
+  25,
+  50,
+  75,
+  100
+ ],
+ "reveal": [
+  0.04,
+  0.8
+ ],
+ "series": [
+  {
+   "name": "Amistad",
+   "color": [
+    45,
+    212,
+    191
+   ],
+   "csv": "data/ep2_sources/amistad.csv",
+   "col": "percent_full",
+   "from": "2010-01-01",
+   "every": 3
+  },
+  {
+   "name": "Falcon",
+   "color": [
+    56,
+    189,
+    248
+   ],
+   "csv": "data/ep2_sources/falcon.csv",
+   "col": "percent_full",
+   "from": "2010-01-01",
+   "every": 3
+  }
+ ],
+ "callouts": [
+  {
+   "series": 0,
+   "x": 2024.51,
+   "text": "24%",
+   "sub": "Amistad, Jul 2024",
+   "dy": -210
+  },
+  {
+   "series": 1,
+   "x": 2023.75,
+   "text": "8%",
+   "sub": "Falcon, Oct 2023",
+   "dy": -120
+  }
+ ],
+ "note": "Data: Texas Water Development Board, Water Data for Texas (daily % full, conservation storage)",
+ "label_lines": true
+}

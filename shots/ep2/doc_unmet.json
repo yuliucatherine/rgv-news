@@ -1,0 +1,32 @@
+{
+ "seconds": 19,
+ "fps": 60,
+ "source": "2026 Rio Grande Regional Water Plan (Region M) · Chapter 6",
+ "heading": "6.3 Unmet Needs",
+ "credit": "Source: 2026 Rio Grande Regional Water Plan (Region M), Ch. 6, p. 6-5",
+ "paragraphs": [
+  {
+   "text": "Region M does not have municipal unmet needs.",
+   "highlight": [
+    0.12,
+    0.28
+   ]
+  },
+  {
+   "text": "However, the Irrigation and Mining non-municipal water user groups (WUGs), as detailed below, do have unmet needs."
+  },
+  {
+   "text": "As detailed in Table 6-2, if Region M experiences extensive drought years, irrigation would exhibit unmet needs."
+  },
+  {
+   "text": "The water rights system in the Amistad-Falcon Reservoir system is structured such that municipal water rights are protected, and irrigation water rights have lower reliability in years of limited supply.",
+   "highlight": [
+    0.45,
+    0.75
+   ]
+  },
+  {
+   "text": "Limited supplies in the reservoirs may occur because of drought or because of a deficit in deliveries from Mexico under the 1944 treaty governing the Rio Grande/Rio Bravo."
+  }
+ ]
+}

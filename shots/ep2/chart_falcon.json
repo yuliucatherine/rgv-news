@@ -1,0 +1,73 @@
+{
+ "seconds": 13,
+ "fps": 60,
+ "x": [
+  1990,
+  2027.2
+ ],
+ "y": [
+  0,
+  100
+ ],
+ "y_suffix": "%",
+ "x_ticks": [
+  1990,
+  1995,
+  2000,
+  2005,
+  2010,
+  2015,
+  2020,
+  2025
+ ],
+ "y_ticks": [
+  0,
+  25,
+  50,
+  75,
+  100
+ ],
+ "reveal": [
+  0.04,
+  0.82
+ ],
+ "series": [
+  {
+   "name": "Falcon",
+   "color": [
+    56,
+    189,
+    248
+   ],
+   "csv": "data/ep2_sources/falcon.csv",
+   "col": "percent_full",
+   "from": "1990-01-01",
+   "every": 5
+  }
+ ],
+ "callouts": [
+  {
+   "series": 0,
+   "x": 2010.79,
+   "text": "100% full",
+   "sub": "Oct 2010",
+   "dy": -60
+  },
+  {
+   "series": 0,
+   "x": 2023.75,
+   "text": "8%",
+   "sub": "Oct 2023, lowest since 2000",
+   "dy": -150
+  },
+  {
+   "series": 0,
+   "x": 2026.87,
+   "text": "23% today",
+   "sub": "Nov 17, 2026",
+   "dy": -230
+  }
+ ],
+ "note": "Data: Texas Water Development Board, Water Data for Texas (daily % full, conservation storage)",
+ "label_lines": false
+}

@@ -1,0 +1,1034 @@
+{
+ "fps": 60,
+ "out": "demo/ep2/episode2.mp4",
+ "audio_dir": "episodes/2026-12-valley-water/audio",
+ "narration_json": "episodes/2026-12-valley-water/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 0,
+    "offset": 20
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 3,
+    "offset": 10
+   },
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 5,
+    "offset": 80
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_falcon_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "chapter": "Cold open: the reservoir",
+   "texts": [
+    {
+     "text": "FALCON RESERVOIR · OCT 2010: 100% FULL",
+     "x": "(w-tw)/2",
+     "y": 930,
+     "size": 38,
+     "font": "Bold",
+     "box": "0x091020@0.6",
+     "at": 0.6,
+     "until": 8.0
+    }
+   ]
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "demo/ep2/chart_falcon.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 13
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 8
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 10
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "kinetic": {
+    "words": [
+     "WILL",
+     "THERE",
+     "BE",
+     "ENOUGH?"
+    ],
+    "at": 3.0,
+    "step": 0.4,
+    "hold": 3.0
+   }
+  },
+  {
+   "label": "on the record",
+   "dur": 8.5,
+   "visuals": [
+    {
+     "video": "demo/ep2/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 8.5
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "WILL THE VALLEY HAVE ENOUGH WATER?",
+      "sub": "What the Rio Grande means for builders and investors"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 3.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "WHERE THE WATER COMES FROM",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: Where the water comes from",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_basin.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 13
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 2,
+     "weight": 1.0,
+     "len": 6
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Brownsville's water supply",
+      "big": "~70%",
+      "lines": [
+       "comes from the Rio Grande",
+       "about 21 million gallons a day"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_basin.mp4",
+     "ss": 7,
+     "weight": 1.0,
+     "len": 6
+    },
+    {
+     "card": {
+      "type": "timeline",
+      "title": "THE 1944 WATER TREATY",
+      "points": [
+       [
+        "1944",
+        "U.S.-Mexico treaty signed"
+       ],
+       [
+        "EVERY 5 YEARS",
+        "Mexico owes 1.75M acre-feet"
+       ],
+       [
+        "OCT 2025",
+        "last cycle closes in deficit"
+       ]
+      ]
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: Office of the Texas Governor / TCEQ; Congressional Research Service"
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Mexico's commitment, early 2026",
+      "big": "350,000",
+      "lines": [
+       "acre-feet a year, minimum",
+       "plus a plan to repay past-cycle debt"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "data/imagery/PIA25446.jpg",
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: U.S. State Dept. / USDA joint statement, Feb 2026 · Image: NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team"
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Year 1 of the new cycle (Oct 2026)",
+      "big": "MINIMUM MET",
+      "lines": [
+       "Still owed from the last cycle:",
+       "about 830,000 to 860,000 acre-feet"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep1/v_falcon_s.mp4",
+     "ss": 5,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: Mexican government via Rio Times; Texas Politics; Sen. Cruz's office; Freshplaza",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_acrefoot_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "label": "part 2",
+   "dur": 3.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "THE RESERVOIRS",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: The reservoirs",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "video": "demo/ep2/chart_both.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9.8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "video": "demo/ep2/chart_both.mp4",
+     "ss": 9.8,
+     "weight": 1.0,
+     "len": 11.2
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_bars_reservoirs_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 13
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "label": "part 3",
+   "dur": 3.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "WHO GETS CUT FIRST",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: Who gets cut first",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "video": "demo/ep2/doc_unmet.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 8.9
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "video": "demo/ep2/doc_unmet.mp4",
+     "ss": 8.9,
+     "weight": 1.0,
+     "len": 10.1
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_bars_shortfall_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 18.4
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Santa Rosa, Texas · 2024",
+      "big": "MILL CLOSED",
+      "lines": [
+       "Texas' last sugar mill, after 50 years",
+       "cited heat and a shortage of irrigation water"
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: KSAT, Mar 2024; Texas Workforce Commission; KRGV",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 10
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Source: KRGV, 2026"
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "video": "demo/ep2/doc_push.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 20
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "label": "part 4",
+   "dur": 3.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "WHAT IT MEANS FOR BUILDERS",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: What it means for builders",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 8.4
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "kinetic": {
+    "words": [
+     "FARM",
+     "WATER",
+     "BECOMES",
+     "CITY WATER"
+    ],
+    "at": 0.6,
+    "step": 0.4,
+    "hold": 3.0,
+    "size": 110
+   }
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "video": "demo/ep2/doc_convert.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 16.9
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "video": "demo/ep2/chart_urban.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 11
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 7
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "WATER AND NEW PROJECTS",
+      "items": [
+       "Some cities: prove your own water supply first",
+       "Others are rethinking their rules",
+       "Converted farm rights: about 2 for 1"
+      ]
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "card": {
+      "type": "timeline",
+      "title": "MISSION, TEXAS",
+      "points": [
+       [
+        "2024",
+        "weighed pausing developments over 5 acres"
+       ],
+       [
+        "MAR 2026",
+        "6-month pause on new car washes"
+       ],
+       [
+        "SPRING 2026",
+        "repealed after a lawsuit"
+       ]
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 3,
+     "weight": 1.0,
+     "len": 8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: MyRGV, Mar 2024; KRGV, Mar-Apr 2026"
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 13
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "headline": [
+    "EDINBURG",
+    "127+ subdivisions under construction · water supply goal: 2030"
+   ],
+   "credit": "Source: RGV Business Journal, Apr 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "card": {
+      "type": "quote",
+      "quote": "Water security is a top priority... we need to think ahead.",
+      "by": "Edinburg Mayor Omar Ochoa",
+      "source": "to the RGV Business Journal, April 2026"
+     },
+     "weight": 1.0
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "EDINBURG'S WATER PLAN",
+      "items": [
+       "Study: desalinating brackish groundwater",
+       "Capture stormwater before it reaches the river",
+       "$33M wastewater plant expansion: 12.3 to 13.5 MGD"
+      ]
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Source: RGV Business Journal, Apr 2026"
+  },
+  {
+   "narr": "n27",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 12
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "headline": [
+    "BROWNSVILLE",
+    "SpaceX land deal funds a water reuse plant + treatment-plant expansion"
+   ],
+   "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 5",
+   "dur": 3.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "NEW WATER",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: New water",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n28",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 5.8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "kinetic": {
+    "words": [
+     "WHERE",
+     "NEW",
+     "WATER",
+     "COMES FROM"
+    ],
+    "at": 0.3,
+    "step": 0.35,
+    "hold": 2.2,
+    "size": 110
+   }
+  },
+  {
+   "narr": "n29",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Texas Proposition 4, Nov 2025 · about 70% yes",
+      "big": "$20 BILLION",
+      "lines": [
+       "up to $1 billion a year in sales tax",
+       "for water projects, starting 2027"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/map_basin.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: Texas Secretary of State; The Texas Tribune; Texas 2036"
+  },
+  {
+   "narr": "n30",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Canal modernization, 12 irrigation districts",
+      "big": "UP TO $164M",
+      "lines": [
+       "open canals into pipelines",
+       "saves up to 44,000 acre-feet a year"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: NADBank, Aug 2026; TWDB, Sep 2026; KRGV"
+  },
+  {
+   "narr": "n31",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_spi_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 22.7
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ],
+   "credit": "Sources: KRGV; Texas Border Business; MyRGV, Aug 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 6",
+   "dur": 3.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 6",
+      "title": "WHAT TO WATCH",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 6: What to watch",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n32",
+   "visuals": [
+    {
+     "video": "demo/ep2/chart_falcon.mp4",
+     "ss": 7,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n33",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "RISKS TO WATCH",
+      "items": [
+       "Reservoir levels and Mexico's deliveries",
+       "City water-rights rules for new projects",
+       "The price of new water (desalination, reuse)",
+       "Moratorium talk during droughts"
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_bars_reservoirs_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n34",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "ASK BEFORE YOU BUILD",
+      "items": [
+       "Who supplies water to this site?",
+       "Must the project bring its own water rights? At what cost?",
+       "What's the supplier's drought plan?"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 14,
+     "weight": 1.0,
+     "len": 8
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n35",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 9
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "THE OPPORTUNITY SIDE",
+      "items": [
+       "Projects with their own water may move faster",
+       "Know the rules: spot overlooked land",
+       "Avoid deals that look cheap until the water bill"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n36",
+   "visuals": [
+    {
+     "video": "demo/ep2/map_canals.mp4",
+     "ss": 10,
+     "weight": 1.0,
+     "len": 12
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "narr": "n37",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_falcon_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.6
+    }
+   ],
+   "pad": [
+    0.6,
+    1.2
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

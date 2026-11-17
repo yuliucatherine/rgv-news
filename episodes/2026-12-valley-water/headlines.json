@@ -1,0 +1,40 @@
+{
+ "fps": 60,
+ "seconds": 8.5,
+ "step": 0.7,
+ "title": "ON THE RECORD",
+ "subtitle": "What newsrooms and officials have reported",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Nov 2026",
+   "headline": "New leader takes over water group as South Texas braces for major shortages"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Apr 2026",
+   "headline": "Edinburg touts growth, new subdivisions, and water supply plans"
+  },
+  {
+   "outlet": "KRGV",
+   "date": "2026",
+   "headline": "$1 billion desalination plant coming to South Padre Island"
+  },
+  {
+   "outlet": "KRGV",
+   "date": "2026",
+   "headline": "Rio Grande Valley irrigation districts secure millions in funding to convert canals, save water"
+  },
+  {
+   "outlet": "KRGV",
+   "date": "Mar 2026",
+   "headline": "‘We have enough:’ Mission puts temporary hold on new car washes"
+  },
+  {
+   "outlet": "The Texas Tribune",
+   "date": "May 2025",
+   "headline": "Rio Grande Valley leaders need more water to sustain growth"
+  }
+ ]
+}
