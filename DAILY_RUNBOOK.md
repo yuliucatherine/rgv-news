@@ -133,3 +133,11 @@ Posts per episode:
 - Upload full-quality masters (no HEVC squeeze needed). Keys: `episodes/<date>/<slug>.mp4`, `shorts/<date>/<slug>.mp4`.
 - Metricool copies media into its own storage when a post is scheduled, so old files can be deleted
   after the post publishes to stay far below the 10 GB free tier.
+
+## Always moving (owner rule, Nov 17, 2026)
+- Never hold a static frame with only voice-over. Something must move on screen at all times.
+- Change the main visual at least every 4-8 seconds in Shorts (8-12 s in long episodes); a single card,
+  chart or quote may hold the screen for 6 s at most in a Short, then cut, zoom or animate.
+- Charts build (bars grow, lines draw, numbers count); cards get a push-in plus elements animating in;
+  quotes reveal line by line with a cutaway to footage or a map; maps pan/zoom while labels pop.
+- QC step: scan each Short/episode for any 5 s window with near-zero frame difference and fix it before review.
