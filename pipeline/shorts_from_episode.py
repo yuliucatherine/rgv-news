@@ -41,7 +41,8 @@ def dt(tmp, text, x, y, size, font="Black", color="white", a=0.0, b=1e9, border=
 def main(cfg):
     tl = json.load(open(cfg["timeline"]))
     out = cfg["out"]; base = os.path.splitext(out)[0]
-    tmp = base + "_work"; shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
+    tmp = base + "_work"; reuse = os.environ.get("REUSE") and os.path.exists(os.path.join(tmp, "clean.mp4"))
+    if not reuse: shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
     # 1) clean 16:9 sub-episode from the chosen blocks (episode text stripped, music bed added)
     sub = {k: v for k, v in tl.items() if k not in ("blocks", "music", "out", "tmp")}
     sub["fps"] = FPS; sub["out"] = os.path.join(tmp, "clean.mp4"); sub["tmp"] = os.path.join(tmp, "build")
@@ -55,8 +56,9 @@ def main(cfg):
     m = cfg.get("music")
     if m: sub["music"] = {"level_lufs": -27, "segments": [{"track": m["track"], "at": 0, "offset": m.get("offset", 0)}]}
     sj = os.path.join(tmp, "sub.json"); json.dump(sub, open(sj, "w"))
-    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "longform.py"), sj],
-                   check=True)
+    if not reuse:   # REUSE=1 re-composes the vertical layout without re-rendering the episode blocks
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "longform.py"), sj],
+                       check=True)
     # 2) caption timing, mirroring longform's own split (narration starts after pad[0])
     narr = {p["id"]: p["text"] for p in json.load(open(tl["narration_json"]))}
     caps, t0 = [], 0.0
@@ -90,11 +92,11 @@ def main(cfg):
     if cfg.get("credit"):
         dts.append(dt(tmp, cfg["credit"], f"{SAFE_R}-tw", VID_Y + 608 - 40, 24, "Medium", "0xE2E8F0", 0, total, border=3))
     end = cfg.get("end_text", "Full 10-minute breakdown on our YouTube channel")
-    es = fit_size(end, "Bold", 40, SAFE_R - SAFE_L - 40)
-    dts.append(dt(tmp, end, "(w-tw)/2", VID_Y + 304 - es // 2, es, "Bold", "0xFFFFFF", total - 2.4, total,
+    es = fit_size(end, "Black", 50, SAFE_R - SAFE_L - 40)
+    dts.append(dt(tmp, end, "(w-tw)/2", CAP_Y - es // 2, es, "Black", "0xFFFFFF", total - 2.4, total,
                   box="0x091020@0.85", fade=0.3))
     fl = (f"[0:v]split[a][b];[a]scale=-2:{H},crop={W}:{H},gblur=sigma=40,eq=brightness=-0.22:saturation=0.7[bg];"
-          f"[b]scale={W}:608[fg];[bg][fg]overlay=0:{VID_Y},"
+          f"[b]scale={W}:608[fg];[bg][fg]overlay=0:{VID_Y},drawbox=x=0:y=0:w={W}:h={VID_Y}:color=0x091020@0.9:t=fill,"
           f"drawbox=x=0:y={VID_Y}:w={W}:h=3:color=0xF97316@1:t=fill,drawbox=x=0:y={VID_Y + 605}:w={W}:h=3:color=0xF97316@1:t=fill,"
           + ",".join(dts) + ",format=yuv420p[v]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", sub["out"], "-filter_complex", fl, "-map", "[v]",
