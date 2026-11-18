@@ -467,7 +467,7 @@
    "narr": "n12",
    "visuals": [
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
+     "video": "demo/ep3/map_port.mp4",
      "ss": 0,
      "weight": 1.0,
      "len": 9.5
@@ -506,8 +506,8 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 9,
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 12,
      "weight": 1.0,
      "len": 6
     }
@@ -802,8 +802,8 @@
    "narr": "n24",
    "visuals": [
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 12,
+     "video": "demo/ep3/v_channel_s.mp4",
+     "ss": 18,
      "weight": 1.0,
      "len": 4.7
     }
@@ -828,8 +828,8 @@
    "narr": "n25",
    "visuals": [
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 0,
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 16,
      "weight": 1.0,
      "len": 4.5
     },
