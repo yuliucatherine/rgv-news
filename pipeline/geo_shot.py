@@ -135,5 +135,6 @@ only = os.environ.get("ONLY_FRAME")
 if only:
     sc.frame_set(int(only)); r.filepath = os.path.join(fdir, f"test_{only}.png"); bpy.ops.render.render(write_still=True)
 else:
+    r.use_overwrite = False   # resume: skip frames already on disk
     bpy.ops.render.render(animation=True)
 print("geo shot done")
