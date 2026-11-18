@@ -42,8 +42,8 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 
 ## PART 2: THE CONSTRUCTION WAVE (2:15–3:45)
 *KINETIC: 7,500 · WORKERS · AT · PEAK*
-**N07:** This spring, with global gas supplies squeezed, Rio Grande LNG asked federal regulators to speed up: a peak workforce of seventy-five hundred, with a night shift, around the clock until twenty twenty-seven.
-(RGV Business Journal, Apr 7, 2026, citing the FERC request)
+**N07:** This spring, with global gas supplies squeezed, Rio Grande LNG asked federal regulators to speed things up, and in April they said yes: a peak workforce of seventy-five hundred, and construction around the clock.
+(RGV Business Journal, Apr 7, 2026; FERC approval Apr 10, 2026, via Reuters / LNG Prime / Pipeline & Gas Journal)
 **N08:** That many workers need places to sleep, eat, and park. Rentals, hotels, RV parks, restaurants, and contractors all feel it.
 **N08b:** But not all of them are newcomers. NextDecade says about three-quarters of its onsite workforce has been local, people who already live in the Valley and already have homes.
 (NextDecade: about 75% of onsite workforce local, Jul 2023–Jun 2026)
@@ -83,5 +83,9 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 ## Open items before narration
 - [ ] ERCOT 'current round of upgrades' wording: from RGVBJ Aug 5, 2026; keep phrasing general.
 - [ ] Copy exact headlines (og:title) for the montage.
-- [ ] Confirm the FERC approval of the 7,500 workforce (LNG Prime headline "NextDecade gets FERC OK to boost Rio Grande LNG workforce"); if confirmed, N07 can say "and got it".
+- [x] Confirmed FERC approval (Apr 10, 2026) of the 7,500 workforce (LNG Prime headline "NextDecade gets FERC OK to boost Rio Grande LNG workforce"); if confirmed, N07 can say "and got it".
 - [ ] Saronic: confirm the governor's "about 10,000 employees" wording (KRGV quote saved) and the groundbreaking date.
+
+
+## Final narration order
+See narration.json (n00-n29). Changes after approval: trains line moved before the cold-open question; 'Now here's the cliff'; FERC approval confirmed (Apr 10, 2026).
