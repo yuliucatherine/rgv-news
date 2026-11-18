@@ -1,0 +1,22 @@
+{
+ "photo": "demo/ep3/bars_jobs/f0192.png",
+ "crop": [
+  -280,
+  -158,
+  960,
+  540
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "LNG JOBS AT PEAK",
+ "number": "7,500",
+ "headline": [
+  "AFTER 2027:",
+  "ABOUT 700"
+ ],
+ "sub": "The Port of Brownsville boom, for builders and investors",
+ "pad_color": [
+  25,
+  36,
+  56
+ ]
+}
