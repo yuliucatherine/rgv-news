@@ -112,7 +112,13 @@ Posts per episode:
 - Episodes render at 60 fps (`"fps": 60` in the timeline); 3D shots held longer than rendered must be
   smoothed with `pipeline/smooth.py` (the assembler warns when a clip would look choppy).
 - Music: quiet ducked bed via the timeline `"music"` key (`pipeline/music_bed.py`); CC BY tracks only,
-  credited in the description.
+  credited in the description. Library (`assets/music/`, Kevin MacLeod, incompetech.com, CC BY 4.0;
+  catalog: incompetech.com/music/royalty-free/pieces.json):
+  - Deliberate Thought, Unanswered Questions: calm explainer
+  - Industrial Cinematic, Crusade - Heavy Industry: construction, ports, industry
+  - Rising Tide: energetic middle sections · I Can Feel it Coming: risks and tension
+  - Inspired: opportunities and closings · Dreamer: soft piano for reflective beats
+  Vary the tracks between episodes; list every track used in the description's MUSIC line.
 - Thumbnail: `pipeline/thumbnail.py` + `episodes/<ep>/thumbnail.json` (own footage, one sourced number,
   short headline, brand chip).
 

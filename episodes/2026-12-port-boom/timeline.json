@@ -8,19 +8,24 @@
   "level_lufs": -27,
   "segments": [
    {
-    "track": "assets/music/Deliberate_Thought.mp3",
+    "track": "assets/music/Industrial_Cinematic.mp3",
     "chapter": 0,
-    "offset": 40
+    "offset": 20
    },
    {
-    "track": "assets/music/Unanswered_Questions.mp3",
+    "track": "assets/music/Rising_Tide.mp3",
     "chapter": 2,
     "offset": 30
    },
    {
-    "track": "assets/music/Deliberate_Thought.mp3",
+    "track": "assets/music/I_Can_Feel_it_Coming.mp3",
     "chapter": 4,
-    "offset": 100
+    "offset": 20
+   },
+   {
+    "track": "assets/music/Inspired.mp3",
+    "chapter": 5,
+    "offset": 60
    }
   ]
  },

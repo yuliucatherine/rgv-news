@@ -18,7 +18,7 @@ VISUALS
 Maps: U.S. Census Bureau TIGER/Line. Aerial imagery: USGS The National Map. Elevation: Mapzen/AWS Terrain Tiles. Document excerpt quoted from the RGV Business Journal. 3D scenes and charts by RGV News; 3D scenes are illustrative and site locations are approximate.
 
 MUSIC
-"Deliberate Thought" and "Unanswered Questions" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
+"Industrial Cinematic", "Rising Tide", "I Can Feel it Coming" and "Inspired" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
 
 Narration is AI-generated (ElevenLabs) from a script researched and fact-checked against the sources above. This video is for information only and is not financial or investment advice.
 

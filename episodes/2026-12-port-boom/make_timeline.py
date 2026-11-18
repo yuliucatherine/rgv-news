@@ -125,9 +125,10 @@ for b in B:   # 3D overlays and maps carry their own credit line at the bottom: 
 tl = {"fps": 60, "trim_narration": True, "out": "demo/ep3/episode3.mp4", "audio_dir": "episodes/2026-12-port-boom/audio",
       "narration_json": "episodes/2026-12-port-boom/narration.json",
       "music": {"level_lufs": -27, "segments": [
-          {"track": "assets/music/Deliberate_Thought.mp3", "chapter": 0, "offset": 40},
-          {"track": "assets/music/Unanswered_Questions.mp3", "chapter": 2, "offset": 30},
-          {"track": "assets/music/Deliberate_Thought.mp3", "chapter": 4, "offset": 100}]},
+          {"track": "assets/music/Industrial_Cinematic.mp3", "chapter": 0, "offset": 20},
+          {"track": "assets/music/Rising_Tide.mp3", "chapter": 2, "offset": 30},
+          {"track": "assets/music/I_Can_Feel_it_Coming.mp3", "chapter": 4, "offset": 20},
+          {"track": "assets/music/Inspired.mp3", "chapter": 5, "offset": 60}]},
       "blocks": B}
 json.dump(tl, open(os.path.join(os.path.dirname(__file__), "timeline.json"), "w"), indent=1, ensure_ascii=False)
 print(len(B), "blocks")
