@@ -1,0 +1,16 @@
+{
+ "frames_dir": "demo/ep3/channel_frames",
+ "labels_json": "demo/ep3/channel_frames/labels.json",
+ "out_mp4": "demo/ep3/v_channel.mp4",
+ "fps_in": 24,
+ "labels_from": 0.12,
+ "callouts": [
+  {
+   "text": "42 ft \u2192 52 ft",
+   "sub": "Brownsville Ship Channel, deepened 2026 \u00b7 about 17 miles",
+   "start": 3.0,
+   "end": 9.6
+  }
+ ],
+ "credit": "Imagery: USGS The National Map \u00b7 Elevation: AWS Terrain Tiles \u00b7 LNG site location approximate"
+}

@@ -1,0 +1,9 @@
+{"fps": 60, "seconds": 6.0, "step": 0.5,
+ "title": "ON THE RECORD", "subtitle": "What newsrooms and officials have reported",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {"outlet": "RGV Business Journal", "date": "Jun 2026", "headline": "Port of Brownsville’s $539M project creates one of the Gulf's deepest channels, allowing larger vessels to call"},
+  {"outlet": "RGV Business Journal", "date": "Apr 2026", "headline": "Rio Grande LNG pushes for round-the-clock construction and more workers as global supply tightens"},
+  {"outlet": "KRGV", "date": "2026", "headline": "Saronic Technologies moving forward with $3.2 billion shipyard project at Port of Brownsville"},
+  {"outlet": "RGV Business Journal", "date": "Aug 2026", "headline": "New RGV capital projects group tackles infrastructure, workforce challenges"}
+ ]}

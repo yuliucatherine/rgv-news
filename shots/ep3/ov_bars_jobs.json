@@ -1,0 +1,23 @@
+{
+ "frames_dir": "demo/ep3/bars_jobs",
+ "labels_json": "demo/ep3/bars_jobs/labels.json",
+ "out_mp4": "demo/ep3/v_bars_jobs.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Construction peak": [
+   "",
+   7500,
+   "",
+   0,
+   "construction peak (FERC-approved)"
+  ],
+  "Permanent jobs": [
+   "",
+   700,
+   "",
+   0,
+   "permanent jobs, once operating"
+  ]
+ },
+ "credit": "Sources: FERC approval (Apr 2026); NextDecade; RGV Business Journal"
+}

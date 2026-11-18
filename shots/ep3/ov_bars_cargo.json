@@ -1,0 +1,23 @@
+{
+ "frames_dir": "demo/ep3/bars_cargo",
+ "labels_json": "demo/ep3/bars_cargo/labels.json",
+ "out_mp4": "demo/ep3/v_bars_cargo.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "FY2020": [
+   "~",
+   13.9,
+   "M tons",
+   1,
+   "fiscal 2020 (implied)"
+  ],
+  "FY2025": [
+   "",
+   28,
+   "M tons",
+   0,
+   "fiscal 2025"
+  ]
+ },
+ "credit": "Source: Port of Brownsville via RGV Business Journal (28M tons, +101% in five years)"
+}

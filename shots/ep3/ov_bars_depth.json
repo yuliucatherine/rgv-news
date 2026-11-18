@@ -1,0 +1,37 @@
+{
+ "frames_dir": "demo/ep3/bars_depth",
+ "labels_json": "demo/ep3/bars_depth/labels.json",
+ "out_mp4": "demo/ep3/v_bars_depth.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Brownsville before": [
+   "",
+   42,
+   " ft",
+   0,
+   "Brownsville, before"
+  ],
+  "Houston": [
+   "",
+   45,
+   " ft",
+   0,
+   "Houston"
+  ],
+  "Brownsville now": [
+   "",
+   52,
+   " ft",
+   0,
+   "Brownsville, now"
+  ],
+  "Corpus Christi": [
+   "",
+   54,
+   " ft",
+   0,
+   "Corpus Christi"
+  ]
+ },
+ "credit": "Channel depths: RGV Business Journal, Jun 26, 2026"
+}
