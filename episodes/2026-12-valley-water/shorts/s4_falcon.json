@@ -1,0 +1,20 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  0,
+  1,
+  15,
+  16
+ ],
+ "out": "demo/shorts/s4_falcon.mp4",
+ "hook": [
+  "FALCON RESERVOIR:",
+  "*100% FULL TO 8%*",
+  "IN 13 YEARS"
+ ],
+ "credit": "Data: TWDB, Water Data for Texas",
+ "music": {
+  "track": "assets/music/Unanswered_Questions.mp3",
+  "offset": 40
+ }
+}

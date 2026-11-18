@@ -66,6 +66,8 @@ def main(cfg):
         D = longform.probe_dur(os.path.join(sub["tmp"], f"blk_{k:03d}.mp4"))
         if b.get("narr"):
             mp3 = os.path.join(tl["audio_dir"], f"{b['narr']}.mp3")
+            trimmed = os.path.join(sub["tmp"], f"trim_{b['narr']}.wav")   # matches longform trim_narration
+            if tl.get("trim_narration") and os.path.exists(trimmed): mp3 = trimmed
             nd = longform.probe_dur(mp3); pad0 = b.get("pad", [0.5, 0.8])[0]
             chunks = longform.caption_chunks(narr[b["narr"]], maxc=cfg.get("cap_chars", 22))
             tot = sum(len(c) + 3 for c in chunks); t = t0 + pad0

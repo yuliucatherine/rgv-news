@@ -1,0 +1,20 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  26,
+  27,
+  28,
+  29
+ ],
+ "out": "demo/shorts/s6_farm_to_city.mp4",
+ "hook": [
+  "FARM WATER",
+  "*BECOMES CITY WATER*",
+  "AT 2-FOR-1"
+ ],
+ "credit": "Source: 2026 Region M plan (TCEQ rules)",
+ "music": {
+  "track": "assets/music/Deliberate_Thought.mp3",
+  "offset": 30
+ }
+}
