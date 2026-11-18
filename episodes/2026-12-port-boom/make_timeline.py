@@ -99,7 +99,7 @@ B = [
       kinetic={"words": ["POWER", "ROADS", "WATER"], "at": 0.4, "step": 0.45, "hold": 3.0, "size": 120}),
     # ---------------- part 5
     section("PART 5", "WHAT IT MEANS FOR BUILDERS", "Part 5: What it means for builders", "blue"),
-    N("n24", [V(CH, 18, 4.7)],
+    N("n24", [V(CH, 0.5, 4.7)],
       kinetic={"words": ["BUILD", "BUY", "LEND"], "at": 0.2, "step": 0.35, "hold": 2.6, "size": 120}),
     N("n25", [V(MAP, 16, 4.5), C({"type": "list", "title": "TWO KINDS OF DEMAND",
               "items": ["Temporary: construction crews, short-term rentals, RV parks, hotels",
