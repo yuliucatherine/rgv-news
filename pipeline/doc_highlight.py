@@ -32,8 +32,10 @@ def main(cfg, out):
     page = Image.new("RGB", (PW, PH), PAPER); d = ImageDraw.Draw(page)
     d.text((110, 90), cfg.get("source", ""), font=fs, fill=(110, 116, 128))
     d.line([(110, 140), (PW - 110, 140)], fill=(200, 200, 200), width=2)
-    d.text((110, 190), cfg.get("heading", ""), font=fh, fill=TEXT)
-    y = 300; hl_boxes = []      # (paragraph index, [line boxes])
+    y = 190
+    for ln in wrap(d, cfg.get("heading", ""), fh, PW - 220):     # long article headlines wrap
+        d.text((110, y), ln, font=fh, fill=TEXT); y += 64
+    y = max(300, y + 46); hl_boxes = []      # (paragraph index, [line boxes])
     for pi, p in enumerate(cfg["paragraphs"]):
         lines = wrap(d, p["text"], fb, PW - 220)
         boxes = []
@@ -78,8 +80,10 @@ def main(cfg, out):
         fr.alpha_composite(sh, (gx - int(60 * scale), gy - int(60 * scale)))
         fr.alpha_composite(im, (gx, gy))
         dd = ImageDraw.Draw(fr)
-        dd.text((W - 40, H - 40), cfg.get("credit", "Source: " + cfg.get("source", "")), font=F("Medium", 22),
-                fill=(203, 213, 225, 230), anchor="rs")
+        ct = cfg.get("credit", "Source: " + cfg.get("source", "")); cf = F("Medium", 22)
+        x0, y0, x1, y1 = dd.textbbox((W - 40, H - 40), ct, font=cf, anchor="rs")
+        dd.rounded_rectangle([x0 - 14, y0 - 10, x1 + 14, y1 + 10], radius=8, fill=NAVY + (235,))   # readable over the page
+        dd.text((W - 40, H - 40), ct, font=cf, fill=(203, 213, 225, 255), anchor="rs")
         fr.convert("RGB").save(f"{tmp}/{f:05d}.png")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", f"{tmp}/%05d.png",
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", out], check=True)

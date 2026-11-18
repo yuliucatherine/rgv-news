@@ -1,0 +1,965 @@
+{
+ "fps": 60,
+ "trim_narration": true,
+ "out": "demo/ep3/episode3.mp4",
+ "audio_dir": "episodes/2026-12-port-boom/audio",
+ "narration_json": "episodes/2026-12-port-boom/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 0,
+    "offset": 40
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 2,
+    "offset": 30
+   },
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 4,
+    "offset": 100
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 10.3
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "chapter": "Cold open: Highway 48",
+   "headline": [
+    "HIGHWAY 48",
+    "6,000+ workers building Rio Grande LNG, around the clock"
+   ],
+   "credit": "Source: RGV Business Journal, Jun 26, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 10.7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Aug 5, 2026 ($30B developer valuation)",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_channel_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 7.2
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Why the work never stops",
+      "big": "LNG DEMAND",
+      "lines": [
+       "natural gas, chilled into a liquid to ship overseas",
+       "Middle East fighting cut world supply in 2026"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Apr 7, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "card": {
+      "type": "timeline",
+      "title": "RIO GRANDE LNG",
+      "points": [
+       [
+        "Q2 2027",
+        "first LNG from Train 1 expected"
+       ],
+       [
+        "SEP 2026",
+        "Army Corps OK for Train 6"
+       ],
+       [
+        "NEXT",
+        "Trains 7-8: FERC filing planned"
+       ]
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: NextDecade Q3 2026 business update; SEC 10-Q",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6
+    },
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 10,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "HOW",
+     "MANY",
+     "JOBS",
+     "STAY?"
+    ],
+    "at": 4.6,
+    "step": 0.35,
+    "hold": 3.0,
+    "size": 120
+   }
+  },
+  {
+   "label": "on the record",
+   "dur": 6.0,
+   "visuals": [
+    {
+     "video": "demo/ep3/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 2.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "THE PORT OF BROWNSVILLE BOOM",
+      "sub": "What stays after 2027?"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "WHAT'S BEING BUILT",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: What's being built",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_channel_s.mp4",
+     "ss": 7,
+     "weight": 1.0,
+     "len": 10.9
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Jun 26, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Ship channel deepening, 2026",
+      "big": "$539M",
+      "lines": [
+       "about $400M paid by NextDecade",
+       "the company building Rio Grande LNG"
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 2,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Jun 26, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 13,
+     "weight": 1.0,
+     "len": 4.5
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Rio Grande LNG lease from the port",
+      "big": "984 ACRES",
+      "lines": [
+       "30-year term",
+       "one project, one tenant"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Jun 26, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_bars_cargo_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 10.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_bars_depth_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n09b",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Saronic Technologies shipyard",
+      "big": "$3.2 BILLION",
+      "lines": [
+       "autonomous ships, Port of Brownsville",
+       "Gov. Abbott: about 10,000 jobs, eventually"
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: KRGV; Office of the Texas Governor",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.5
+    },
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 18,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "$30B+",
+     "IN",
+     "POTENTIAL",
+     "PROJECTS"
+    ],
+    "at": 0.6,
+    "step": 0.35,
+    "hold": 3.0,
+    "size": 110
+   },
+   "credit": "Source: Port of Brownsville, State of the Port address, Jun 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 2",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "THE CONSTRUCTION WAVE",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: The construction wave",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 7
+    },
+    {
+     "card": {
+      "type": "timeline",
+      "title": "RIO GRANDE LNG: SPEED IT UP",
+      "points": [
+       [
+        "APR 7, 2026",
+        "asks FERC: more workers, 24/7"
+       ],
+       [
+        "APR 10, 2026",
+        "FERC approves"
+       ],
+       [
+        "PEAK",
+        "about 7,500 workers"
+       ]
+      ]
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "7,500",
+     "WORKERS",
+     "AT PEAK"
+    ],
+    "at": 1.0,
+    "step": 0.4,
+    "hold": 3.0,
+    "size": 120
+   },
+   "credit": "Sources: RGV Business Journal, Apr 7, 2026; FERC via LNG Prime",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "SLEEP",
+     "EAT",
+     "PARK"
+    ],
+    "at": 0.8,
+    "step": 0.45,
+    "hold": 2.6,
+    "size": 120
+   }
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Rio Grande LNG onsite workforce",
+      "big": "~75% LOCAL",
+      "lines": [
+       "Jul 2023 to Jun 2026",
+       "people who already live in the Valley"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 9,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: NextDecade",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_bars_jobs_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 7.7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_bars_jobs_s.mp4",
+     "ss": 7.7,
+     "weight": 1.0,
+     "len": 12.3
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "card": {
+      "type": "timeline",
+      "title": "EXPANSION: THE WILD CARD",
+      "points": [
+       [
+        "TRAIN 1",
+        "first LNG expected Q2 2027"
+       ],
+       [
+        "TRAIN 6",
+        "Army Corps OK, Sep 2026"
+       ],
+       [
+        "TRAINS 7-8",
+        "FERC filing planned"
+       ]
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: NextDecade Q3 2026 business update; SEC 10-Q",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 3",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "WHAT LASTS",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: What lasts",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_channel_s.mp4",
+     "ss": 13.5,
+     "weight": 1.0,
+     "len": 11.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 11.2
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "A PROJECTION,",
+     "NOT A",
+     "PAYROLL"
+    ],
+    "at": 5.4,
+    "step": 0.45,
+    "hold": 3.5,
+    "size": 110
+   },
+   "credit": "Source: KRGV; Office of the Texas Governor",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 10.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "headline": [
+    "STARBASE",
+    "3,400+ workers · about 4,000 more signaled for 2026"
+   ],
+   "credit": "Source: RGV Business Journal, Aug 5, 2026, citing Cameron County",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Cameron County estimate",
+      "big": "21,400",
+      "lines": [
+       "indirect jobs tied to SpaceX",
+       "an estimate, worth checking"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Aug 5, 2026, citing Cameron County",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 4",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "THE CONSTRAINTS",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: The constraints",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "video": "demo/ep3/doc_ercot.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.2
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "video": "demo/ep3/doc_ercot.mp4",
+     "ss": 12.2,
+     "weight": 1.0,
+     "len": 11.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "video": "demo/ep1/map_rgv_clean_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9.9
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "POWER",
+     "ROADS",
+     "WATER"
+    ],
+    "at": 0.4,
+    "step": 0.45,
+    "hold": 3.0,
+    "size": 120
+   }
+  },
+  {
+   "label": "part 5",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "WHAT IT MEANS FOR BUILDERS",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: What it means for builders",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 12,
+     "weight": 1.0,
+     "len": 4.7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "BUILD",
+     "BUY",
+     "LEND"
+    ],
+    "at": 0.2,
+    "step": 0.35,
+    "hold": 2.6,
+    "size": 120
+   }
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 4.5
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "TWO KINDS OF DEMAND",
+      "items": [
+       "Temporary: construction crews, short-term rentals, RV parks, hotels",
+       "Permanent: workers who buy homes and enroll kids in school"
+      ]
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "ASK BEFORE YOU BUILD NEAR THE PORT",
+      "items": [
+       "Is demand tied to a construction schedule or a payroll?",
+       "When does that schedule end?",
+       "Which permanent employers are hiring today?"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 14,
+     "weight": 1.0,
+     "len": 5.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n27",
+   "visuals": [
+    {
+     "video": "demo/ep3/v_channel_s.mp4",
+     "ss": 3,
+     "weight": 1.0,
+     "len": 7
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "THE OPPORTUNITY SIDE",
+      "items": [
+       "Workforce housing near Highway 48",
+       "Industrial and logistics space on the deeper channel",
+       "Services every new payroll needs"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n28",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "OUR WATCH LIST",
+      "items": [
+       "Federal decisions on more LNG trains",
+       "Saronic's actual hiring",
+       "ERCOT grid upgrades for the Valley"
+      ]
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep3/map_port.mp4",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n29",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_port_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 9.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 3,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

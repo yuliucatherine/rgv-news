@@ -1,0 +1,5 @@
+{"timeline": "episodes/2026-12-port-boom/timeline.json", "blocks": [17, 18, 33, 34],
+ "out": "demo/shorts/s9_ask_first.mp4",
+ "hook": ["BUILDING NEAR", "THE PORT?", "*ASK THIS FIRST*"],
+ "credit": "Sources: NextDecade; RGV Business Journal",
+ "music": {"track": "assets/music/Deliberate_Thought.mp3", "offset": 120}}
