@@ -9,28 +9,28 @@
    42,
    " ft",
    0,
-   "Brownsville, before"
+   ""
   ],
   "Houston": [
    "",
    45,
    " ft",
    0,
-   "Houston"
+   "main channel"
   ],
   "Brownsville now": [
    "",
    52,
    " ft",
    0,
-   "Brownsville, now"
+   "after 2026 deepening"
   ],
   "Corpus Christi": [
    "",
    54,
    " ft",
    0,
-   "Corpus Christi"
+   ""
   ]
  },
  "credit": "Channel depths: RGV Business Journal, Jun 26, 2026"
