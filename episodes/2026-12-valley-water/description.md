@@ -4,12 +4,12 @@ Falcon Reservoir went from 100% full in 2010 to 8% in 2023. It's about 23% today
 
 CHAPTERS
 0:00 Cold open: the reservoir
-1:06 Part 1: Where the water comes from
-2:38 Part 2: The reservoirs
-3:19 Part 3: Who gets cut first
-5:02 Part 4: What it means for builders
-7:04 Part 5: New water
-8:09 Part 6: What to watch
+0:55 Part 1: Where the water comes from
+2:16 Part 2: The reservoirs
+2:50 Part 3: Who gets cut first
+4:20 Part 4: What it means for builders
+6:07 Part 5: New water
+7:03 Part 6: What to watch
 
 SOURCES
 - Texas Water Development Board, Water Data for Texas: daily reservoir levels for Falcon and Amistad (accessed Nov 17, 2026)
