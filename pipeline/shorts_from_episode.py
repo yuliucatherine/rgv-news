@@ -91,7 +91,7 @@ def main(cfg):
         dts.append(dt(tmp, c, "(w-tw)/2", CAP_Y - size // 2, size, "Black", "0xFFFFFF", a, b, border=6, fade=0.05))
     if cfg.get("credit"):
         dts.append(dt(tmp, cfg["credit"], f"{SAFE_R}-tw", VID_Y + 608 - 40, 24, "Medium", "0xE2E8F0", 0, total, border=3))
-    end = cfg.get("end_text", "Full 10-minute breakdown on our YouTube channel")
+    end = cfg.get("end_text", "Watch the full video on YouTube")
     es = fit_size(end, "Black", 50, SAFE_R - SAFE_L - 40)
     dts.append(dt(tmp, end, "(w-tw)/2", CAP_Y - es // 2, es, "Black", "0xFFFFFF", total - 2.4, total,
                   box="0x091020@0.85", fade=0.3))

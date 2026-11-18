@@ -147,3 +147,9 @@ Posts per episode:
 - No dead air: narration pads about [0.15, 0.3] s, `"trim_narration": true` in the timeline, section cards 1.5 s,
   title card 2.5 s, end card 3 s, headline montage about 6 s. The music bed carries transitions; the voice should
   never stop while an animation plays on its own.
+
+## Shorts always point to the full video (owner rule, Nov 18, 2026)
+- Every Short ends with an on-screen "Watch the full video on YouTube" line (default in shorts_from_episode.py).
+- Every Short caption includes "Watch the full breakdown on YouTube: <direct link to the episode>".
+  Episode 1: https://www.youtube.com/watch?v=Fp4NCLi_k-I
+- Instagram and TikTok captions don't make links clickable: keep the YouTube channel link in both profile bios.
