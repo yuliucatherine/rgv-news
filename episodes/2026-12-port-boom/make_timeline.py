@@ -1,7 +1,7 @@
 """Builds timeline.json for Episode 3 (Port of Brownsville boom).
 Run: python3 episodes/2026-12-port-boom/make_timeline.py
 3D shots are referenced as their 60 fps smoothed versions (_s): channel x2.5 (25 s), bars_jobs x2.5 (20 s),
-bars_depth x1.6 (12.8 s), bars_cargo x1.35 (10.8 s)."""
+bars_depth x1.6 (12.8 s), bars_cargo x1.35 (9.45 s; 7 s render)."""
 import json, os
 
 E3, E2, E1 = "demo/ep3", "demo/ep2", "demo/ep1"
@@ -55,7 +55,7 @@ B = [
     N("n07", [V(MAP, 13, 4.5), C({"type": "stat", "label": "Rio Grande LNG lease from the port", "big": "984 ACRES",
                                   "lines": ["30-year term", "one project, one tenant"], "accent": "teal"})],
       credit=RGVBJ_JUN),
-    N("n08", [V(f"{E3}/v_bars_cargo_s.mp4", 0, 10.5)]),
+    N("n08", [V(f"{E3}/v_bars_cargo_s.mp4", 0, 9.4)]),
     N("n09", [V(f"{E3}/v_bars_depth_s.mp4", 0, 12.6)]),
     N("n09b", [C({"type": "stat", "label": "Saronic Technologies shipyard", "big": "$3.2 BILLION",
                   "lines": ["autonomous ships, Port of Brownsville", "Gov. Abbott: about 10,000 jobs, eventually"]}),
