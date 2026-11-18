@@ -1,5 +1,6 @@
 {
  "fps": 60,
+ "trim_narration": true,
  "out": "demo/ep2/episode2.mp4",
  "audio_dir": "episodes/2026-12-valley-water/audio",
  "narration_json": "episodes/2026-12-valley-water/narration.json",
@@ -35,8 +36,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "chapter": "Cold open: the reservoir",
    "texts": [
@@ -63,8 +64,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -84,8 +85,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -99,8 +100,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "kinetic": {
     "words": [
@@ -116,13 +117,13 @@
   },
   {
    "label": "on the record",
-   "dur": 8.5,
+   "dur": 6.0,
    "visuals": [
     {
      "video": "demo/ep2/headlines.mp4",
      "ss": 0,
      "weight": 1.0,
-     "len": 8.5
+     "len": 6.0
     }
    ],
    "pad": [
@@ -132,7 +133,7 @@
   },
   {
    "label": "title",
-   "dur": 5,
+   "dur": 2.5,
    "visuals": [
     {
      "card": {
@@ -150,7 +151,7 @@
   },
   {
    "label": "part 1",
-   "dur": 3.5,
+   "dur": 1.5,
    "visuals": [
     {
      "card": {
@@ -179,8 +180,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -207,8 +208,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
    "credit_y": 1000
@@ -245,8 +246,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: Office of the Texas Governor / TCEQ; Congressional Research Service"
   },
@@ -272,8 +273,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: U.S. State Dept. / USDA joint statement, Feb 2026 · Image: NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team"
   },
@@ -301,8 +302,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: Mexican government via Rio Times; Texas Politics; Sen. Cruz's office; Freshplaza",
    "credit_y": 1000
@@ -318,13 +319,13 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
    "label": "part 2",
-   "dur": 3.5,
+   "dur": 1.5,
    "visuals": [
     {
      "card": {
@@ -353,8 +354,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -368,8 +369,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -383,13 +384,13 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
    "label": "part 3",
-   "dur": 3.5,
+   "dur": 1.5,
    "visuals": [
     {
      "card": {
@@ -418,8 +419,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -433,8 +434,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -448,8 +449,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -475,8 +476,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: KSAT, Mar 2024; Texas Workforce Commission; KRGV",
    "credit_y": 1000
@@ -492,8 +493,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -507,8 +508,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Source: KRGV, 2026"
   },
@@ -523,13 +524,13 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
    "label": "part 4",
-   "dur": 3.5,
+   "dur": 1.5,
    "visuals": [
     {
      "card": {
@@ -558,8 +559,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "kinetic": {
     "words": [
@@ -585,8 +586,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -600,8 +601,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -627,8 +628,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -663,8 +664,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: MyRGV, Mar 2024; KRGV, Mar-Apr 2026"
   },
@@ -679,8 +680,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "headline": [
     "EDINBURG",
@@ -715,8 +716,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Source: RGV Business Journal, Apr 2026"
   },
@@ -731,8 +732,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "headline": [
     "BROWNSVILLE",
@@ -743,7 +744,7 @@
   },
   {
    "label": "part 5",
-   "dur": 3.5,
+   "dur": 1.5,
    "visuals": [
     {
      "card": {
@@ -772,8 +773,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "kinetic": {
     "words": [
@@ -812,8 +813,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: Texas Secretary of State; The Texas Tribune; Texas 2036"
   },
@@ -841,8 +842,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: NADBank, Aug 2026; TWDB, Sep 2026; KRGV"
   },
@@ -857,15 +858,15 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ],
    "credit": "Sources: KRGV; Texas Border Business; MyRGV, Aug 2026",
    "credit_y": 1000
   },
   {
    "label": "part 6",
-   "dur": 3.5,
+   "dur": 1.5,
    "visuals": [
     {
      "card": {
@@ -894,8 +895,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -922,8 +923,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -950,8 +951,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -978,8 +979,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -993,8 +994,8 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
@@ -1008,13 +1009,13 @@
     }
    ],
    "pad": [
-    0.6,
-    1.2
+    0.15,
+    0.3
    ]
   },
   {
    "label": "end",
-   "dur": 5,
+   "dur": 3,
    "visuals": [
     {
      "card": {

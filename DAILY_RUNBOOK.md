@@ -141,3 +141,9 @@ Posts per episode:
 - Charts build (bars grow, lines draw, numbers count); cards get a push-in plus elements animating in;
   quotes reveal line by line with a cutaway to footage or a map; maps pan/zoom while labels pop.
 - QC step: scan each Short/episode for any 5 s window with near-zero frame difference and fix it before review.
+
+## Length and pacing (owner rule, Nov 18, 2026)
+- Long-form episodes: 6-7 minutes total (about 5,000-5,500 narration characters, roughly 28-32 paragraphs).
+- No dead air: narration pads about [0.15, 0.3] s, `"trim_narration": true` in the timeline, section cards 1.5 s,
+  title card 2.5 s, end card 3 s, headline montage about 6 s. The music bed carries transitions; the voice should
+  never stop while an animation plays on its own.

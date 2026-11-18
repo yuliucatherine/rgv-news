@@ -2,7 +2,7 @@
 import json, os
 
 E2, E1 = "demo/ep2", "demo/ep1"
-P = [0.6, 1.2]
+P = [0.15, 0.3]   # tight: no dead air between paragraphs (owner rule, Nov 18)
 
 
 def V(path, ss=0, ln=None, w=1.0):
@@ -18,7 +18,7 @@ def N(nid, visuals, **kw): return dict(narr=nid, visuals=visuals, pad=kw.pop("pa
 
 
 def section(tag, title, chapter, accent="orange"):
-    return {"label": tag.lower(), "dur": 3.5, "visuals": [C({"type": "section", "tag": tag, "title": title, "accent": accent})],
+    return {"label": tag.lower(), "dur": 1.5, "visuals": [C({"type": "section", "tag": tag, "title": title, "accent": accent})],
             "chapter": chapter, "pad": [0.5, 0.8]}
 
 
@@ -30,8 +30,8 @@ B = [
     N("n02", [V(f"{E2}/v_edinburg_s.mp4", 0, 8), V(f"{E1}/v_starbase_s.mp4", 8, 8)]),
     N("n03", [V(f"{E2}/map_canals.mp4", 12, 10)],
       kinetic={"words": ["WILL", "THERE", "BE", "ENOUGH?"], "at": 3.0, "step": 0.4, "hold": 3.0}),
-    {"label": "on the record", "dur": 8.5, "visuals": [V(f"{E2}/headlines.mp4", 0, 8.5)], "pad": [0, 0]},
-    {"label": "title", "dur": 5, "visuals": [C({"type": "title", "title": "WILL THE VALLEY HAVE ENOUGH WATER?",
+    {"label": "on the record", "dur": 6.0, "visuals": [V(f"{E2}/headlines.mp4", 0, 6.0)], "pad": [0, 0]},
+    {"label": "title", "dur": 2.5, "visuals": [C({"type": "title", "title": "WILL THE VALLEY HAVE ENOUGH WATER?",
                                                 "sub": "What the Rio Grande means for builders and investors"})], "pad": [0.5, 0.8]},
     section("PART 1", "WHERE THE WATER COMES FROM", "Part 1: Where the water comes from", "blue"),
     N("n04", [V(f"{E2}/map_basin.mp4", 0, 13)]),
@@ -117,14 +117,14 @@ B = [
                         "Avoid deals that look cheap until the water bill"], "accent": "blue"})]),
     N("n36", [V(f"{E2}/map_canals.mp4", 10, 12)]),
     N("n37", [V(f"{E1}/v_falcon_s.mp4", 0, 12.6)]),
-    {"label": "end", "dur": 5, "visuals": [C({"type": "title", "title": "RGV NEWS",
+    {"label": "end", "dur": 3, "visuals": [C({"type": "title", "title": "RGV NEWS",
                                               "sub": "Not financial advice · Sources in the description"})], "pad": [0.5, 0.8]},
 ]
 
 for b in B:   # 3D overlays already carry their own credit line at the bottom: stack block credits above them
     if b.get("credit") and any("v_" in v.get("video", "") for v in b["visuals"]): b.setdefault("credit_y", 1000)
 
-tl = {"fps": 60, "out": "demo/ep2/episode2.mp4", "audio_dir": "episodes/2026-12-valley-water/audio",
+tl = {"fps": 60, "trim_narration": True, "out": "demo/ep2/episode2.mp4", "audio_dir": "episodes/2026-12-valley-water/audio",
       "narration_json": "episodes/2026-12-valley-water/narration.json",
       "music": {"level_lufs": -27, "segments": [
           {"track": "assets/music/Deliberate_Thought.mp3", "chapter": 0, "offset": 20},

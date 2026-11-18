@@ -1,7 +1,7 @@
 {
  "fps": 60,
- "seconds": 8.5,
- "step": 0.7,
+ "seconds": 6.0,
+ "step": 0.5,
  "title": "ON THE RECORD",
  "subtitle": "What newsrooms and officials have reported",
  "footer": "Full sources linked in the description",

@@ -193,6 +193,12 @@ def render_block(k, b, cfg, tmp):
     out = os.path.join(tmp, f"blk_{k:03d}.mp4")
     pad0, pad1 = b.get("pad", [0.35, 0.55])
     narr = os.path.join(cfg["audio_dir"], b["narr"] + ".mp3") if b.get("narr") else None
+    if narr and cfg.get("trim_narration"):   # cut dead air at the start/end of each voice clip
+        tr = os.path.join(tmp, f"trim_{b['narr']}.wav")
+        if not os.path.exists(tr):
+            sr = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04"
+            run("ffmpeg", "-y", "-loglevel", "error", "-i", narr, "-af", f"{sr},areverse,{sr},areverse", "-ar", "48000", tr)
+        narr = tr
     nd = probe_dur(narr) if narr else 0.0
     D = b.get("dur", nd + pad0 + pad1)
     vis = b["visuals"]
