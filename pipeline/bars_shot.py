@@ -83,7 +83,7 @@ def camera_keys(camcfg):
     """[(t 0..1, pos, look)]. Either start/end, an explicit "path", or a "focus" tour: the camera travels to each
     column in turn (close, three-quarter view), keeps pushing in slowly while it holds, then moves on."""
     if "focus" in camcfg:
-        keys = []
+        keys = []; prev = None   # prev = (t_leave, pos, look, top) of the last stop, for the crane arc
         if "start" in camcfg: keys.append((0.0, camcfg["start"]["pos"], camcfg["start"]["look"]))
         for st in camcfg["focus"]:
             if st.get("overview"):
@@ -92,22 +92,51 @@ def camera_keys(camcfg):
             d = st.get("dist", top * 1.5 + 5.0); side = st.get("side", 0.3)   # far enough to frame the full column
             look = [x, 0, max(1.0, top * 0.5)]
             pos = [x + side * d, -d, top * 0.55 + st.get("lift", 2.0 + top * 0.15)]
-            keys.append((st["t"], pos, look))
+            if prev and camcfg.get("arc", True):   # crane up and back between stops so tall columns stay framed
+                tl, pp, pl, ptop = prev; h = max(ptop, top)
+                mid = [(a + b) / 2 for a, b in zip(pp, pos)]; mid[1] -= 0.25 * h + 2; mid[2] += 0.35 * h + 1
+                keys.append(((tl + st["t"]) / 2, mid, [(a + b) / 2 for a, b in zip(pl, look)]))
+            keys.append((st["t"], pos, look)); prev = (st["t"], pos, look, top)
             if st.get("hold"):   # slow push-in while holding, so the frame never freezes
                 k = 1 - st.get("push", 0.12)
-                keys.append((st["t"] + st["hold"], [look[0] + (p - look[0]) * k if i == 0 else
-                             (p * k if i == 1 else p - 0.4) for i, p in enumerate(pos)], look))
+                hp = [look[0] + (p - look[0]) * k if i == 0 else (p * k if i == 1 else p - 0.4) for i, p in enumerate(pos)]
+                keys.append((st["t"] + st["hold"], hp, look)); prev = (st["t"] + st["hold"], hp, look, top)
         return sorted(keys, key=lambda k: k[0])
     if "path" in camcfg:
         return [(p["t"], p["pos"], p["look"]) for p in camcfg["path"]]
     return [(0.0, camcfg["start"]["pos"], camcfg["start"]["look"]), (1.0, camcfg["end"]["pos"], camcfg["end"]["look"])]
 
 
-for t, pos, look in camera_keys(cfg["camera"]):
-    f = max(1, min(nframes, round(1 + t * (nframes - 1))))
-    cam.location = pos; tgt.location = look
-    cam.keyframe_insert("location", frame=f); tgt.keyframe_insert("location", frame=f)
-# Blender's default keyframe interpolation (Bezier, auto-clamped) already eases in and out of each stop.
+def catmull(p0, p1, p2, p3, u):
+    return [0.5 * (2 * b + (-a + c) * u + (2 * a - 5 * b + 4 * c - d) * u * u + (-a + 3 * b - 3 * c + d) * u ** 3)
+            for a, b, c, d in zip(p0, p1, p2, p3)]
+
+
+def momentum_path(keys, mom):
+    """Per-frame camera/target positions on one Catmull-Rom curve through every stop. The camera slows near each
+    stop (to 1-mom of its average speed) but never halts, so moves carry momentum from one item to the next."""
+    P = [k[1] for k in keys]; Lk = [k[2] for k in keys]; T = [k[0] for k in keys]
+    out = []
+    for f in range(1, nframes + 1):
+        t = (f - 1) / max(1, nframes - 1)
+        i = max(0, min(len(T) - 2, max(j for j in range(len(T)) if T[j] <= t) if t >= T[0] else 0))
+        s = min(1.0, max(0.0, (t - T[i]) / max(1e-6, T[i + 1] - T[i])))
+        u = s - mom * math.sin(2 * math.pi * s) / (2 * math.pi)
+        g = lambda A: catmull(A[max(0, i - 1)], A[i], A[i + 1], A[min(len(A) - 1, i + 2)], u)
+        out.append((f, g(P), g(Lk)))
+    return out
+
+
+ckeys = camera_keys(cfg["camera"])
+if cfg["camera"].get("momentum", 0.6 if "focus" in cfg["camera"] else 0) > 0 and len(ckeys) > 2:
+    for f, pos, look in momentum_path(ckeys, cfg["camera"].get("momentum", 0.6)):
+        cam.location = pos; tgt.location = look
+        cam.keyframe_insert("location", frame=f); tgt.keyframe_insert("location", frame=f)
+else:   # simple shots: Blender's default Bezier keys ease in and out of each stop
+    for t, pos, look in ckeys:
+        f = max(1, min(nframes, round(1 + t * (nframes - 1))))
+        cam.location = pos; tgt.location = look
+        cam.keyframe_insert("location", frame=f); tgt.keyframe_insert("location", frame=f)
 
 r = sc.render; r.engine = "CYCLES"; r.resolution_x, r.resolution_y = tuple(cfg.get("resolution", [1280, 720])); r.fps = FPS
 sc.cycles.samples = cfg.get("samples", 24); sc.cycles.use_denoising = True; sc.cycles.device = "CPU"
