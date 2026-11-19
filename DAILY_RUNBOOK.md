@@ -179,3 +179,8 @@ sourced dates, deadlines and stakes. Never invent a deadline, inflate a number o
   for a point, state it plainly.
 - Titles and Short hooks follow the same rule: a real number plus a time element
   (e.g. "7,500 jobs now. About 700 after 2027.").
+
+## Shorts cadence (owner rule, Nov 19, 2026)
+- Space Shorts 4 hours apart (e.g. 10:20 AM, 2:20 PM, 6:20 PM, 10:20 PM Central), not one per day.
+  Keep times on :20 to avoid the top-of-hour rush. Avoid the overnight slots (after 10:20 PM, before 10:20 AM).
+- Schedule each Metricool post one at a time (R2 fetches can time out in parallel).
