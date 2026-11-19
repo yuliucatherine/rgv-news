@@ -186,13 +186,17 @@ sourced dates, deadlines and stakes. Never invent a deadline, inflate a number o
   Keep times on :20 to avoid the top-of-hour rush. Avoid the overnight slots (after 10:20 PM, before 10:20 AM).
 - Schedule each Metricool post one at a time (R2 fetches can time out in parallel).
 
-## Plain words, full depth (owner rule, Nov 19, 2026; applies from Episode 4)
-Say it simply without dropping substance. Keep every number, date and investor angle; change how it's said.
-- Short sentences (aim for under 20 words). One idea per sentence.
-- Plain words first: "the plant's production lines" before "LNG trains"; "power lines from the north" before
-  "345 kV circuits". If a technical term matters, use it once and explain it in the same breath
-  ("an acre-foot, about what a football field holds nine inches deep").
-- No acronym without saying what it is the first time (ERCOT = "the state's grid operator").
-- Translate every big number into what it means for the viewer ("about 700 jobs, a tenth of the peak").
-- Read it aloud test: if a line needs a second listen, rewrite it.
-- Don't simplify away the nuance: keep "potential", "estimate", "projection" where the source is uncertain.
+## Keep the terms, simplify the sentences (owner rule, Nov 19, 2026; applies from Episode 4)
+Keep the specific industry terms, numbers and names (LNG trains, FERC, ERCOT, acre-feet, 345 kV, fiscal 2025...).
+What gets simpler is the sentence, not the vocabulary.
+- One idea per sentence; aim for under 20 words. Split any sentence with two "and"/"with"/"which" clauses.
+- Lead with the subject and the verb. No stacked openers ("This spring, with global gas supplies squeezed, ...").
+- Cut filler and throat-clearing ("That's not a knock on the project", "by the way", "it's worth noting").
+- A term gets a short definition only the first time, and only if a smart non-specialist would stall on it.
+- Keep the caveats ("potential", "estimate", "projection") where the source is uncertain.
+- Read-aloud test: if a line needs a second listen, rewrite it.
+Example (Episode 3, n11):
+  Before: "This spring, with global gas supplies squeezed, Rio Grande LNG asked federal regulators to speed things up,
+          and in April they said yes: a peak workforce of seventy-five hundred, and construction around the clock."
+  After:  "This spring, Rio Grande LNG asked FERC to speed things up. In April, FERC said yes.
+          Up to 7,500 workers. Construction around the clock."
