@@ -158,6 +158,7 @@ Posts per episode:
 - Every Short ends with an on-screen "Watch the full video on YouTube" line (default in shorts_from_episode.py).
 - Every Short caption includes "Watch the full breakdown on YouTube: <direct link to the episode>".
   Episode 1: https://www.youtube.com/watch?v=Fp4NCLi_k-I
+  Episode 3: https://www.youtube.com/watch?v=EHK9LqRBihU
 - Instagram and TikTok captions don't make links clickable: keep the YouTube channel link in both profile bios.
 - Schedule Metricool posts that pull from R2 one at a time: parallel downloads from the r2.dev URL can time out
   (Nov 18, 2026). A failed create makes no post, so retrying it alone is safe.
