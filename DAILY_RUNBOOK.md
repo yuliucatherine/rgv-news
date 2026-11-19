@@ -209,3 +209,10 @@ Example (Episode 3, n11):
   "south padre island" ~10k, "texas real estate" ~42k (low competition), "investment property" ~28k,
   "rio grande" ~4.3k, "water crisis" ~35k, "liquefied natural gas" ~7.5k. Keep local names in the description.
 - Score 2-3 candidates with vidiq_score_title before publishing (5 credits each; plan has 150/month).
+
+## Shorts covers (Nov 19, 2026)
+- Every Short gets a cover: `python3 pipeline/short_cover.py <short.json> demo/covers/<name>.jpg [frame_fraction]`
+  (hook in big type + a frame from the Short, kept inside the 4:5 feed band). Upload to R2 `covers/` and pass it as
+  `videoThumbnailUrl` when scheduling. Used by Instagram and Facebook Reels; TikTok ignores it on a personal account.
+- Check every cover: charts and maps must show their FINAL numbers. If a frame catches a count-up mid-way, use the
+  end of the chart's block instead.
