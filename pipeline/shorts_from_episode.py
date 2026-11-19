@@ -90,7 +90,8 @@ def main(cfg):
     if y > VID_Y - 10: raise SystemExit(f"hook too tall ({y}px); shorten it")
     for a, b, c in caps:
         size = fit_size(c, "Black", 62, SAFE_R - SAFE_L)
-        dts.append(dt(tmp, c, "(w-tw)/2", CAP_Y - size // 2, size, "Black", "0xFFFFFF", a, b, border=6, fade=0.05))
+        dts.append(dt(tmp, c, "(w-tw)/2", CAP_Y - size // 2, size, "Black", "0xFFFFFF", a, b, border=6, fade=0.05,
+                      box="0x091020@0.55"))   # dark backing keeps captions readable over light footage
     if cfg.get("credit"):
         dts.append(dt(tmp, cfg["credit"], f"{SAFE_R}-tw", VID_Y + 608 - 40, 24, "Medium", "0xE2E8F0", 0, total, border=3))
     end = cfg.get("end_text", "Watch the full video on YouTube")
