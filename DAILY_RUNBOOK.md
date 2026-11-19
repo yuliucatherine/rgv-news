@@ -185,3 +185,14 @@ sourced dates, deadlines and stakes. Never invent a deadline, inflate a number o
 - Space Shorts 4 hours apart (e.g. 10:20 AM, 2:20 PM, 6:20 PM, 10:20 PM Central), not one per day.
   Keep times on :20 to avoid the top-of-hour rush. Avoid the overnight slots (after 10:20 PM, before 10:20 AM).
 - Schedule each Metricool post one at a time (R2 fetches can time out in parallel).
+
+## Plain words, full depth (owner rule, Nov 19, 2026; applies from Episode 4)
+Say it simply without dropping substance. Keep every number, date and investor angle; change how it's said.
+- Short sentences (aim for under 20 words). One idea per sentence.
+- Plain words first: "the plant's production lines" before "LNG trains"; "power lines from the north" before
+  "345 kV circuits". If a technical term matters, use it once and explain it in the same breath
+  ("an acre-foot, about what a football field holds nine inches deep").
+- No acronym without saying what it is the first time (ERCOT = "the state's grid operator").
+- Translate every big number into what it means for the viewer ("about 700 jobs, a tenth of the peak").
+- Read it aloud test: if a line needs a second listen, rewrite it.
+- Don't simplify away the nuance: keep "potential", "estimate", "projection" where the source is uncertain.
