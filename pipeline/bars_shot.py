@@ -89,7 +89,7 @@ def camera_keys(camcfg):
             if st.get("overview"):
                 c = camcfg.get("end", camcfg.get("start")); keys.append((st["t"], c["pos"], c["look"])); continue
             x, top, _, _ = labels[bars[st["bar"]]["label"]]
-            d = st.get("dist", top * 1.5 + 5.0); side = st.get("side", -0.35)   # far enough to frame the full column
+            d = st.get("dist", top * 1.5 + 5.0); side = st.get("side", 0.3)   # far enough to frame the full column
             look = [x, 0, max(1.0, top * 0.5)]
             pos = [x + side * d, -d, top * 0.55 + st.get("lift", 2.0 + top * 0.15)]
             keys.append((st["t"], pos, look))
