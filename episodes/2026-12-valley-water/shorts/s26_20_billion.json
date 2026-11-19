@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  35,
+  36,
+  37
+ ],
+ "out": "demo/shorts/s26_20_billion.mp4",
+ "hook": [
+  "$20 BILLION",
+  "*FOR TEXAS WATER*",
+  "WHAT THE VALLEY GETS"
+ ],
+ "credit": "Sources: Texas SOS; Texas Tribune; NADBank; TWDB",
+ "music": {
+  "track": "assets/music/Inspired.mp3",
+  "offset": 30
+ }
+}

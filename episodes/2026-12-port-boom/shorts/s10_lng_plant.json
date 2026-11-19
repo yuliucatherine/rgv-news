@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-port-boom/timeline.json",
+ "blocks": [
+  0,
+  1,
+  2
+ ],
+ "out": "demo/shorts/s10_lng_plant.mp4",
+ "hook": [
+  "$30 BILLION LNG PLANT",
+  "*BUILT AROUND THE CLOCK*",
+  "ON HIGHWAY 48"
+ ],
+ "credit": "Sources: RGV Business Journal, Apr-Aug 2026",
+ "music": {
+  "track": "assets/music/Industrial_Cinematic.mp3",
+  "offset": 20
+ }
+}

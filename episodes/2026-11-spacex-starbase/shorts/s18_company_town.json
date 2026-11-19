@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  9,
+  10,
+  11
+ ],
+ "out": "demo/shorts/s18_company_town.mp4",
+ "hook": [
+  "STARBASE WORKFORCE:",
+  "*300 TO 3,400+*",
+  "IN ABOUT FIVE YEARS"
+ ],
+ "credit": "Source: Texas Tribune, Jan 29, 2026",
+ "music": {
+  "track": "assets/music/Deliberate_Thought.mp3",
+  "offset": 60
+ }
+}

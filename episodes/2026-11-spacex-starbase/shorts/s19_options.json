@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  36,
+  37,
+  38
+ ],
+ "out": "demo/shorts/s19_options.mp4",
+ "hook": [
+  "SPACEX HAS OPTIONS:",
+  "*$100B IN LOUISIANA*",
+  "WHAT IT MEANS FOR THE VALLEY"
+ ],
+ "credit": "Sources: Office of the Texas Governor; WAFB; Fortune",
+ "music": {
+  "track": "assets/music/I_Can_Feel_it_Coming.mp3",
+  "offset": 40
+ }
+}

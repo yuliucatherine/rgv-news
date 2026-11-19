@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-port-boom/timeline.json",
+ "blocks": [
+  28,
+  29,
+  30
+ ],
+ "out": "demo/shorts/s12_power_grid.mp4",
+ "hook": [
+  "THE VALLEY'S POWER GRID:",
+  "*\"THE END OF THE LINE\"*",
+  "WHY BUILDERS SHOULD CARE"
+ ],
+ "credit": "Source: RGV Business Journal, Aug 5, 2026 (ERCOT study)",
+ "music": {
+  "track": "assets/music/I_Can_Feel_it_Coming.mp3",
+  "offset": 20
+ }
+}

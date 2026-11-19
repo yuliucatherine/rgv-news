@@ -1,0 +1,18 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  30,
+  32
+ ],
+ "out": "demo/shorts/s21_rio_grande.mp4",
+ "hook": [
+  "BROWNSVILLE'S PLAN TO",
+  "*CUT ITS RELIANCE*",
+  "ON THE RIO GRANDE"
+ ],
+ "credit": "Source: Texas Tribune via KRGV, Aug 31, 2026",
+ "music": {
+  "track": "assets/music/Unanswered_Questions.mp3",
+  "offset": 60
+ }
+}

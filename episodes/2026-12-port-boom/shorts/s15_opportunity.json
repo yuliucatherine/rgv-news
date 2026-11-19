@@ -1,0 +1,20 @@
+{
+ "timeline": "episodes/2026-12-port-boom/timeline.json",
+ "blocks": [
+  32,
+  35,
+  36,
+  37
+ ],
+ "out": "demo/shorts/s15_opportunity.mp4",
+ "hook": [
+  "BUILDING NEAR THE PORT?",
+  "*WHERE THE REAL*",
+  "*OPPORTUNITIES ARE*"
+ ],
+ "credit": "Sources in the full video's description",
+ "music": {
+  "track": "assets/music/Inspired.mp3",
+  "offset": 120
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  0,
+  2,
+  3,
+  4,
+  5
+ ],
+ "out": "demo/shorts/s16_tower_catch.mp4",
+ "hook": [
+  "WE WATCHED STARSHIP",
+  "*GET CAUGHT BY A TOWER*",
+  "WHY IT MATTERS HERE"
+ ],
+ "credit": "Footage: RGV News · Nov 13-14, 2026",
+ "music": {
+  "track": "assets/music/Rising_Tide.mp3",
+  "offset": 30
+ }
+}

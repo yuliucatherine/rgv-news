@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  29,
+  30,
+  31
+ ],
+ "out": "demo/shorts/s25_water_rules.mp4",
+ "hook": [
+  "BUILDING IN THE VALLEY?",
+  "*THE WATER RULES*",
+  "ARE CHANGING"
+ ],
+ "credit": "Sources: MyRGV; KRGV; RGV Business Journal",
+ "music": {
+  "track": "assets/music/Rising_Tide.mp3",
+  "offset": 60
+ }
+}

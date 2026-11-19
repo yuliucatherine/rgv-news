@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  12,
+  13,
+  14
+ ],
+ "out": "demo/shorts/s17_986m.mp4",
+ "hook": [
+  "SPACEX IS SPENDING",
+  "*$986M AT STARBASE*",
+  "ABOUT 1,000 JOBS"
+ ],
+ "credit": "Sources: Texas Tribune; KSAT",
+ "music": {
+  "track": "assets/music/Industrial_Cinematic.mp3",
+  "offset": 40
+ }
+}

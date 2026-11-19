@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  38,
+  43,
+  44
+ ],
+ "out": "demo/shorts/s27_desal.mp4",
+ "hook": [
+  "A $1 BILLION PLANT",
+  "*TO TURN SEAWATER*",
+  "INTO TAP WATER"
+ ],
+ "credit": "Sources: KRGV; Texas Border Business; MyRGV",
+ "music": {
+  "track": "assets/music/Industrial_Cinematic.mp3",
+  "offset": 80
+ }
+}

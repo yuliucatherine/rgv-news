@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  9,
+  10,
+  11
+ ],
+ "out": "demo/shorts/s23_treaty.mp4",
+ "hook": [
+  "MEXICO STILL OWES TEXAS",
+  "*830,000+ ACRE-FEET*",
+  "OF RIO GRANDE WATER"
+ ],
+ "credit": "Sources: State Dept./USDA; Rio Times; Texas Politics",
+ "music": {
+  "track": "assets/music/Unanswered_Questions.mp3",
+  "offset": 90
+ }
+}

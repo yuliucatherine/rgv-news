@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-port-boom/timeline.json",
+ "blocks": [
+  11,
+  9,
+  10
+ ],
+ "out": "demo/shorts/s14_cargo.mp4",
+ "hook": [
+  "PORT CARGO DOUBLED",
+  "*IN FIVE YEARS*",
+  "NOW COME THE BIG BETS"
+ ],
+ "credit": "Source: RGV Business Journal, Jun 26, 2026",
+ "music": {
+  "track": "assets/music/Rising_Tide.mp3",
+  "offset": 150
+ }
+}

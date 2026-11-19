@@ -1,0 +1,18 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  40,
+  46
+ ],
+ "out": "demo/shorts/s20_risks.mp4",
+ "hook": [
+  "INVESTING NEAR STARBASE?",
+  "*KNOW THE RISKS*",
+  "BEFORE YOU BUY"
+ ],
+ "credit": "Sources: Texas Tribune; KRGV; launch coverage",
+ "music": {
+  "track": "assets/music/I_Can_Feel_it_Coming.mp3",
+  "offset": 110
+ }
+}

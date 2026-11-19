@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  21,
+  22,
+  23
+ ],
+ "out": "demo/shorts/s24_sugar_mill.mp4",
+ "hook": [
+  "TEXAS' LAST SUGAR MILL",
+  "*CLOSED AFTER 50 YEARS*",
+  "WATER WAS PART OF IT"
+ ],
+ "credit": "Sources: KSAT; Texas Workforce Commission; KRGV",
+ "music": {
+  "track": "assets/music/Dreamer.mp3",
+  "offset": 30
+ }
+}

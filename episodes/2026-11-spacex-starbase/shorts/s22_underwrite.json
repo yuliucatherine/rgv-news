@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-11-spacex-starbase/timeline.json",
+ "blocks": [
+  44,
+  45,
+  47
+ ],
+ "out": "demo/shorts/s22_underwrite.mp4",
+ "hook": [
+  "UNDERWRITING NEAR STARBASE?",
+  "*ASK THESE*",
+  "*THREE QUESTIONS*"
+ ],
+ "credit": "Sources in the full video's description",
+ "music": {
+  "track": "assets/music/Inspired.mp3",
+  "offset": 90
+ }
+}

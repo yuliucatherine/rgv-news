@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-valley-water/timeline.json",
+ "blocks": [
+  40,
+  41,
+  42
+ ],
+ "out": "demo/shorts/s28_ask_water.mp4",
+ "hook": [
+  "BUYING LAND IN THE VALLEY?",
+  "*ASK ABOUT WATER*",
+  "FIRST"
+ ],
+ "credit": "Source: 2026 Rio Grande Regional Water Plan",
+ "music": {
+  "track": "assets/music/Deliberate_Thought.mp3",
+  "offset": 90
+ }
+}

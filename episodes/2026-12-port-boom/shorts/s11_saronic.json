@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-port-boom/timeline.json",
+ "blocks": [
+  13,
+  14,
+  24
+ ],
+ "out": "demo/shorts/s11_saronic.mp4",
+ "hook": [
+  "$3.2B SHIPYARD, 10,000 JOBS?",
+  "*A PROJECTION,*",
+  "*NOT A PAYROLL*"
+ ],
+ "credit": "Sources: KRGV; Office of the Texas Governor",
+ "music": {
+  "track": "assets/music/Rising_Tide.mp3",
+  "offset": 90
+ }
+}

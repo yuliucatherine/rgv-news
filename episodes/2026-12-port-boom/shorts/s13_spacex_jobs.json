@@ -1,0 +1,19 @@
+{
+ "timeline": "episodes/2026-12-port-boom/timeline.json",
+ "blocks": [
+  23,
+  25,
+  26
+ ],
+ "out": "demo/shorts/s13_spacex_jobs.mp4",
+ "hook": [
+  "STARBASE: 3,400 WORKERS",
+  "*+21,400 INDIRECT JOBS?*",
+  "WHAT LASTS IN THE VALLEY"
+ ],
+ "credit": "Source: RGV Business Journal, Aug 5, 2026, citing Cameron County",
+ "music": {
+  "track": "assets/music/Industrial_Cinematic.mp3",
+  "offset": 100
+ }
+}
