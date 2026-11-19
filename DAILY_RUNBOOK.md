@@ -200,3 +200,12 @@ Example (Episode 3, n11):
           and in April they said yes: a peak workforce of seventy-five hundred, and construction around the clock."
   After:  "This spring, Rio Grande LNG asked FERC to speed things up. In April, FERC said yes.
           Up to 7,500 workers. Construction around the clock."
+
+## Titles (vidIQ research, Nov 19, 2026)
+- The long, specific format scores best in vidIQ (92-98): "<Hook with a number>: <Question>? What Builders and
+  Investors Need to Know". Shorter punchy versions scored lower (76-91), so keep the long format.
+- Put a searched phrase in the first few words. Local phrases get <750 searches/mo ("Port of Brownsville",
+  "Rio Grande LNG", "Rio Grande Valley real estate"); bigger ones: "starbase texas" ~12.7k, "spacex starbase" ~9.5k,
+  "south padre island" ~10k, "texas real estate" ~42k (low competition), "investment property" ~28k,
+  "rio grande" ~4.3k, "water crisis" ~35k, "liquefied natural gas" ~7.5k. Keep local names in the description.
+- Score 2-3 candidates with vidiq_score_title before publishing (5 credits each; plan has 150/month).
