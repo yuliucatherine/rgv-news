@@ -79,9 +79,35 @@ sc.view_settings.view_transform = "Standard"
 bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data.lens = cfg.get("lens", 35)
 tgt = bpy.data.objects.new("t", None); sc.collection.objects.link(tgt)
 cam.constraints.new("TRACK_TO").target = tgt
-for f, key in [(1, "start"), (nframes, "end")]:
-    c = cfg["camera"][key]; cam.location = c["pos"]; tgt.location = c["look"]
+def camera_keys(camcfg):
+    """[(t 0..1, pos, look)]. Either start/end, an explicit "path", or a "focus" tour: the camera travels to each
+    column in turn (close, three-quarter view), keeps pushing in slowly while it holds, then moves on."""
+    if "focus" in camcfg:
+        keys = []
+        if "start" in camcfg: keys.append((0.0, camcfg["start"]["pos"], camcfg["start"]["look"]))
+        for st in camcfg["focus"]:
+            if st.get("overview"):
+                c = camcfg.get("end", camcfg.get("start")); keys.append((st["t"], c["pos"], c["look"])); continue
+            x, top, _, _ = labels[bars[st["bar"]]["label"]]
+            d = st.get("dist", top * 1.5 + 5.0); side = st.get("side", -0.35)   # far enough to frame the full column
+            look = [x, 0, max(1.0, top * 0.5)]
+            pos = [x + side * d, -d, top * 0.55 + st.get("lift", 2.0 + top * 0.15)]
+            keys.append((st["t"], pos, look))
+            if st.get("hold"):   # slow push-in while holding, so the frame never freezes
+                k = 1 - st.get("push", 0.12)
+                keys.append((st["t"] + st["hold"], [look[0] + (p - look[0]) * k if i == 0 else
+                             (p * k if i == 1 else p - 0.4) for i, p in enumerate(pos)], look))
+        return sorted(keys, key=lambda k: k[0])
+    if "path" in camcfg:
+        return [(p["t"], p["pos"], p["look"]) for p in camcfg["path"]]
+    return [(0.0, camcfg["start"]["pos"], camcfg["start"]["look"]), (1.0, camcfg["end"]["pos"], camcfg["end"]["look"])]
+
+
+for t, pos, look in camera_keys(cfg["camera"]):
+    f = max(1, min(nframes, round(1 + t * (nframes - 1))))
+    cam.location = pos; tgt.location = look
     cam.keyframe_insert("location", frame=f); tgt.keyframe_insert("location", frame=f)
+# Blender's default keyframe interpolation (Bezier, auto-clamped) already eases in and out of each stop.
 
 r = sc.render; r.engine = "CYCLES"; r.resolution_x, r.resolution_y = tuple(cfg.get("resolution", [1280, 720])); r.fps = FPS
 sc.cycles.samples = cfg.get("samples", 24); sc.cycles.use_denoising = True; sc.cycles.device = "CPU"

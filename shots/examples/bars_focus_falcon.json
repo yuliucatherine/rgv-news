@@ -1,0 +1,152 @@
+{
+ "seconds": 12,
+ "fps": 24,
+ "max_height": 9,
+ "radius": 1.0,
+ "lens": 32,
+ "samples": 8,
+ "spacing": 4.2,
+ "resolution": [
+  960,
+  540
+ ],
+ "camera": {
+  "end": {
+   "pos": [
+    -3,
+    -27,
+    8
+   ],
+   "look": [
+    0,
+    0,
+    4.5
+   ]
+  },
+  "focus": [
+   {
+    "bar": 3,
+    "t": 0.0,
+    "hold": 0.2
+   },
+   {
+    "bar": 4,
+    "t": 0.29,
+    "hold": 0.15
+   },
+   {
+    "bar": 5,
+    "t": 0.51,
+    "hold": 0.15
+   },
+   {
+    "overview": true,
+    "t": 1.0
+   }
+  ]
+ },
+ "bars": [
+  {
+   "label": "Amistad 2010",
+   "segments": [
+    {
+     "value": 100,
+     "color": [
+      0.18,
+      0.85,
+      0.72
+     ]
+    }
+   ],
+   "grow": [
+    0.74,
+    0.84
+   ]
+  },
+  {
+   "label": "Amistad low (Jul 2024)",
+   "segments": [
+    {
+     "value": 24,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.78,
+    0.88
+   ]
+  },
+  {
+   "label": "Amistad today",
+   "segments": [
+    {
+     "value": 53,
+     "color": [
+      0.18,
+      0.85,
+      0.72
+     ]
+    }
+   ],
+   "grow": [
+    0.82,
+    0.92
+   ]
+  },
+  {
+   "label": "Falcon 2010",
+   "segments": [
+    {
+     "value": 100,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.0,
+    0.15
+   ]
+  },
+  {
+   "label": "Falcon low (Oct 2023)",
+   "segments": [
+    {
+     "value": 8,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.3,
+    0.42
+   ]
+  },
+  {
+   "label": "Falcon today",
+   "segments": [
+    {
+     "value": 23,
+     "color": [
+      0.22,
+      0.74,
+      0.97
+     ]
+    }
+   ],
+   "grow": [
+    0.53,
+    0.65
+   ]
+  }
+ ]
+}

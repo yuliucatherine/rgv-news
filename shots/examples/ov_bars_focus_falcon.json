@@ -1,0 +1,52 @@
+{
+ "frames_dir": "demo/focus/bars",
+ "labels_json": "demo/focus/bars/labels.json",
+ "out_mp4": "demo/focus/v_focus.mp4",
+ "fps_in": 24,
+ "labels_from": 0.0,
+ "label_values": {
+  "Amistad 2010": [
+   "",
+   100,
+   "%",
+   0,
+   "Amistad · 2010"
+  ],
+  "Amistad low (Jul 2024)": [
+   "",
+   24,
+   "%",
+   0,
+   "Amistad · low, Jul 2024"
+  ],
+  "Amistad today": [
+   "",
+   53,
+   "%",
+   0,
+   "Amistad · today"
+  ],
+  "Falcon 2010": [
+   "",
+   100,
+   "%",
+   0,
+   "Falcon · 2010"
+  ],
+  "Falcon low (Oct 2023)": [
+   "",
+   8,
+   "%",
+   0,
+   "Falcon · low, Oct 2023"
+  ],
+  "Falcon today": [
+   "",
+   23,
+   "%",
+   0,
+   "Falcon · today"
+  ]
+ },
+ "credit": "Percent of conservation capacity. Data: TWDB, Water Data for Texas"
+}
