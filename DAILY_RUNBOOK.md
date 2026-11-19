@@ -216,3 +216,11 @@ Example (Episode 3, n11):
   `videoThumbnailUrl` when scheduling. Used by Instagram and Facebook Reels; TikTok ignores it on a personal account.
 - Check every cover: charts and maps must show their FINAL numbers. If a frame catches a count-up mid-way, use the
   end of the chart's block instead.
+
+## Camera tours in 3D shots (owner rule, Nov 19, 2026)
+- Comparison and timeline shots use a focus tour, not a single slow drift: the camera travels to the first item,
+  pushes in slowly while it animates, glides to the next item in story order (oldest to newest), and ends on a
+  pull-back that shows the whole comparison. Time each column's "grow" so it starts as the camera arrives.
+- bars_shot.py config: "camera": {"end": {...overview...}, "focus": [{"bar": i, "t": 0.0, "hold": 0.2}, ...,
+  {"overview": true, "t": 1.0}]}. Distance and height are set from each column's size automatically
+  (override with "dist", "lift", "side"). Example: shots/examples/bars_focus_falcon.json.
