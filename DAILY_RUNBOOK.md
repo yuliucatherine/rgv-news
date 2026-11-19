@@ -161,3 +161,21 @@ Posts per episode:
 - Instagram and TikTok captions don't make links clickable: keep the YouTube channel link in both profile bios.
 - Schedule Metricool posts that pull from R2 one at a time: parallel downloads from the r2.dev URL can time out
   (Nov 18, 2026). A failed create makes no post, so retrying it alone is safe.
+
+## Scripts feel a little urgent (owner rule, Nov 19, 2026; applies from Episode 4)
+The goal is "watch this now, it affects your next decision", not panic. Urgency must come from real,
+sourced dates, deadlines and stakes. Never invent a deadline, inflate a number or use clickbait words
+("shocking", "you won't believe").
+- **First 10 seconds:** say what is happening right now and why it matters to the viewer's money, with a real
+  date or number. Present tense: "Right now...", "This year...", "Before the end of 2027...".
+- **The question:** make it about the viewer's decision ("before you buy, build or lend here..."), not an
+  abstract trend.
+- **Put the clock on screen:** name the next dated milestone (a vote, a filing, a start date, a lease-up)
+  and how far away it is ("that's months away, not years").
+- **End every section with a forward hook** into the next one ("But that's not the part that should
+  worry builders.").
+- **Close with an action and a time frame:** what to check or do now, and the next date to watch.
+- Keep the calm, credible tone: urgent wording, measured claims. If the sources don't support urgency
+  for a point, state it plainly.
+- Titles and Short hooks follow the same rule: a real number plus a time element
+  (e.g. "7,500 jobs now. About 700 after 2027.").
