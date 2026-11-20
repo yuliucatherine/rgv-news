@@ -243,7 +243,8 @@ def render_block(k, b, cfg, tmp):
         y0 = (H - lh * len(words)) // 2 - 40
         for wi, wd in enumerate(words):
             col = "0xF97316" if (wd.endswith("?") or wd.endswith("!") or wd.startswith("$") or wi == len(words) - 1 and kin.get("last_orange", True)) else "0xF1F5F9"
-            dts.append(drawtext(tmp, wd, 110, y0 + wi * lh, size, "Black", col, ka + wi * st, kb, fade=0.2))
+            kw = {"box": kin["box"]} if kin.get("box") else {}   # optional dark backing over busy 3D frames
+            dts.append(drawtext(tmp, wd, kin.get("x", 110), y0 + wi * lh, size, "Black", col, ka + wi * st, kb, fade=0.2, **kw))
     if caps and nd > 0:
         tot = sum(len(c) + 3 for c in caps); t = pad0
         for c in caps:

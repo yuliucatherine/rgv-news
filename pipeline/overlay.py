@@ -33,6 +33,9 @@ def credit(d, text):
            stroke_width=3, stroke_fill=NAVY + (160,))
 
 
+NAMES = {}   # optional display text per label key (cfg "label_names"), e.g. to shorten labels that would collide
+
+
 def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
     """pts: {label: [x, y, z(, growth)]} in camera-view coords. values: {label: [prefix, value, suffix, decimals, note]}
     makes the label show a number counting up with the growth factor."""
@@ -49,7 +52,7 @@ def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
             big = f"{pre}{val * g:,.{dec}f}{suf}"
             d.text((px, py - 70), big, font=F("Black", 56), fill=INK + (int(255 * la),), anchor="ms",
                    stroke_width=6, stroke_fill=NAVY + (int(220 * la),))
-            d.text((px, py - 26), lab, font=F("Bold", 30), fill=INK + (int(255 * la),), anchor="ms",
+            d.text((px, py - 26), NAMES.get(lab, lab), font=F("Bold", 30), fill=INK + (int(255 * la),), anchor="ms",
                    stroke_width=5, stroke_fill=NAVY + (int(220 * la),))
             if note:
                 d.text((px, py + 8), note, font=F("SemiBold", 24), fill=SUB + (int(255 * la),), anchor="ms",
@@ -57,7 +60,7 @@ def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
             continue
         d.line([(px, py), (px, py - 80)], fill=(255, 255, 255, int(220 * la)), width=3)
         d.ellipse([px - 8, py - 8, px + 8, py + 8], fill=(255, 255, 255, int(255 * la)), outline=NAVY + (int(255 * la),), width=3)
-        d.text((px, py - 88), lab, font=F("Bold", 32), fill=INK + (int(255 * la),), anchor="ms",
+        d.text((px, py - 88), NAMES.get(lab, lab), font=F("Bold", 32), fill=INK + (int(255 * la),), anchor="ms",
                stroke_width=5, stroke_fill=NAVY + (int(220 * la),))
 
 
@@ -104,6 +107,7 @@ def kinetic(img, words, t_now, start, step, hold, fade=0.25):
 def run_config(cfg):
     fr = sorted(p for p in os.listdir(cfg["frames_dir"]) if p.startswith("f") and p.endswith(".png"))
     labels = json.load(open(cfg["labels_json"])) if cfg.get("labels_json") else {}
+    NAMES.clear(); NAMES.update(cfg.get("label_names", {}))
     fps = cfg.get("fps_in", 24); n = len(fr); dur = n / fps
     tmp = cfg["out_mp4"] + ".frames"; os.makedirs(tmp, exist_ok=True)
     for i, name in enumerate(fr):

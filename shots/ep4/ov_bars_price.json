@@ -9,36 +9,43 @@
    265,
    "K",
    0,
-   ""
+   "McAllen"
   ],
   "McAllen, Oct 2023": [
    "$",
    280,
    "K",
    0,
-   "peak"
+   "McAllen \u00b7 peak"
   ],
   "McAllen, Oct 2026": [
    "$",
    255,
    "K",
    0,
-   "about 9% below peak"
+   "McAllen \u00b7 9% below peak"
   ],
   "Brownsville, Oct 2022": [
    "$",
    321,
    "K",
    0,
-   "peak"
+   "Brownsville \u00b7 peak"
   ],
   "Brownsville, Oct 2026": [
    "$",
    297,
    "K",
    0,
-   ""
+   "Brownsville"
   ]
  },
- "credit": "Median listing price. Data: Realtor.com via FRED"
+ "credit": "Median listing price. Data: Realtor.com via FRED",
+ "label_names": {
+  "McAllen, Oct 2021": "Oct 2021",
+  "McAllen, Oct 2023": "Oct 2023",
+  "McAllen, Oct 2026": "Oct 2026",
+  "Brownsville, Oct 2022": "Oct 2022",
+  "Brownsville, Oct 2026": "Oct 2026"
+ }
 }

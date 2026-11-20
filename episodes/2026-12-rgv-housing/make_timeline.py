@@ -45,7 +45,7 @@ B = [
     # ---------------- part 1: the glut
     section("PART 1", "THE GLUT", "Part 1: The glut"),
     N("n04", [V(CL, 0, 8.4)]),
-    N("n05", [V(MOI, 2.0, 6.0)], kinetic=K(["6 MONTHS", "=", "BALANCED"], at=0.3, step=0.45, size=120)),
+    N("n05", [V(MOI, 2.0, 6.0)], kinetic=dict(K(["6 MONTHS", "=", "BALANCED"], at=0.3, step=0.45, size=120), box="0x091020@0.6")),
     N("n06", [stat("McAllen metro · May 2021", "~2 MONTHS", ["about 757 active listings", "multiple offers, waived inspections"], "blue"), V(CL, 4.5, 3.9)],
       credit=RGVBJ + ", Jul 7, 2026"),
     N("n07", [V(EDI, 10, 6.0)]),
