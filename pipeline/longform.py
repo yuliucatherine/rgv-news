@@ -86,7 +86,9 @@ def make_card(spec, path):
             y += 34
     elif kind == "stat":
         d.text((m, 250), spec.get("label", "").upper(), font=F("Bold", 44), fill=acc)
-        fb = F("Black", 230); d.text((m, 310), spec["big"], font=fb, fill=INK)
+        sz = 230   # shrink long figures (e.g. "$1,373 → $1,570") so they never run off the right edge
+        while sz > 110 and d.textlength(spec["big"], font=F("Black", sz)) > W - 2 * m: sz -= 6
+        d.text((m, 310 + (230 - sz) * 0.55), spec["big"], font=F("Black", sz), fill=INK)
         y = 600
         for l in spec.get("lines", []):
             d.text((m, y), l, font=F("SemiBold", 52), fill=SUB); y += 74

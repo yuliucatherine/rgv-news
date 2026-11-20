@@ -195,10 +195,10 @@
    "narr": "n05",
    "visuals": [
     {
-     "video": "demo/ep4/chart_listings.mp4",
-     "ss": 8.4,
+     "video": "demo/ep4/v_bars_moi_s.mp4",
+     "ss": 2.0,
      "weight": 1.0,
-     "len": 4.6
+     "len": 6.0
     }
    ],
    "pad": [
@@ -221,12 +221,6 @@
    "narr": "n06",
    "visuals": [
     {
-     "video": "demo/ep4/v_bars_moi_s.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 4.6
-    },
-    {
      "card": {
       "type": "stat",
       "label": "McAllen metro · May 2021",
@@ -238,6 +232,12 @@
       "accent": "blue"
      },
      "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/chart_listings.mp4",
+     "ss": 4.5,
+     "weight": 1.0,
+     "len": 3.9
     }
    ],
    "pad": [
@@ -267,9 +267,9 @@
    "visuals": [
     {
      "video": "demo/ep4/v_bars_moi_s.mp4",
-     "ss": 4.6,
+     "ss": 7.0,
      "weight": 1.0,
-     "len": 7.4
+     "len": 5.0
     }
    ],
    "pad": [
@@ -414,7 +414,7 @@
     0.15,
     0.3
    ],
-   "credit": "Data: Realtor.com via FRED",
+   "credit": "Days on market: Realtor.com via FRED",
    "credit_y": 1000
   },
   {
@@ -444,7 +444,7 @@
     0.15,
     0.3
    ],
-   "credit": "Data: Realtor.com via FRED",
+   "credit": "Price cuts: Realtor.com via FRED",
    "credit_y": 1000
   },
   {
@@ -881,6 +881,12 @@
    "narr": "n30",
    "visuals": [
     {
+     "video": "demo/ep4/v_bars_price_s.mp4",
+     "ss": 8.6,
+     "weight": 0.4,
+     "len": 3.4
+    },
+    {
      "card": {
       "type": "stat",
       "label": "Median listing · Brownsville-Harlingen",
@@ -891,20 +897,14 @@
       ],
       "accent": "teal"
      },
-     "weight": 1.0
-    },
-    {
-     "video": "demo/ep4/v_bars_price_s.mp4",
-     "ss": 7,
-     "weight": 1.0,
-     "len": 5
+     "weight": 0.6
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Data: Realtor.com via FRED",
+   "credit": "Brownsville-Harlingen listings: Realtor.com via FRED",
    "credit_y": 1000
   },
   {

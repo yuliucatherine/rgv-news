@@ -45,11 +45,11 @@ B = [
     # ---------------- part 1: the glut
     section("PART 1", "THE GLUT", "Part 1: The glut"),
     N("n04", [V(CL, 0, 8.4)]),
-    N("n05", [V(CL, 8.4, 4.6)], kinetic=K(["6 MONTHS", "=", "BALANCED"], at=0.3, step=0.45, size=120)),
-    N("n06", [V(MOI, 0, 4.6), stat("McAllen metro · May 2021", "~2 MONTHS", ["about 757 active listings", "multiple offers, waived inspections"], "blue")],
+    N("n05", [V(MOI, 2.0, 6.0)], kinetic=K(["6 MONTHS", "=", "BALANCED"], at=0.3, step=0.45, size=120)),
+    N("n06", [stat("McAllen metro · May 2021", "~2 MONTHS", ["about 757 active listings", "multiple offers, waived inspections"], "blue"), V(CL, 4.5, 3.9)],
       credit=RGVBJ + ", Jul 7, 2026"),
     N("n07", [V(EDI, 10, 6.0)]),
-    N("n08", [V(MOI, 4.6, 7.4)], credit=RGVBJ + ", Sep 25, 2026"),
+    N("n08", [V(MOI, 7.0, 5.0)], credit=RGVBJ + ", Sep 25, 2026"),
     N("n09", [V(MAP, 4.5, 9.5)], credit="Quote: Emiliano Zapata, Capital Insiders, via RGV Business Journal, Jan 2026"),
     # ---------------- part 2: prices
     section("PART 2", "PRICES ARE SLIPPING", "Part 2: Prices are slipping", "blue"),
@@ -57,8 +57,8 @@ B = [
     N("n11", [V(PRC, 0, 12.0)]),
     N("n12", [stat("Median sale price · McAllen metro", "~$245K", ["roughly flat since 2023", "through Aug 2026"], "blue"), V(MAP, 0, 4)],
       credit=RGVBJ + ", Sep 25, 2026"),
-    N("n13", [stat("Typical days on market · McAllen", "78 DAYS", ["October 2026", "48 days in October 2021"]), V(CL, 3, 6)], credit=FRED),
-    N("n14", [stat("McAllen listings with a price cut", "1 IN 6", ["540 of 3,432 listings", "October 2026"]), V(LST, 8, 4)], credit=FRED),
+    N("n13", [stat("Typical days on market · McAllen", "78 DAYS", ["October 2026", "48 days in October 2021"]), V(CL, 3, 6)], credit="Days on market: Realtor.com via FRED"),
+    N("n14", [stat("McAllen listings with a price cut", "1 IN 6", ["540 of 3,432 listings", "October 2026"]), V(LST, 8, 4)], credit="Price cuts: Realtor.com via FRED"),
     N("n15", [lst("WHAT BUILDERS ARE OFFERING", ["Rate buy-downs", "Appliance packages", "Extended warranties",
                                                  "Some new homes priced below resale"], "teal"), V(EDI, 4, 5)],
       credit="Brian Reed, Ryan & Brian Real Estate Team, via RGV Business Journal, Feb 2026"),
@@ -89,8 +89,8 @@ B = [
     # ---------------- part 5: two markets
     section("PART 5", "TWO DIFFERENT MARKETS", "Part 5: Two different markets", "blue"),
     N("n29", [V(MAP, 15, 6.5), V(MOI, 8, 4)], credit=RGVBJ + ", Sep 25, 2026 (August data)"),
-    N("n30", [stat("Median listing · Brownsville-Harlingen", "$297K", ["October 2026", "peak: $321K in October 2022"], "teal"), V(PRC, 7, 5)],
-      credit=FRED),
+    N("n30", [V(PRC, 8.6, 3.4, w=0.4), stat("Median listing · Brownsville-Harlingen", "$297K", ["October 2026", "peak: $321K in October 2022"], "teal", ) | {"weight": 0.6}],
+      credit="Brownsville-Harlingen listings: Realtor.com via FRED"),
     N("n31", [stat("Brownsville-Harlingen home sales", "-17%", ["through August 2026", "back to 2019 levels"], "blue"), V(SB, 0, 5)],
       credit=RGVBJ + ", Sep 25, 2026"),
     # ---------------- part 6: what to do
