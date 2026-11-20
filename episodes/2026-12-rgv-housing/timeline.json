@@ -1,0 +1,1134 @@
+{
+ "fps": 60,
+ "trim_narration": true,
+ "out": "demo/ep4/episode4.mp4",
+ "audio_dir": "episodes/2026-12-rgv-housing/audio",
+ "narration_json": "episodes/2026-12-rgv-housing/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Rising_Tide.mp3",
+    "chapter": 0,
+    "offset": 20
+   },
+   {
+    "track": "assets/music/I_Can_Feel_it_Coming.mp3",
+    "chapter": 3,
+    "offset": 30
+   },
+   {
+    "track": "assets/music/Dreamer.mp3",
+    "chapter": 4,
+    "offset": 20
+   },
+   {
+    "track": "assets/music/Inspired.mp3",
+    "chapter": 6,
+    "offset": 40
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_listings_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "chapter": "Cold open: a 36-year high",
+   "headline": [
+    "McALLEN METRO",
+    "More homes for sale than at any point in 36 years"
+   ],
+   "credit": "Source: Texas A&M Real Estate Center MLS data via RGV Business Journal, Jul 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_listings_s.mp4",
+     "ss": 6.0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "997",
+     "→",
+     "3,432"
+    ],
+    "at": 1.2,
+    "step": 0.4,
+    "hold": 2.8,
+    "size": 140
+   }
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "video": "demo/ep4/chart_rates.mp4",
+     "ss": 6.5,
+     "weight": 1.0,
+     "len": 7.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Data: Freddie Mac via FRED",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 10.8
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "BUYER'S",
+     "MARKET",
+     "OR",
+     "WARNING SIGN?"
+    ],
+    "at": 4.2,
+    "step": 0.35,
+    "hold": 2.8,
+    "size": 110
+   }
+  },
+  {
+   "label": "on the record",
+   "dur": 6.0,
+   "visuals": [
+    {
+     "video": "demo/ep4/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 2.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV HOUSING HEADING INTO 2027",
+      "sub": "Buyer's market or warning sign?"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "THE GLUT",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: The glut",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/ep4/chart_listings.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 8.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "video": "demo/ep4/chart_listings.mp4",
+     "ss": 8.4,
+     "weight": 1.0,
+     "len": 4.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "6 MONTHS",
+     "=",
+     "BALANCED"
+    ],
+    "at": 0.3,
+    "step": 0.45,
+    "hold": 2.8,
+    "size": 120
+   }
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_moi_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 4.6
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "McAllen metro · May 2021",
+      "big": "~2 MONTHS",
+      "lines": [
+       "about 757 active listings",
+       "multiple offers, waived inspections"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Jul 7, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 10,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_moi_s.mp4",
+     "ss": 4.6,
+     "weight": 1.0,
+     "len": 7.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Sep 25, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 4.5,
+     "weight": 1.0,
+     "len": 9.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Quote: Emiliano Zapata, Capital Insiders, via RGV Business Journal, Jan 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 2",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "PRICES ARE SLIPPING",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: Prices are slipping",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 16,
+     "weight": 1.0,
+     "len": 4.7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "CRASH?",
+     "NO.",
+     "SLIPPING."
+    ],
+    "at": 0.2,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 130
+   }
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_price_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Median sale price · McAllen metro",
+      "big": "~$245K",
+      "lines": [
+       "roughly flat since 2023",
+       "through Aug 2026"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Sep 25, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Typical days on market · McAllen",
+      "big": "78 DAYS",
+      "lines": [
+       "October 2026",
+       "48 days in October 2021"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/chart_listings.mp4",
+     "ss": 3,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Data: Realtor.com via FRED",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "McAllen listings with a price cut",
+      "big": "1 IN 6",
+      "lines": [
+       "540 of 3,432 listings",
+       "October 2026"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/v_bars_listings_s.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Data: Realtor.com via FRED",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "WHAT BUILDERS ARE OFFERING",
+      "items": [
+       "Rate buy-downs",
+       "Appliance packages",
+       "Extended warranties",
+       "Some new homes priced below resale"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Brian Reed, Ryan & Brian Real Estate Team, via RGV Business Journal, Feb 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Gumwood Ave, McAllen · new 3-bed",
+      "big": "$275K → $259K",
+      "lines": [
+       "listed February 2026",
+       "asking price by August"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Sep 25, 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 3",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "THE RATE WHIPLASH",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: The rate whiplash",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "video": "demo/ep4/chart_rates.mp4",
+     "ss": 1.5,
+     "weight": 1.0,
+     "len": 8.2
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "McAllen metro closings · January 2026",
+      "big": "+21%",
+      "lines": [
+       "vs. January 2025",
+       "rates had dipped near 6%"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Feb 25, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "video": "demo/ep4/chart_rates.mp4",
+     "ss": 7.0,
+     "weight": 1.0,
+     "len": 7.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Freddie Mac; NAHB Eye on Housing, Nov 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_payment_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.5
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "RGV News calculation",
+      "big": "$1,373 → $1,570",
+      "lines": [
+       "$255,000 home · 10% down · 30-yr fixed",
+       "principal and interest only"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "video": "demo/ep4/chart_rates.mp4",
+     "ss": 9.5,
+     "weight": 1.0,
+     "len": 4.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "+$197",
+     "A MONTH"
+    ],
+    "at": 0.2,
+    "step": 0.4,
+    "hold": 3.2,
+    "size": 140
+   }
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "McAllen metro sales · September 2026",
+      "big": "-8%",
+      "lines": [
+       "333 sales vs. 361 a year earlier",
+       "Texas A&M Real Estate Center data"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 14,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Oct 22, 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 4",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "THE AFFORDABILITY GAP",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: The affordability gap",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_growth_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 5.5
+    },
+    {
+     "video": "demo/ep4/doc_afford.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_growth_s.mp4",
+     "ss": 5.5,
+     "weight": 1.0,
+     "len": 6.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Median household income · Hidalgo County",
+      "big": "$55,829",
+      "lines": [
+       "30% for housing ≈ $1,396 a month",
+       "U.S. Census Bureau SAIPE, 2024"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/v_bars_payment_s.mp4",
+     "ss": 6.0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "card": {
+      "type": "quote",
+      "quote": "The payment is $2,800 a month for an almost above entry-level house.",
+      "by": "Craig Grove, GRT Realty, Brownsville",
+      "source": "to the RGV Business Journal, February 2026"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n27",
+   "visuals": [
+    {
+     "video": "demo/ep4/doc_afford.mp4",
+     "ss": 9.5,
+     "weight": 1.0,
+     "len": 6.5
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 18,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Myssie Cardenas-Barajas via RGV Business Journal, Jul 7, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n28",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "THE PRICE GAP",
+      "items": [
+       "Demand: $150K to $250K",
+       "Lots: $50K to $70K each",
+       "A $200K new house: \"nearly impossible\""
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 2,
+     "weight": 1.0,
+     "len": 6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Myssie Cardenas-Barajas; Emiliano Zapata; via RGV Business Journal",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 5",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "TWO DIFFERENT MARKETS",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: Two different markets",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n29",
+   "visuals": [
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 15,
+     "weight": 1.0,
+     "len": 6.5
+    },
+    {
+     "video": "demo/ep4/v_bars_moi_s.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Sep 25, 2026 (August data)",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n30",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Median listing · Brownsville-Harlingen",
+      "big": "$297K",
+      "lines": [
+       "October 2026",
+       "peak: $321K in October 2022"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/v_bars_price_s.mp4",
+     "ss": 7,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Data: Realtor.com via FRED",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n31",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Brownsville-Harlingen home sales",
+      "big": "-17%",
+      "lines": [
+       "through August 2026",
+       "back to 2019 levels"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Sep 25, 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 6",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 6",
+      "title": "WHAT TO DO BEFORE 2027",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 6: What to do before 2027",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n32",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_listings_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 3.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "BEFORE",
+     "2027"
+    ],
+    "at": 0.2,
+    "step": 0.35,
+    "hold": 2.4,
+    "size": 150
+   }
+  },
+  {
+   "narr": "n33",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "IF YOU'RE BUYING",
+      "items": [
+       "~9 months of inventory = leverage",
+       "Ask for price cuts",
+       "Ask for closing costs",
+       "Ask for rate buy-downs"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/v_bars_listings_s.mp4",
+     "ss": 8,
+     "weight": 1.0,
+     "len": 4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n34",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "IF YOU'RE BUILDING",
+      "items": [
+       "Target $150K to $250K",
+       "Townhomes and smaller homes",
+       "Build-to-rent"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep2/v_edinburg_s.mp4",
+     "ss": 14,
+     "weight": 1.0,
+     "len": 5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n35",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "IF YOU'RE LENDING",
+      "items": [
+       "Banks are tightening construction loans",
+       "Private lenders ~13% vs. banks ~8%",
+       "A home that sits 9 months gets expensive"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/map_valley.mp4",
+     "ss": 6,
+     "weight": 1.0,
+     "len": 7
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Emiliano Zapata, Capital Insiders, via RGV Business Journal, Jan 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n36",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "OUR WATCH LIST",
+      "items": [
+       "Weekly mortgage rates (Freddie Mac)",
+       "Monthly McAllen inventory",
+       "Brownsville sales vs. port and SpaceX payrolls"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep4/chart_rates.mp4",
+     "ss": 9.5,
+     "weight": 1.0,
+     "len": 4.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n37",
+   "visuals": [
+    {
+     "video": "demo/ep4/v_bars_listings_s.mp4",
+     "ss": 4,
+     "weight": 1.0,
+     "len": 8.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 3,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

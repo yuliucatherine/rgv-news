@@ -1,0 +1,30 @@
+{
+ "frames_dir": "demo/ep4/bars_payment",
+ "labels_json": "demo/ep4/bars_payment/labels.json",
+ "out_mp4": "demo/ep4/v_bars_payment.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Feb 2026 rate, 5.98%": [
+   "$",
+   1373,
+   "/mo",
+   0,
+   "principal + interest"
+  ],
+  "Today, 7.28%": [
+   "$",
+   1570,
+   "/mo",
+   0,
+   "principal + interest"
+  ],
+  "30% of Hidalgo median income": [
+   "$",
+   1396,
+   "/mo",
+   0,
+   "housing budget, $55,829 income"
+  ]
+ },
+ "credit": "RGV News calculation: $255,000 home, 10% down, 30-yr fixed. Rates: Freddie Mac. Income: Census SAIPE 2024"
+}

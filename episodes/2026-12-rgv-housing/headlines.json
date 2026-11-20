@@ -1,0 +1,30 @@
+{
+ "fps": 60,
+ "seconds": 6.0,
+ "step": 0.5,
+ "title": "ON THE RECORD",
+ "subtitle": "What local reporting shows",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Jul 2026",
+   "headline": "Does the Rio Grande Valley have a supply glut of single-family homes? Here’s what we know"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Jul 2026",
+   "headline": "The Valley's home inventory is rising, but affordability remains out of reach"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Jan 2026",
+   "headline": "Banks tighten lending, pushing some RGV homebuilders toward private financing"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Oct 2026",
+   "headline": "Home sales down in McAllen metro, flat in Brownsville metro — see data"
+  }
+ ]
+}

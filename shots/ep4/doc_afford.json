@@ -1,0 +1,30 @@
+{
+ "seconds": 16,
+ "fps": 60,
+ "source": "RGV Business Journal · Jul 7, 2026",
+ "heading": "The Valley's home inventory is rising, but affordability remains out of reach",
+ "credit": "Source: RGV Business Journal, Jul 7, 2026 (excerpt)",
+ "paragraphs": [
+  {
+   "text": "Over the past decade, the median sale price of a home increased 75% in the McAllen metro and 104% in the Brownsville-Harlingen metro.",
+   "highlight": [
+    0.05,
+    0.3
+   ]
+  },
+  {
+   "text": "By comparison, median household income increased 63% in the McAllen metro and 67% in the Brownsville metro over the same period, meaning wages have not kept pace with the cost of buying a home.",
+   "highlight": [
+    0.35,
+    0.6
+   ]
+  },
+  {
+   "text": "“Now, a year later, we’re starting to see people say, ‘Oh my goodness, I cannot pay these taxes. It’s way too much for me. Not on the salary I’m making, so I need to get rid of this property,’” she said.",
+   "highlight": [
+    0.68,
+    0.92
+   ]
+  }
+ ]
+}

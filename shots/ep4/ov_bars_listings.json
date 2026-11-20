@@ -1,0 +1,44 @@
+{
+ "frames_dir": "demo/ep4/bars_listings",
+ "labels_json": "demo/ep4/bars_listings/labels.json",
+ "out_mp4": "demo/ep4/v_bars_listings.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Oct 2019": [
+   "",
+   2005,
+   "",
+   0,
+   "before the pandemic"
+  ],
+  "Oct 2021": [
+   "",
+   997,
+   "",
+   0,
+   "pandemic low"
+  ],
+  "Oct 2023": [
+   "",
+   1937,
+   "",
+   0,
+   ""
+  ],
+  "Oct 2025": [
+   "",
+   3283,
+   "",
+   0,
+   ""
+  ],
+  "Oct 2026": [
+   "",
+   3432,
+   "",
+   0,
+   "homes for sale"
+  ]
+ },
+ "credit": "Active listings, McAllen-Edinburg-Mission metro. Data: Realtor.com via FRED"
+}

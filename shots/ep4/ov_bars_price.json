@@ -1,0 +1,44 @@
+{
+ "frames_dir": "demo/ep4/bars_price",
+ "labels_json": "demo/ep4/bars_price/labels.json",
+ "out_mp4": "demo/ep4/v_bars_price.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "McAllen, Oct 2021": [
+   "$",
+   265,
+   "K",
+   0,
+   ""
+  ],
+  "McAllen, Oct 2023": [
+   "$",
+   280,
+   "K",
+   0,
+   "peak"
+  ],
+  "McAllen, Oct 2026": [
+   "$",
+   255,
+   "K",
+   0,
+   "about 9% below peak"
+  ],
+  "Brownsville, Oct 2022": [
+   "$",
+   321,
+   "K",
+   0,
+   "peak"
+  ],
+  "Brownsville, Oct 2026": [
+   "$",
+   297,
+   "K",
+   0,
+   ""
+  ]
+ },
+ "credit": "Median listing price. Data: Realtor.com via FRED"
+}

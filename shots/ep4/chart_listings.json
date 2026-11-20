@@ -1,0 +1,74 @@
+{
+ "seconds": 13,
+ "fps": 60,
+ "x": [
+  2016.5,
+  2026.95
+ ],
+ "y": [
+  0,
+  3800
+ ],
+ "y_suffix": "",
+ "x_ticks": [
+  2017,
+  2019,
+  2021,
+  2023,
+  2025
+ ],
+ "y_ticks": [
+  0,
+  1000,
+  2000,
+  3000
+ ],
+ "reveal": [
+  0.04,
+  0.82
+ ],
+ "series": [
+  {
+   "name": "McAllen metro",
+   "color": [
+    249,
+    115,
+    22
+   ],
+   "csv": "episodes/2026-12-rgv-housing/data/listings_mca.csv",
+   "col": "listings",
+   "from": "2016-07-01",
+   "every": 1
+  },
+  {
+   "name": "Brownsville metro",
+   "color": [
+    45,
+    212,
+    191
+   ],
+   "csv": "episodes/2026-12-rgv-housing/data/listings_bro.csv",
+   "col": "listings",
+   "from": "2016-07-01",
+   "every": 1
+  }
+ ],
+ "callouts": [
+  {
+   "series": 0,
+   "x": 2021.41,
+   "text": "796",
+   "sub": "June 2021 low",
+   "dy": -90
+  },
+  {
+   "series": 0,
+   "x": 2026.75,
+   "text": "3,432",
+   "sub": "Oct 2026",
+   "dy": -80
+  }
+ ],
+ "note": "Active listings. Data: Realtor.com via FRED",
+ "label_lines": true
+}

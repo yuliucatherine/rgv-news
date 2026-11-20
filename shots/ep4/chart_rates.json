@@ -1,0 +1,61 @@
+{
+ "seconds": 14,
+ "fps": 60,
+ "x": [
+  2024.0,
+  2026.95
+ ],
+ "y": [
+  5.5,
+  7.75
+ ],
+ "y_suffix": "%",
+ "x_ticks": [
+  2024,
+  2025,
+  2026
+ ],
+ "y_ticks": [
+  5.5,
+  6.0,
+  6.5,
+  7.0,
+  7.5
+ ],
+ "reveal": [
+  0.04,
+  0.85
+ ],
+ "series": [
+  {
+   "name": "30-yr fixed",
+   "color": [
+    249,
+    115,
+    22
+   ],
+   "csv": "episodes/2026-12-rgv-housing/data/rates.csv",
+   "col": "rate",
+   "from": "2024-01-01",
+   "every": 1
+  }
+ ],
+ "callouts": [
+  {
+   "series": 0,
+   "x": 2026.15,
+   "text": "5.98%",
+   "sub": "Feb 26, 2026",
+   "dy": 70
+  },
+  {
+   "series": 0,
+   "x": 2026.77,
+   "text": "7.40%",
+   "sub": "Oct 2026 \u00b7 highest since 2023",
+   "dy": -80
+  }
+ ],
+ "note": "30-year fixed mortgage rate, weekly. Data: Freddie Mac Primary Mortgage Market Survey via FRED",
+ "label_lines": true
+}

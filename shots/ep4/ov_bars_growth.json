@@ -1,0 +1,37 @@
+{
+ "frames_dir": "demo/ep4/bars_growth",
+ "labels_json": "demo/ep4/bars_growth/labels.json",
+ "out_mp4": "demo/ep4/v_bars_growth.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "McAllen home prices": [
+   "+",
+   75,
+   "%",
+   0,
+   "median sale price, 10 yrs"
+  ],
+  "McAllen incomes": [
+   "+",
+   63,
+   "%",
+   0,
+   "median household income"
+  ],
+  "Brownsville home prices": [
+   "+",
+   104,
+   "%",
+   0,
+   "median sale price, 10 yrs"
+  ],
+  "Brownsville incomes": [
+   "+",
+   67,
+   "%",
+   0,
+   "median household income"
+  ]
+ },
+ "credit": "Growth over the past decade. Data: RGV Business Journal, Jul 2026"
+}

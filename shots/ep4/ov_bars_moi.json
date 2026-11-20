@@ -1,0 +1,37 @@
+{
+ "frames_dir": "demo/ep4/bars_moi",
+ "labels_json": "demo/ep4/bars_moi/labels.json",
+ "out_mp4": "demo/ep4/v_bars_moi.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "May 2021": [
+   "",
+   2.2,
+   " mo",
+   1,
+   "McAllen metro"
+  ],
+  "Balanced market": [
+   "",
+   6,
+   " mo",
+   0,
+   "rule of thumb"
+  ],
+  "McAllen, Aug 2026": [
+   "~",
+   9,
+   " mo",
+   0,
+   "buyer's market"
+  ],
+  "Brownsville, Aug 2026": [
+   "",
+   6.7,
+   " mo",
+   1,
+   "near balanced"
+  ]
+ },
+ "credit": "Months of inventory. Data: Texas A&M Real Estate Center via RGV Business Journal"
+}
