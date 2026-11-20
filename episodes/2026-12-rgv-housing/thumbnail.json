@@ -1,0 +1,22 @@
+{
+ "photo": "demo/ep4/bars_listings/f0288.png",
+ "crop": [
+  -300,
+  -170,
+  960,
+  540
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "McALLEN HOMES FOR SALE",
+ "number": "3,432",
+ "headline": [
+  "UP 3X SINCE 2021.",
+  "BUY OR WAIT?"
+ ],
+ "sub": "RGV housing heading into 2027",
+ "pad_color": [
+  25,
+  36,
+  56
+ ]
+}
