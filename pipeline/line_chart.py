@@ -78,7 +78,7 @@ def main(cfg, out):
             if prog < 0.999 or cfg.get("keep_head", True):
                 d2.ellipse([hx - 11, hy - 11, hx + 11, hy + 11], fill=col + (255,), outline=(255, 255, 255, 255), width=3)
                 if cfg.get("label_lines", True):
-                    tag = f"{s['name']}  {pre}{val:,.0f}{suf}"
+                    tag = f"{s['name']}  {pre}{val:,.{cfg.get('y_dec', 0)}f}{suf}"
                     tw = d2.textlength(tag, font=F("Bold", 30))
                     tx = min(hx + 24, W - tw - 30)
                     d2.rounded_rectangle([tx - 10, hy - 26, tx + tw + 12, hy + 22], 8, fill=NAVY + (220,))

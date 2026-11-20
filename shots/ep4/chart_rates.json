@@ -57,5 +57,6 @@
   }
  ],
  "note": "30-year fixed mortgage rate, weekly. Data: Freddie Mac Primary Mortgage Market Survey via FRED",
- "label_lines": true
+ "label_lines": true,
+ "y_dec": 2
 }
