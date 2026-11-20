@@ -85,7 +85,8 @@ def main(cfg, out):
     views = cfg["views"]; r0, r1 = cfg.get("river_flow", [0.05, 0.5])
     tmp = out + ".frames"; shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
     towns = [(nm, *merc(lon, lat), ta) for nm, lat, lon, ta in cfg.get("towns", [])]
-    labels = [(txt, *merc(lon, lat), ta, sz, tuple(col)) for txt, lat, lon, ta, sz, col in cfg.get("labels", [])]
+    labels = [(l[0], *merc(l[2], l[1]), l[3], l[4], tuple(l[5]), l[6] if len(l) > 6 else 9.0)   # optional 7th: hide time
+              for l in cfg.get("labels", [])]
     for f in range(n):
         t = f / max(1, n - 1); bb = view_at(views, t)
         fr = Image.new("RGB", (W, H), NAVY); d = ImageDraw.Draw(fr, "RGBA")
@@ -119,8 +120,8 @@ def main(cfg, out):
             dt.ellipse([X - 8, Y - 8, X + 8, Y + 8], fill=(255, 255, 255, int(255 * a)), outline=NAVY + (int(255 * a),), width=3)
             dt.text((X + 14, Y - 18), name, font=F("Bold", 30), fill=(255, 255, 255, int(255 * a)),
                     stroke_width=4, stroke_fill=NAVY + (int(220 * a),))
-        for txt, x, y, ta, sz, col in labels:
-            a = ease((t - ta) / 0.05)
+        for txt, x, y, ta, sz, col, tb in labels:
+            a = min(ease((t - ta) / 0.05), ease((tb - t) / 0.05))
             if a <= 0: continue
             X, Y = px([x], [y], bb)
             dt.text((float(X[0]), float(Y[0])), txt, font=F("Black", sz), fill=col + (int(255 * a),), anchor="mm",
