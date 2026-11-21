@@ -241,3 +241,11 @@ YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local t
 - TikTok rewards local infrastructure (ports, roads, jobs, water); YouTube rewards SpaceX/Starship. Lead each episode's Shorts
   set with one of each.
 - TikTok account is personal (Metricool has no per-video TikTok data); ask the owner for a profile screenshot to check views.
+- **Openings decide it (Nov 21 analysis).** Top TikToks open on a line that stands alone with a place and a number ("This
+  summer, the Brownsville Ship Channel was deepened from 42 to 52 feet"; "Everything at Starbase depends on one road").
+  The weakest open mid-thought because they were cut from the middle of an episode ("So if cities are protected...",
+  "So here's the surprising part.", "Then there's the defense industry."). Length (37-48 s) made no visible difference.
+- From Episode 5 on, every Short gets its own hook line (one standalone sentence: place + number + twist), recorded by
+  James as an extra clip (~100 credits) and placed first. Never start a Short on a transition word (So, Then, And, Now).
+- Open on a real place in motion (flyover, aerial, map); the text card comes second.
+- Make follow-ups on winners: Brownsville channel (which ships can come now), Starbase SH-4 fix, LNG jobs cliff.
