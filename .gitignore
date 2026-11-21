@@ -5,3 +5,4 @@ __pycache__/
 voice-test/
 data/
 demo/
+assets/photos/*/dl.log
