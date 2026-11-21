@@ -50,7 +50,7 @@ def section(tag, title, chapter, accent="orange"):
 
 B = [
     # ---------------- cold open
-    N("n00", [IMG("a_edinburg_new", 0.6, zoom=(1.12, 1.3), pan=(0.45, 0.7, 0.5, 0.95), place="North Edinburg"),
+    N("n00", [IMG("a_edinburg_sub", 0.6, zoom=(1.0, 1.15), pan=(0.45, 0.55, 0.7, 0.25), place="North Edinburg"),
               IMG("p09b", 0.4, zoom=(1.0, 1.08), place="Oregon (details blurred)", portrait=True)],
       chapter="Cold open: a 36-year high"),
     N("n01", [V(CL, 2.5, 10.5)], kinetic=K(["997", "→", "3,432"], at=6.0, size=140),

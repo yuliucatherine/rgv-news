@@ -1,4 +1,4 @@
-Rio Grande Valley Housing Heading Into 2027: Buyer's Market or Warning Sign?
+McAllen Housing Market 2027: Buyer's Market or Warning Sign? What Builders & Investors Need to Know
 
 The McAllen metro has more homes for sale than at any point in 36 years, and mortgage rates just climbed back above 7%. We break down what's really happening to Rio Grande Valley real estate: the listings glut, slipping prices, the rate whiplash, the gap between home prices and local incomes, and why Brownsville-Harlingen is a different market. Then what buyers, builders and lenders should do before 2027.
 

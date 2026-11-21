@@ -1,10 +1,10 @@
 {
- "photo": "demo/ep4/bars_listings/f0288.png",
+ "photo": "assets/photos/ep4/aerial/a_edinburg_sub.jpg",
  "crop": [
-  -300,
-  -170,
-  960,
-  540
+  0,
+  0,
+  3840,
+  2160
  ],
  "chip": "INVESTOR BRIEF",
  "kicker": "McALLEN HOMES FOR SALE",
