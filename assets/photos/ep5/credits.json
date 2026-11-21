@@ -5,5 +5,26 @@
   "artist": "Carol M. Highsmith",
   "license": "Public domain",
   "desc": "Title: The Texas Capitol, Austin, Texas\nPhysical description: 1 photograph\u00a0: digital, tiff file, color.\n\nNotes: Title, date, and keywords based on information provided by the photographer.; Gift; The "
+ },
+ "q02": {
+  "file": "Datacenter Server Racks (22370909788).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+  "artist": "Carl Lender from Sunrise, USA",
+  "license": "CC BY 2.0",
+  "desc": "Real Estate"
+ },
+ "q03": {
+  "file": "Technician with laptop working on server rack at NERSC.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+  "artist": "Derrick Coetzee from Berkeley, CA, USA",
+  "license": "CC0",
+  "desc": "CC0 waiver: To the extent possible under law, I waive all copyright and related or neighboring rights to this work."
+ },
+ "q04": {
+  "file": "Wikimedia Foundation Servers-8055 02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_02.jpg",
+  "artist": "Victorgrigas",
+  "license": "CC BY-SA 3.0",
+  "desc": "Wikimedia Foundation Servers"
  }
 }
