@@ -253,6 +253,12 @@ def render_block(k, b, cfg, tmp):
             t += dd
     if b.get("credit"):
         dts.append(drawtext(tmp, b["credit"], f"w-tw-40", b.get("credit_y", H - 46), 24, "Medium", "0xCBD5E1", 0.0, D, fade=0.3, alpha_max=0.9))
+    t0 = 0.0
+    for v, al in zip(vis, allocs):   # per-visual credit (e.g. a photo's author and license), shown only while it is on screen
+        if v.get("credit"):
+            y = b.get("credit_y", H - 46) - (34 if b.get("credit") else 0)
+            dts.append(drawtext(tmp, v["credit"], "w-tw-40", y, 24, "Medium", "0xCBD5E1", t0 + 0.1, t0 + al, fade=0.3, alpha_max=0.9))
+        t0 += al
     for extra in b.get("texts", []):   # free-positioned text: {text,x,y,size,font,color,at,until}
         dts.append(drawtext(tmp, extra["text"], extra.get("x", 110), extra.get("y", 300), extra.get("size", 60),
                             extra.get("font", "Black"), extra.get("color", "0xF1F5F9"), extra.get("at", 0.3),

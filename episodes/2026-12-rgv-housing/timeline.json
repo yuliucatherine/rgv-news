@@ -34,32 +34,51 @@
    "narr": "n00",
    "visuals": [
     {
-     "video": "demo/ep4/v_bars_listings_s.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 6.6
+     "image": "assets/photos/ep4/aerial/a_edinburg_new.jpg",
+     "weight": 0.6,
+     "zoom": [
+      1.0,
+      1.18
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "North Edinburg · Imagery: USGS The National Map"
+    },
+    {
+     "image": "assets/photos/ep4/p09b.jpg",
+     "weight": 0.4,
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Rick Obst, CC BY 4.0 · Oregon (details blurred)",
+     "portrait_fill": true
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "chapter": "Cold open: a 36-year high",
-   "headline": [
-    "McALLEN METRO",
-    "More homes for sale than at any point in 36 years"
-   ],
-   "credit": "Source: Texas A&M Real Estate Center MLS data via RGV Business Journal, Jul 2026",
-   "credit_y": 1000
+   "chapter": "Cold open: a 36-year high"
   },
   {
    "narr": "n01",
    "visuals": [
     {
-     "video": "demo/ep4/v_bars_listings_s.mp4",
-     "ss": 6.0,
+     "video": "demo/ep4/chart_listings.mp4",
+     "ss": 2.5,
      "weight": 1.0,
-     "len": 6.0
+     "len": 10.5
     }
    ],
    "pad": [
@@ -72,11 +91,18 @@
      "→",
      "3,432"
     ],
-    "at": 1.2,
+    "at": 6.0,
     "step": 0.4,
     "hold": 2.8,
-    "size": 140
-   }
+    "size": 140,
+    "box": "0x091020@0.55"
+   },
+   "headline": [
+    "McALLEN METRO",
+    "More homes for sale than at any point in 36 years"
+   ],
+   "credit": "Source: Texas A&M Real Estate Center MLS data via RGV Business Journal, Jul 2026",
+   "credit_y": 1000
   },
   {
    "narr": "n02",
@@ -99,10 +125,34 @@
    "narr": "n03",
    "visuals": [
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 10.8
+     "image": "assets/photos/ep4/p03.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.3,
+      0.5,
+      0.6,
+      0.5
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_weslaco_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Weslaco area · Imagery: USGS The National Map"
     }
    ],
    "pad": [
@@ -111,15 +161,15 @@
    ],
    "kinetic": {
     "words": [
-     "BUYER'S",
-     "MARKET",
+     "BUYER'S MARKET",
      "OR",
      "WARNING SIGN?"
     ],
-    "at": 4.2,
-    "step": 0.35,
+    "at": 4.6,
+    "step": 0.4,
     "hold": 2.8,
-    "size": 110
+    "size": 104,
+    "box": "0x091020@0.55"
    }
   },
   {
@@ -182,23 +232,23 @@
     {
      "video": "demo/ep4/chart_listings.mp4",
      "ss": 0,
-     "weight": 1.0,
-     "len": 8.4
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ]
-  },
-  {
-   "narr": "n05",
-   "visuals": [
+     "weight": 0.55,
+     "len": 8.0
+    },
     {
-     "video": "demo/ep4/v_bars_moi_s.mp4",
-     "ss": 2.0,
-     "weight": 1.0,
-     "len": 6.0
+     "image": "assets/photos/ep4/aerial/a_mcallen_wide.jpg",
+     "weight": 0.45,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "North McAllen · Imagery: USGS The National Map"
     }
    ],
    "pad": [
@@ -211,16 +261,22 @@
      "=",
      "BALANCED"
     ],
-    "at": 0.3,
+    "at": 9.0,
     "step": 0.45,
-    "hold": 2.8,
+    "hold": 3.2,
     "size": 120,
-    "x": 1180
+    "box": "0x091020@0.55"
    }
   },
   {
-   "narr": "n06",
+   "narr": "n05",
    "visuals": [
+    {
+     "video": "demo/ep4/v_bars_moi_s.mp4",
+     "ss": 0,
+     "weight": 0.45,
+     "len": 4.0
+    },
     {
      "card": {
       "type": "stat",
@@ -232,13 +288,7 @@
       ],
       "accent": "blue"
      },
-     "weight": 1.0
-    },
-    {
-     "video": "demo/ep4/chart_listings.mp4",
-     "ss": 4.5,
-     "weight": 1.0,
-     "len": 3.9
+     "weight": 0.55
     }
    ],
    "pad": [
@@ -249,13 +299,37 @@
    "credit_y": 1000
   },
   {
-   "narr": "n07",
+   "narr": "n06",
    "visuals": [
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 10,
-     "weight": 1.0,
-     "len": 6.0
+     "image": "assets/photos/ep4/aerial/a_edinburg_nw.jpg",
+     "weight": 0.55,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.6,
+      0.4,
+      0.4,
+      0.5
+     ],
+     "credit": "Northwest Edinburg · Imagery: USGS The National Map"
+    },
+    {
+     "image": "assets/photos/ep4/p11.jpg",
+     "weight": 0.45,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Goose Green Photography, CC0 · illustrative"
     }
    ],
    "pad": [
@@ -264,13 +338,13 @@
    ]
   },
   {
-   "narr": "n08",
+   "narr": "n07",
    "visuals": [
     {
      "video": "demo/ep4/v_bars_moi_s.mp4",
-     "ss": 7.0,
+     "ss": 4.0,
      "weight": 1.0,
-     "len": 5.0
+     "len": 6.0
     }
    ],
    "pad": [
@@ -281,7 +355,7 @@
    "credit_y": 1000
   },
   {
-   "narr": "n09",
+   "narr": "n08",
    "visuals": [
     {
      "video": "demo/ep4/map_valley.mp4",
@@ -318,13 +392,22 @@
    ]
   },
   {
-   "narr": "n10",
+   "narr": "n09",
    "visuals": [
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 16,
+     "image": "assets/photos/ep4/p01.jpg",
      "weight": 1.0,
-     "len": 4.7
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.4,
+      0.5,
+      0.6,
+      0.5
+     ],
+     "credit": "Photo: Anthony Acosta, CC BY-SA 4.0 · McAllen"
     }
    ],
    "pad": [
@@ -337,30 +420,22 @@
      "NO.",
      "SLIPPING."
     ],
-    "at": 0.2,
-    "step": 0.5,
+    "at": 2.4,
+    "step": 0.6,
     "hold": 2.8,
-    "size": 130
+    "size": 130,
+    "box": "0x091020@0.55"
    }
   },
   {
-   "narr": "n11",
+   "narr": "n10",
    "visuals": [
     {
      "video": "demo/ep4/v_bars_price_s.mp4",
      "ss": 0,
-     "weight": 1.0,
-     "len": 12.0
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ]
-  },
-  {
-   "narr": "n12",
-   "visuals": [
+     "weight": 0.65,
+     "len": 10.0
+    },
     {
      "card": {
       "type": "stat",
@@ -372,24 +447,18 @@
       ],
       "accent": "blue"
      },
-     "weight": 1.0
-    },
-    {
-     "video": "demo/ep4/map_valley.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 4
+     "weight": 0.35
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Source: RGV Business Journal, Sep 25, 2026",
+   "credit": "Data: Realtor.com via FRED · Source: RGV Business Journal, Sep 25, 2026",
    "credit_y": 1000
   },
   {
-   "narr": "n13",
+   "narr": "n11",
    "visuals": [
     {
      "card": {
@@ -405,22 +474,20 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep4/chart_listings.mp4",
-     "ss": 3,
-     "weight": 1.0,
-     "len": 6
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ],
-   "credit": "Days on market: Realtor.com via FRED",
-   "credit_y": 1000
-  },
-  {
-   "narr": "n14",
-   "visuals": [
+     "image": "assets/photos/ep4/p15.jpg",
+     "weight": 0.8,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Mig Esc, CC BY 3.0 · Edinburg"
+    },
     {
      "card": {
       "type": "stat",
@@ -433,23 +500,16 @@
       "accent": "orange"
      },
      "weight": 1.0
-    },
-    {
-     "video": "demo/ep4/v_bars_listings_s.mp4",
-     "ss": 8,
-     "weight": 1.0,
-     "len": 4
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Price cuts: Realtor.com via FRED",
-   "credit_y": 1000
+   "credit": "Data: Realtor.com via FRED"
   },
   {
-   "narr": "n15",
+   "narr": "n12",
    "visuals": [
     {
      "card": {
@@ -458,7 +518,7 @@
       "items": [
        "Rate buy-downs",
        "Appliance packages",
-       "Extended warranties",
+       "Warranties",
        "Some new homes priced below resale"
       ],
       "accent": "teal"
@@ -466,22 +526,20 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 4,
-     "weight": 1.0,
-     "len": 5
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ],
-   "credit": "Brian Reed, Ryan & Brian Real Estate Team, via RGV Business Journal, Feb 2026",
-   "credit_y": 1000
-  },
-  {
-   "narr": "n16",
-   "visuals": [
+     "image": "assets/photos/ep4/p04.jpg",
+     "weight": 0.8,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.4,
+      0.5,
+      0.6
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    },
     {
      "card": {
       "type": "stat",
@@ -494,20 +552,13 @@
       "accent": "blue"
      },
      "weight": 1.0
-    },
-    {
-     "video": "demo/ep4/map_valley.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 6
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Source: RGV Business Journal, Sep 25, 2026",
-   "credit_y": 1000
+   "credit": "Brian Reed via RGV Business Journal, Feb 2026; RGV Business Journal, Sep 25, 2026"
   },
   {
    "label": "part 3",
@@ -530,23 +581,14 @@
    ]
   },
   {
-   "narr": "n17",
+   "narr": "n13",
    "visuals": [
     {
      "video": "demo/ep4/chart_rates.mp4",
      "ss": 1.5,
-     "weight": 1.0,
-     "len": 8.2
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ]
-  },
-  {
-   "narr": "n18",
-   "visuals": [
+     "weight": 0.6,
+     "len": 7.5
+    },
     {
      "card": {
       "type": "stat",
@@ -554,28 +596,22 @@
       "big": "+21%",
       "lines": [
        "vs. January 2025",
-       "rates had dipped near 6%"
+       "Texas A&M Real Estate Center data"
       ],
       "accent": "teal"
      },
-     "weight": 1.0
-    },
-    {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 5
+     "weight": 0.4
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Source: RGV Business Journal, Feb 25, 2026",
+   "credit": "Freddie Mac via FRED · Source: RGV Business Journal, Feb 25, 2026",
    "credit_y": 1000
   },
   {
-   "narr": "n19",
+   "narr": "n14",
    "visuals": [
     {
      "video": "demo/ep4/chart_rates.mp4",
@@ -592,13 +628,13 @@
    "credit_y": 1000
   },
   {
-   "narr": "n20",
+   "narr": "n15",
    "visuals": [
     {
      "video": "demo/ep4/v_bars_payment_s.mp4",
      "ss": 0,
-     "weight": 1.0,
-     "len": 6.5
+     "weight": 0.55,
+     "len": 10.0
     },
     {
      "card": {
@@ -611,7 +647,7 @@
       ],
       "accent": "orange"
      },
-     "weight": 1.0
+     "weight": 0.45
     }
    ],
    "pad": [
@@ -620,32 +656,7 @@
    ]
   },
   {
-   "narr": "n21",
-   "visuals": [
-    {
-     "video": "demo/ep4/chart_rates.mp4",
-     "ss": 9.5,
-     "weight": 1.0,
-     "len": 4.5
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ],
-   "kinetic": {
-    "words": [
-     "+$197",
-     "A MONTH"
-    ],
-    "at": 0.2,
-    "step": 0.4,
-    "hold": 3.2,
-    "size": 140
-   }
-  },
-  {
-   "narr": "n22",
+   "narr": "n16",
    "visuals": [
     {
      "card": {
@@ -661,18 +672,26 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep4/map_valley.mp4",
-     "ss": 14,
+     "image": "assets/photos/ep4/p13.jpg",
      "weight": 1.0,
-     "len": 5
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Mig Esc, CC BY 3.0 · McAllen"
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Source: RGV Business Journal, Oct 22, 2026",
-   "credit_y": 1000
+   "credit": "Source: RGV Business Journal, Oct 22, 2026"
   },
   {
    "label": "part 4",
@@ -695,19 +714,19 @@
    ]
   },
   {
-   "narr": "n23",
+   "narr": "n17",
    "visuals": [
     {
      "video": "demo/ep4/v_bars_growth_s.mp4",
      "ss": 0,
-     "weight": 1.0,
-     "len": 5.5
+     "weight": 0.6,
+     "len": 10.0
     },
     {
      "video": "demo/ep4/doc_afford.mp4",
      "ss": 0,
-     "weight": 1.0,
-     "len": 6
+     "weight": 0.4,
+     "len": 6.0
     }
    ],
    "pad": [
@@ -716,22 +735,7 @@
    ]
   },
   {
-   "narr": "n24",
-   "visuals": [
-    {
-     "video": "demo/ep4/v_bars_growth_s.mp4",
-     "ss": 5.5,
-     "weight": 1.0,
-     "len": 6.5
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ]
-  },
-  {
-   "narr": "n25",
+   "narr": "n18",
    "visuals": [
     {
      "card": {
@@ -747,10 +751,19 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep4/v_bars_payment_s.mp4",
-     "ss": 6.0,
+     "image": "assets/photos/ep4/p14.jpg",
      "weight": 1.0,
-     "len": 6.0
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Mig Esc, CC BY 3.0 · Edinburg"
     }
    ],
    "pad": [
@@ -759,7 +772,7 @@
    ]
   },
   {
-   "narr": "n26",
+   "narr": "n19",
    "visuals": [
     {
      "card": {
@@ -771,31 +784,10 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 6,
-     "weight": 1.0,
-     "len": 5
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ]
-  },
-  {
-   "narr": "n27",
-   "visuals": [
-    {
      "video": "demo/ep4/doc_afford.mp4",
      "ss": 9.5,
      "weight": 1.0,
      "len": 6.5
-    },
-    {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 18,
-     "weight": 1.0,
-     "len": 4
     }
    ],
    "pad": [
@@ -806,7 +798,7 @@
    "credit_y": 1000
   },
   {
-   "narr": "n28",
+   "narr": "n20",
    "visuals": [
     {
      "card": {
@@ -822,18 +814,26 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep4/map_valley.mp4",
-     "ss": 2,
+     "image": "assets/photos/ep4/aerial/a_mcallen_n.jpg",
      "weight": 1.0,
-     "len": 6
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.65,
+      0.4
+     ],
+     "credit": "North McAllen · Imagery: USGS The National Map"
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Sources: Myssie Cardenas-Barajas; Emiliano Zapata; via RGV Business Journal",
-   "credit_y": 1000
+   "credit": "Sources: Myssie Cardenas-Barajas; Emiliano Zapata; via RGV Business Journal"
   },
   {
    "label": "part 5",
@@ -856,19 +856,28 @@
    ]
   },
   {
-   "narr": "n29",
+   "narr": "n21",
    "visuals": [
+    {
+     "image": "assets/photos/ep4/p02.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    },
     {
      "video": "demo/ep4/map_valley.mp4",
      "ss": 15,
-     "weight": 1.0,
+     "weight": 0.5,
      "len": 6.5
-    },
-    {
-     "video": "demo/ep4/v_bars_moi_s.mp4",
-     "ss": 8,
-     "weight": 1.0,
-     "len": 4
     }
    ],
    "pad": [
@@ -879,13 +888,22 @@
    "credit_y": 1000
   },
   {
-   "narr": "n30",
+   "narr": "n22",
    "visuals": [
     {
-     "video": "demo/ep4/v_bars_price_s.mp4",
-     "ss": 8.6,
-     "weight": 0.4,
-     "len": 3.4
+     "image": "assets/photos/ep4/aerial/a_harlingen.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Downtown Harlingen · Imagery: USGS The National Map"
     },
     {
      "card": {
@@ -898,19 +916,30 @@
       ],
       "accent": "teal"
      },
-     "weight": 0.6
+     "weight": 0.5
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Brownsville-Harlingen listings: Realtor.com via FRED",
-   "credit_y": 1000
+   "credit": "Data: Realtor.com via FRED"
   },
   {
-   "narr": "n31",
+   "narr": "n23",
    "visuals": [
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 5.0
+    },
+    {
+     "video": "demo/ep3/v_channel_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 5.0
+    },
     {
      "card": {
       "type": "stat",
@@ -923,12 +952,6 @@
       "accent": "blue"
      },
      "weight": 1.0
-    },
-    {
-     "video": "demo/ep1/v_starbase_s.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 5
     }
    ],
    "pad": [
@@ -959,33 +982,24 @@
    ]
   },
   {
-   "narr": "n32",
+   "narr": "n24",
    "visuals": [
     {
-     "video": "demo/ep4/v_bars_listings_s.mp4",
-     "ss": 0,
-     "weight": 1.0,
-     "len": 3.4
-    }
-   ],
-   "pad": [
-    0.15,
-    0.3
-   ],
-   "kinetic": {
-    "words": [
-     "BEFORE",
-     "2027"
-    ],
-    "at": 0.2,
-    "step": 0.35,
-    "hold": 2.4,
-    "size": 150
-   }
-  },
-  {
-   "narr": "n33",
-   "visuals": [
+     "image": "assets/photos/ep4/p09b.jpg",
+     "weight": 0.4,
+     "zoom": [
+      1.08,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Rick Obst, CC BY 4.0 · Oregon (details blurred)",
+     "portrait_fill": true
+    },
     {
      "card": {
       "type": "list",
@@ -998,13 +1012,7 @@
       ],
       "accent": "teal"
      },
-     "weight": 1.0
-    },
-    {
-     "video": "demo/ep4/v_bars_listings_s.mp4",
-     "ss": 8,
-     "weight": 1.0,
-     "len": 4
+     "weight": 0.6
     }
    ],
    "pad": [
@@ -1013,26 +1021,36 @@
    ]
   },
   {
-   "narr": "n34",
+   "narr": "n25",
    "visuals": [
     {
      "card": {
       "type": "list",
       "title": "IF YOU'RE BUILDING",
       "items": [
-       "Target $150K to $250K",
+       "The gap is the opportunity",
        "Townhomes and smaller homes",
-       "Build-to-rent"
+       "Build-to-rent",
+       "Target $150K to $250K"
       ],
       "accent": "blue"
      },
      "weight": 1.0
     },
     {
-     "video": "demo/ep2/v_edinburg_s.mp4",
-     "ss": 14,
+     "image": "assets/photos/ep4/p11.jpg",
      "weight": 1.0,
-     "len": 5
+     "zoom": [
+      1.1,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Goose Green Photography, CC0 · illustrative"
     }
    ],
    "pad": [
@@ -1041,7 +1059,7 @@
    ]
   },
   {
-   "narr": "n35",
+   "narr": "n26",
    "visuals": [
     {
      "card": {
@@ -1057,21 +1075,29 @@
      "weight": 1.0
     },
     {
-     "video": "demo/ep4/map_valley.mp4",
-     "ss": 6,
+     "image": "assets/photos/ep4/aerial/a_edinburg_nw.jpg",
      "weight": 1.0,
-     "len": 7
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.3,
+      0.6,
+      0.5,
+      0.5
+     ],
+     "credit": "Northwest Edinburg · Imagery: USGS The National Map"
     }
    ],
    "pad": [
     0.15,
     0.3
    ],
-   "credit": "Emiliano Zapata, Capital Insiders, via RGV Business Journal, Jan 2026",
-   "credit_y": 1000
+   "credit": "Emiliano Zapata, Capital Insiders, via RGV Business Journal, Jan 2026"
   },
   {
-   "narr": "n36",
+   "narr": "n27",
    "visuals": [
     {
      "card": {
@@ -1099,13 +1125,22 @@
    ]
   },
   {
-   "narr": "n37",
+   "narr": "n28",
    "visuals": [
     {
-     "video": "demo/ep4/v_bars_listings_s.mp4",
-     "ss": 4,
+     "image": "assets/photos/ep4/p01.jpg",
      "weight": 1.0,
-     "len": 8.0
+     "zoom": [
+      1.15,
+      1.0
+     ],
+     "pan": [
+      0.6,
+      0.5,
+      0.4,
+      0.5
+     ],
+     "credit": "Photo: Anthony Acosta, CC BY-SA 4.0 · McAllen"
     }
    ],
    "pad": [

@@ -14,7 +14,17 @@ SOURCES
 - Payment figures are RGV News calculations: $255,000 home, 10% down, 30-year fixed, principal and interest only
 
 VISUALS
-Maps: U.S. Census Bureau TIGER/Line. Aerial imagery: USGS The National Map. Document excerpt quoted from the RGV Business Journal. 3D scenes and charts by RGV News.
+Aerial photos of Valley subdivisions: USGS The National Map (public domain). Maps: U.S. Census Bureau TIGER/Line. Document excerpt quoted from the RGV Business Journal. 3D scenes and charts by RGV News.
+Photos via Wikimedia Commons (the for-sale sign photo is from Oregon, with contact details blurred; the construction photo is illustrative):
+- Cityscape of McAllen, Texas: Anthony Acosta, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Cityscape_of_McAllen,_Texas.jpg)
+- Aerial View Of The Northern Part Of Harlingen, TX 08202022 1: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_1.jpg)
+- Aerial View Of The Northern Part Of Harlingen, TX 08202022 2: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_2.jpg)
+- Aerial View Of The Northern Part Of Harlingen, TX 08202022 3: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_3.jpg)
+- Home for Sale and Open House signs: Rick Obst, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Home_for_Sale_and_Open_House_signs.jpg)
+- A house under construction: Goose Green Photography, CC0 (https://commons.wikimedia.org/wiki/File:A_house_under_construction.jpg)
+- La Plaza Mall McAllen Texas - panoramio: Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:La_Plaza_Mall_McAllen_Texas_-_panoramio.jpg)
+- Edinburg, TX, USA - panoramio - Mig Esc: Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Edinburg,_TX,_USA_-_panoramio_-_Mig_Esc.jpg)
+- Edinburg, TX, USA - panoramio - Mig Esc (2): Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Edinburg,_TX,_USA_-_panoramio_-_Mig_Esc_(2).jpg)
 
 MUSIC
 "Rising Tide", "I Can Feel it Coming", "Dreamer" and "Inspired" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
