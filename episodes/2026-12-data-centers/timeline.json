@@ -1,0 +1,1130 @@
+{
+ "fps": 60,
+ "trim_narration": true,
+ "out": "demo/ep5/episode5.mp4",
+ "audio_dir": "episodes/2026-12-data-centers/audio",
+ "narration_json": "episodes/2026-12-data-centers/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Crusade_Heavy_Industry.mp3",
+    "chapter": 0,
+    "offset": 15
+   },
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 2,
+    "offset": 20
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 3,
+    "offset": 20
+   },
+   {
+    "track": "assets/music/Industrial_Cinematic.mp3",
+    "chapter": 5,
+    "offset": 40
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_airport_east.jpg",
+     "weight": 0.6,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.35,
+      0.5,
+      0.6,
+      0.45
+     ],
+     "credit": "Farmland east of Valley International Airport (imagery predates construction) · Imagery: USGS The National Map"
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0,
+     "weight": 0.4,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "chapter": "Cold open: $42 billion on the table"
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "demo/ep5/v_bars_42b_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 10.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/q01.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Carol M. Highsmith, Public domain · Austin"
+    },
+    {
+     "image": "assets/photos/ep5/aerial/a_starbase.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Starbase · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "$42 BILLION",
+     "ON HOLD?"
+    ],
+    "at": 4.5,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "video": "demo/ep5/map_cameron.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 11.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "on the record",
+   "dur": 6.0,
+   "visuals": [
+    {
+     "video": "demo/ep5/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 2.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "$42 BILLION IN VALLEY DATA CENTERS",
+      "sub": "Meets Texas' new freeze"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "WHAT'S BEING BUILT",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: What's being built",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_rio_hondo_fields.jpg",
+     "weight": 0.55,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Near Rio Hondo (imagery predates construction) · Imagery: USGS The National Map"
+    },
+    {
+     "video": "demo/ep5/map_cameron.mp4",
+     "ss": 6.0,
+     "weight": 0.45,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: KRGV, Sep 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/q03.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Derrick Coetzee from Berkeley, CA, USA, CC0 · illustrative"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Fluidstack · first phase",
+      "big": "2,500+",
+      "lines": [
+       "construction jobs, several hundred permanent",
+       "completion targeted mid-2028"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: KRGV; Construction Review Online, Sep 2026"
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FLUIDSTACK SAYS IT PAYS ITS OWN WAY",
+      "items": [
+       "No local property tax breaks",
+       "Own power line and substation (AEP Texas)",
+       "Closed-loop cooling from East Rio Hondo WSC",
+       "Water filled once, then recycled"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/q02.jpg",
+     "weight": 0.8,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Carl Lender from Sunrise, USA, CC BY 2.0 · illustrative"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Fluidstack statement via KRGV, Sep 2026"
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/p03.jpg",
+     "weight": 0.4,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    },
+    {
+     "card": {
+      "type": "quote",
+      "quote": "It was not located in Harlingen. It was not asking Harlingen for permission to build. We did not have the authority to stop it.",
+      "by": "Norma Sepulveda, Mayor of Harlingen",
+      "source": "statement reported by KRGV, September 2026"
+     },
+     "weight": 0.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/p05.jpg",
+     "weight": 0.4,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Eneus Energy · PROPOSED",
+      "big": "UP TO $14B",
+      "lines": [
+       "about 1,785 acres near Harlingen, up to 2 GW",
+       "land option runs through July 2027"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.6
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Baxtel; BeBeez; data center trackers (company-commissioned estimate)"
+  },
+  {
+   "label": "part 2",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "THE SPACEX PLAN",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: The SpaceX plan",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 6,
+     "weight": 0.55,
+     "len": 8.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "SpaceX · Starbase",
+      "big": "$24B",
+      "lines": [
+       "AI computing complex",
+       "own gas power plant, about 748 MW"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.45
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: RGV Business Journal, Nov 11, 2026; S&P Global",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_starbase_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.4,
+      0.6,
+      0.5,
+      0.5
+     ],
+     "credit": "Starbase · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "The site",
+      "big": "444 ACRES",
+      "lines": [
+       "land Brownsville disannexed",
+       "for a $220M regional water investment"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 11, 2026"
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "SpaceX's request to the county",
+      "big": "10 YEARS · 100%",
+      "lines": [
+       "property tax abatement",
+       "$13.8B taxable value in its application"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/aerial/a_starbase.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.1,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Starbase · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal; MyRGV, Nov 17, 2026"
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "CAMERON COUNTY VOTE · NOV 17",
+      "items": [
+       "Yes: Judge Eddie Treviño Jr., Comm. Joey Lopez",
+       "No: Comm. Sofia Benavidez, David Garza, Gus Ruiz",
+       "Result: no public hearing on the tax break (3-2)"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep5/map_cameron.mp4",
+     "ss": 15.5,
+     "weight": 0.7,
+     "len": 5.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: MyRGV; ValleyCentral; RGV Business Journal, Nov 17, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "SPACEX'S RESPONSE · NOV 18",
+      "items": [
+       "Computing equipment depreciates fast",
+       "That could swing local tax rates year to year",
+       "Could redirect investment outside Cameron County"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 14,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 18, 2026; MyRGV, Nov 19, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_starbase_wide.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.4,
+      0.6
+     ],
+     "credit": "Starbase · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "DEC 9",
+     "STARBASE",
+     "HEARING"
+    ],
+    "at": 5.0,
+    "step": 0.4,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "label": "part 3",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "TEXAS HITS THE BRAKES",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: Texas hits the brakes",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/q01.jpg",
+     "weight": 0.45,
+     "zoom": [
+      1.08,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Carol M. Highsmith, Public domain · Austin"
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "WHAT THE STATE HAS DONE",
+      "items": [
+       "Aug 3: ERCOT audit of data centers in the queue",
+       "Sep 14: water-use reporting (TWDB)",
+       "Sep 21: TCEQ halts data center permits"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.55
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Office of the Texas Governor; Gibson Dunn"
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "THE GOVERNOR'S CONDITIONS",
+      "items": [
+       "Pay for their own electrical infrastructure",
+       "Don't use water communities need",
+       "Report power and water use",
+       "ERCOT audit expected mid-December"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/q04.jpg",
+     "weight": 0.8,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Victorgrigas, CC BY-SA 3.0 · illustrative"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Office of the Texas Governor, Sep 21, 2026"
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Governor-elect Gina Hinojosa",
+      "big": "MORATORIUM",
+      "lines": [
+       "on new data center approvals",
+       "takes office Jan 19, 2027"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/q01.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.4,
+      0.5,
+      0.6,
+      0.5
+     ],
+     "credit": "Photo: Carol M. Highsmith, Public domain · Austin"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Texas Tribune; Houston Chronicle, Nov 2026"
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Announced Texas projects at risk",
+      "big": "~13 GW",
+      "lines": [
+       "Jefferies estimate",
+       "Legislature convenes Jan 12, 2027"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/q02.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.1,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Carl Lender from Sunrise, USA, CC BY 2.0 · illustrative"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Gas Turbine World, citing Jefferies"
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "WHAT LIKELY HAPPENS",
+      "items": [
+       "Still needs a state permit: on hold",
+       "Permitted, grid-connected, under construction: likely continues"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/aerial/a_rio_hondo_fields.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Near Rio Hondo · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Houston Chronicle; Texas Tribune, Nov 2026"
+  },
+  {
+   "label": "part 4",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "WHAT IT MEANS FOR THE VALLEY",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: What it means for the Valley",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/p04.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    },
+    {
+     "image": "assets/photos/ep5/aerial/a_airport_east.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.1,
+      1.2
+     ],
+     "pan": [
+      0.3,
+      0.4,
+      0.5,
+      0.5
+     ],
+     "credit": "Farmland east of Valley International Airport (imagery predates construction) · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Property taxes",
+      "big": "FULL vs. ABATED",
+      "lines": [
+       "full taxes: millions a year locally",
+       "full abatement: very little for a decade"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_harlingen.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Downtown Harlingen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_falcon_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 7.0
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "WATER CLAIMS TO CHECK",
+      "items": [
+       "Closed-loop cooling",
+       "Reclaimed wastewater",
+       "State now requires usage reporting"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: company statements; Office of the Texas Governor",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 5",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "WHAT TO WATCH",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: What to watch",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "BUYING OR BUILDING NEAR RIO HONDO",
+      "items": [
+       "Plan around Fluidstack: permitted, under construction",
+       "Watch its hiring",
+       "Watch its community benefits deal with the county"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep5/aerial/a_airport_east.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.6,
+      0.5,
+      0.4,
+      0.5
+     ],
+     "credit": "Farmland east of Valley International Airport (imagery predates construction) · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "BETTING ON STARBASE",
+      "items": [
+       "Wait for the Dec 9 city hearing",
+       "Then the new governor's first order",
+       "State permits could take months"
+      ],
+      "accent": "blue"
+     },
+     "weight": 1.0
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 20,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "IF YOU'RE LENDING",
+      "items": [
+       "Treat proposals as proposals",
+       "Eneus hasn't bought its land",
+       "SpaceX says it could build elsewhere"
+      ],
+      "accent": "orange"
+     },
+     "weight": 1.0
+    },
+    {
+     "image": "assets/photos/ep4/p02.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: RobertKixmiller, CC BY-SA 4.0 · Harlingen"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "OUR WATCH LIST",
+      "items": [
+       "Dec 9: Starbase hearing on SpaceX incentives",
+       "Mid-December: ERCOT data center audit",
+       "Jan 12: Legislature convenes",
+       "Jan 19: Hinojosa takes office"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n27",
+   "visuals": [
+    {
+     "video": "demo/ep5/v_bars_42b_s.mp4",
+     "ss": 6.0,
+     "weight": 0.5,
+     "len": 4.0
+    },
+    {
+     "image": "assets/photos/ep5/aerial/a_starbase_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Starbase · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 3,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}
