@@ -196,7 +196,7 @@ def render_block(k, b, cfg, tmp):
     pad0, pad1 = b.get("pad", [0.35, 0.55])
     narr = os.path.join(cfg["audio_dir"], b["narr"] + ".mp3") if b.get("narr") else None
     if narr and cfg.get("trim_narration"):   # cut dead air at the start/end of each voice clip
-        tr = os.path.join(tmp, f"trim_{b['narr']}.wav")
+        tr = os.path.join(tmp, f"trim_{b['narr']}_{int(os.path.getmtime(narr))}_{os.path.getsize(narr)}.wav")   # new audio never reuses a stale trim
         if not os.path.exists(tr):
             sr = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04"
             run("ffmpeg", "-y", "-loglevel", "error", "-i", narr, "-af", f"{sr},areverse,{sr},areverse", "-ar", "48000", tr)
