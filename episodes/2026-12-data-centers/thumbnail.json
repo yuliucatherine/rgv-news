@@ -1,0 +1,22 @@
+{
+ "photo": "assets/photos/ep5/aerial/a_starbase_wide.jpg",
+ "crop": [
+  400,
+  300,
+  3840,
+  2235
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "VALLEY DATA CENTERS",
+ "number": "$42B",
+ "headline": [
+  "SPACEX TAX BREAK BLOCKED.",
+  "WHAT GETS BUILT?"
+ ],
+ "sub": "Texas' data center freeze, explained",
+ "pad_color": [
+  25,
+  36,
+  56
+ ]
+}
