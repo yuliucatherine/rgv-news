@@ -159,6 +159,7 @@ Posts per episode:
 - Every Short caption includes "Watch the full breakdown on YouTube: <direct link to the episode>".
   Episode 1: https://www.youtube.com/watch?v=Fp4NCLi_k-I
   Episode 3: https://www.youtube.com/watch?v=EHK9LqRBihU
+  Episode 4: https://www.youtube.com/watch?v=6wr0QbbNtj0 (Metricool post 436790086)
 - Instagram and TikTok captions don't make links clickable: keep the YouTube channel link in both profile bios.
 - Schedule Metricool posts that pull from R2 one at a time: parallel downloads from the r2.dev URL can time out
   (Nov 18, 2026). A failed create makes no post, so retrying it alone is safe.
