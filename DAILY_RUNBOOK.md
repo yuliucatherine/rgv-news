@@ -186,20 +186,13 @@ sourced dates, deadlines and stakes. Never invent a deadline, inflate a number o
   Keep times on :20 to avoid the top-of-hour rush. Avoid the overnight slots (after 10:20 PM, before 10:20 AM).
 - Schedule each Metricool post one at a time (R2 fetches can time out in parallel).
 
-## Keep the terms, simplify the sentences (owner rule, Nov 19, 2026; applies from Episode 4)
-Keep the specific industry terms, numbers and names (LNG trains, FERC, ERCOT, acre-feet, 345 kV, fiscal 2025...).
-What gets simpler is the sentence, not the vocabulary.
-- One idea per sentence; aim for under 20 words. Split any sentence with two "and"/"with"/"which" clauses.
-- Lead with the subject and the verb. No stacked openers ("This spring, with global gas supplies squeezed, ...").
-- Cut filler and throat-clearing ("That's not a knock on the project", "by the way", "it's worth noting").
-- A term gets a short definition only the first time, and only if a smart non-specialist would stall on it.
-- Keep the caveats ("potential", "estimate", "projection") where the source is uncertain.
-- Read-aloud test: if a line needs a second listen, rewrite it.
-Example (Episode 3, n11):
-  Before: "This spring, with global gas supplies squeezed, Rio Grande LNG asked federal regulators to speed things up,
-          and in April they said yes: a peak workforce of seventy-five hundred, and construction around the clock."
-  After:  "This spring, Rio Grande LNG asked FERC to speed things up. In April, FERC said yes.
-          Up to 7,500 workers. Construction around the clock."
+## Narration voice: Episodes 1-3 style (owner rule, Nov 21, 2026; replaces the Nov 19 "simplify" rule)
+The owner preferred the original voice. Write like Episodes 1-3 (see episodes/2026-12-port-boom/script.md):
+- Full, connected news sentences with context ("This spring, with global gas supplies squeezed, Rio Grande LNG
+  asked federal regulators to speed things up, and in April they said yes..."). Do not chop lines into fragments.
+- Keep the specific terms, names and numbers, define a term once in passing, and keep the caveats.
+- Measured asides that add judgment are welcome ("That's not a knock on the project.", "Potential is the key word.").
+- Keep the light urgency from real dates and stakes (rule above), but in this voice.
 
 ## Titles (vidIQ research, Nov 19, 2026)
 - The long, specific format scores best in vidIQ (92-98): "<Hook with a number>: <Question>? What Builders and
@@ -217,10 +210,22 @@ Example (Episode 3, n11):
 - Check every cover: charts and maps must show their FINAL numbers. If a frame catches a count-up mid-way, use the
   end of the chart's block instead.
 
-## Camera tours in 3D shots (owner rule, Nov 19, 2026)
-- Comparison and timeline shots use a focus tour, not a single slow drift: the camera travels to the first item,
-  pushes in slowly while it animates, glides to the next item in story order (oldest to newest), and ends on a
-  pull-back that shows the whole comparison. Time each column's "grow" so it starts as the camera arrives.
-- bars_shot.py config: "camera": {"end": {...overview...}, "focus": [{"bar": i, "t": 0.0, "hold": 0.2}, ...,
-  {"overview": true, "t": 1.0}]}. Distance and height are set from each column's size automatically
-  (override with "dist", "lift", "side"). Example: shots/examples/bars_focus_falcon.json.
+## Camera in 3D shots: simple and timed to the voice (owner rule, Nov 21, 2026; replaces Nov 19 focus tours)
+- The owner felt the focus tours (camera gliding bar to bar) moved too much and didn't match the narration.
+  Go back to the Episodes 1-3 style: one slow, steady move per shot (start/end camera in the config), columns
+  growing in story order. No "focus" key. The old focus-tour code stays in bars_shot.py but is not used.
+- Never re-use overlapping ranges of the same 3D clip in back-to-back blocks: that makes a visible jump-cut
+  (Episode 4 v1: n00 used 0-6.6 s and n01 restarted at 6.0 s while the columns were rising).
+
+## Real images and clips first (owner rule, Nov 21, 2026)
+- The owner wants more real photos and footage, fewer generated graphics. Target: at least a third of screen time is
+  real imagery (photos with slow push/pan, real video, flyovers over real aerial imagery), with charts and 3D only
+  where a number needs it.
+- Sources reachable from the cloud session: Wikimedia Commons (use a generic User-Agent; throttle, it rate-limits),
+  including Library of Congress / Carol M. Highsmith photos (public domain) and federal agency photos (public domain).
+  Pexels, Pixabay, Flickr and archive.org are blocked from the container.
+- Prefer photos of the actual place. Photos of another place used as generic b-roll carry the place in the credit
+  (e.g. "Photo: Z3lvs, CC0 · Winchester, Calif."). Credit every photo on screen (author, license) and list it in the
+  description; CC BY-SA photos are fine with credit.
+- Never TV/news clips or outlet photos (copyright); never AI imagery of a real place.
+
