@@ -1,0 +1,30 @@
+{
+ "fps": 60,
+ "seconds": 6.0,
+ "step": 0.5,
+ "title": "ON THE RECORD",
+ "subtitle": "What local and state records show",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Nov 17, 2026",
+   "headline": "Cameron County commissioners block tax break request for SpaceX's $24B data center"
+  },
+  {
+   "outlet": "KRGV",
+   "date": "Sep 2026",
+   "headline": "Fluidstack breaks ground on $4 billion data center project in Cameron County"
+  },
+  {
+   "outlet": "Office of the Texas Governor",
+   "date": "Sep 21, 2026",
+   "headline": "Governor Abbott Directs TCEQ To Halt Data Center Permits"
+  },
+  {
+   "outlet": "Texas Tribune",
+   "date": "Nov 4, 2026",
+   "headline": "Under Hinojosa, Texas data center approvals could stay paused"
+  }
+ ]
+}

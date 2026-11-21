@@ -1,0 +1,4 @@
+q01|The Texas Capitol, Austin, Texas LCCN2014632031.tif
+q02|Datacenter Server Racks (22370909788).jpg
+q03|Technician with laptop working on server rack at NERSC.jpg
+q04|Wikimedia Foundation Servers-8055 02.jpg

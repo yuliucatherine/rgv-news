@@ -1,0 +1,30 @@
+{
+ "frames_dir": "demo/ep5/bars_42b",
+ "labels_json": "demo/ep5/bars_42b/labels.json",
+ "out_mp4": "demo/ep5/v_bars_42b.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Fluidstack": [
+   "$",
+   4,
+   "B",
+   0,
+   "under construction \u00b7 near Rio Hondo"
+  ],
+  "Eneus Energy": [
+   "up to $",
+   14,
+   "B",
+   0,
+   "proposed \u00b7 near Harlingen"
+  ],
+  "SpaceX": [
+   "$",
+   24,
+   "B",
+   0,
+   "Starbase \u00b7 county tax break denied"
+  ]
+ },
+ "credit": "Sources: KRGV; RGV Business Journal; company filings and statements"
+}
