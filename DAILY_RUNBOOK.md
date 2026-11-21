@@ -230,3 +230,14 @@ The owner preferred the original voice. Write like Episodes 1-3 (see episodes/20
   description; CC BY-SA photos are fine with credit.
 - Never TV/news clips or outlet photos (copyright); never AI imagery of a real place.
 
+
+## What works on Shorts (owner's TikTok numbers, Nov 21, 2026)
+TikTok views by Short (about 15,600 total, 82 followers in the first week): channel 52 ft deep 5,934 · LNG jobs 7,500 to 700
+2,730 · Starbase one road in 2,059 · SpaceX $220M for 445 acres, the catch? 1,509 · Falcon 100% to 8% 1,109 · Brownsville
+homes half the Texas median 949 · farm water 2-for-1 422 · cities don't run dry first 271 · Starship catch 259 · shipyard 255.
+YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local topics trailed.
+- Hooks: one hard number + a contrast, catch or question ("7,500 to 700", "the catch?", "one road in"). Avoid flat statements.
+- Name a place in the hook (Brownsville, Starbase, Falcon Reservoir, Rio Hondo).
+- TikTok rewards local infrastructure (ports, roads, jobs, water); YouTube rewards SpaceX/Starship. Lead each episode's Shorts
+  set with one of each.
+- TikTok account is personal (Metricool has no per-video TikTok data); ask the owner for a profile screenshot to check views.
