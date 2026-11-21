@@ -1,0 +1,55 @@
+{
+ "autoPublish": true,
+ "descendants": [],
+ "draft": false,
+ "firstCommentText": "",
+ "hasNotReadNotes": false,
+ "media": [
+  "https://pub-d5fcbef93b824664bb534c8643fb48b4.r2.dev/episodes/2026-11-21/ep4.mp4"
+ ],
+ "videoThumbnailUrl": "https://pub-d5fcbef93b824664bb534c8643fb48b4.r2.dev/episodes/2026-11-21/ep4_thumb.jpg",
+ "mediaAltText": [],
+ "providers": [
+  {
+   "network": "facebook"
+  },
+  {
+   "network": "youtube"
+  }
+ ],
+ "publicationDate": {
+  "dateTime": "2026-11-21T10:45:00",
+  "timezone": "America/Chicago"
+ },
+ "shortener": false,
+ "smartLinkData": {
+  "ids": []
+ },
+ "text": "The McAllen metro has more homes for sale than at any point in 36 years, and mortgage rates just climbed back above 7%. We break down what's really happening to Rio Grande Valley real estate: the listings glut, slipping prices, the rate whiplash, the gap between home prices and local incomes, and why Brownsville-Harlingen is a different market. Then what buyers, builders and lenders should do before 2027.\n\nCHAPTERS\n0:00 Cold open: a 36-year high\n0:53 Part 1: The glut\n1:52 Part 2: Prices are slipping\n2:57 Part 3: The rate whiplash\n3:54 Part 4: The affordability gap\n5:02 Part 5: Two different markets\n5:41 Part 6: What to do before 2027\n\nSOURCES\n- Realtor.com Residential Listings Database via FRED (Federal Reserve Bank of St. Louis): McAllen-Edinburg-Mission and Brownsville-Harlingen active listings, median listing price, price reductions, median days on market (Oct 2016-Oct 2026)\n- Freddie Mac Primary Mortgage Market Survey via FRED: 30-year fixed rate (5.98% on Feb 26, 2026; 7.40% on Oct 8 and 15, 2026; 7.28% on Nov 19, 2026)\n- NAHB Eye on Housing (Nov 2026): October mortgage rates and inflation\n- RGV Business Journal (Texas A&M Real Estate Center MLS data and interviews): Jan 8, Feb 25, Jul 7, Jul 27, Sep 25 and Oct 22, 2026\n- U.S. Census Bureau, Small Area Income and Poverty Estimates (2024) via FRED: Hidalgo County median household income\n- Payment figures are RGV News calculations: $255,000 home, 10% down, 30-year fixed, principal and interest only\n\nVISUALS\nAerial photos of Valley subdivisions: USGS The National Map (public domain). Maps: U.S. Census Bureau TIGER/Line. Document excerpt quoted from the RGV Business Journal. 3D scenes and charts by RGV News.\nPhotos via Wikimedia Commons (the for-sale sign photo is from Oregon, with contact details blurred; the construction photo is illustrative):\n- Cityscape of McAllen, Texas: Anthony Acosta, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Cityscape_of_McAllen,_Texas.jpg)\n- Aerial View Of The Northern Part Of Harlingen, TX 08202022 1: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_1.jpg)\n- Aerial View Of The Northern Part Of Harlingen, TX 08202022 2: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_2.jpg)\n- Aerial View Of The Northern Part Of Harlingen, TX 08202022 3: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_3.jpg)\n- Home for Sale and Open House signs: Rick Obst, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Home_for_Sale_and_Open_House_signs.jpg)\n- A house under construction: Goose Green Photography, CC0 (https://commons.wikimedia.org/wiki/File:A_house_under_construction.jpg)\n- La Plaza Mall McAllen Texas - panoramio: Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:La_Plaza_Mall_McAllen_Texas_-_panoramio.jpg)\n- Edinburg, TX, USA - panoramio - Mig Esc: Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Edinburg,_TX,_USA_-_panoramio_-_Mig_Esc.jpg)\n- Edinburg, TX, USA - panoramio - Mig Esc (2): Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Edinburg,_TX,_USA_-_panoramio_-_Mig_Esc_(2).jpg)\n\nMUSIC\n\"Rising Tide\", \"I Can Feel it Coming\", \"Dreamer\" and \"Inspired\" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/\n\nNarration is AI-generated (ElevenLabs) from a script researched and fact-checked against the sources above. This video is for information only and is not financial or investment advice.\n\n#TexasRealEstate #RioGrandeValley #McAllen #Brownsville #HousingMarket #RealEstate #Texas",
+ "facebookData": {
+  "type": "POST",
+  "title": "Rio Grande Valley Housing Heading Into 2027: Buyer's Market or Warning Sign?"
+ },
+ "youtubeData": {
+  "title": "McAllen Housing Market 2027: Buyer's Market or Warning Sign? What Builders & Investors Need to Know",
+  "type": "video",
+  "privacy": "public",
+  "tags": [
+   "McAllen housing market",
+   "Texas real estate",
+   "Rio Grande Valley",
+   "McAllen",
+   "Edinburg",
+   "Brownsville",
+   "Harlingen",
+   "housing market 2027",
+   "mortgage rates",
+   "real estate investing",
+   "homebuilders",
+   "Texas"
+  ],
+  "category": "NEWS_POLITICS",
+  "madeForKids": false,
+  "isAiGeneratedContent": false
+ }
+}
