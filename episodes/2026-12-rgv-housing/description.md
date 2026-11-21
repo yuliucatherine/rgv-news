@@ -1,15 +1,15 @@
-Rio Grande Valley Housing Heading Into 2027: Buyer's Market or Warning Sign?
+McAllen Housing Market 2027: Buyer's Market or Warning Sign? What Builders & Investors Need to Know
 
 The McAllen metro has more homes for sale than at any point in 36 years, and mortgage rates just climbed back above 7%. We break down what's really happening to Rio Grande Valley real estate: the listings glut, slipping prices, the rate whiplash, the gap between home prices and local incomes, and why Brownsville-Harlingen is a different market. Then what buyers, builders and lenders should do before 2027.
 
 CHAPTERS
 0:00 Cold open: a 36-year high
-0:43 Part 1: The glut
-1:30 Part 2: Prices are slipping
-2:34 Part 3: The rate whiplash
-3:26 Part 4: The affordability gap
-4:33 Part 5: Two different markets
-5:06 Part 6: What to do before 2027
+0:53 Part 1: The glut
+1:52 Part 2: Prices are slipping
+2:57 Part 3: The rate whiplash
+3:54 Part 4: The affordability gap
+5:02 Part 5: Two different markets
+5:41 Part 6: What to do before 2027
 
 SOURCES
 - Realtor.com Residential Listings Database via FRED (Federal Reserve Bank of St. Louis): McAllen-Edinburg-Mission and Brownsville-Harlingen active listings, median listing price, price reductions, median days on market (Oct 2016-Oct 2026)
@@ -20,7 +20,17 @@ SOURCES
 - Payment figures are RGV News calculations: $255,000 home, 10% down, 30-year fixed, principal and interest only
 
 VISUALS
-Maps: U.S. Census Bureau TIGER/Line. Aerial imagery: USGS The National Map. Document excerpt quoted from the RGV Business Journal. 3D scenes and charts by RGV News.
+Aerial photos of Valley subdivisions: USGS The National Map (public domain). Maps: U.S. Census Bureau TIGER/Line. Document excerpt quoted from the RGV Business Journal. 3D scenes and charts by RGV News.
+Photos via Wikimedia Commons (the for-sale sign photo is from Oregon, with contact details blurred; the construction photo is illustrative):
+- Cityscape of McAllen, Texas: Anthony Acosta, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Cityscape_of_McAllen,_Texas.jpg)
+- Aerial View Of The Northern Part Of Harlingen, TX 08202022 1: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_1.jpg)
+- Aerial View Of The Northern Part Of Harlingen, TX 08202022 2: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_2.jpg)
+- Aerial View Of The Northern Part Of Harlingen, TX 08202022 3: RobertKixmiller, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Aerial_View_Of_The_Northern_Part_Of_Harlingen,_TX_08202022_3.jpg)
+- Home for Sale and Open House signs: Rick Obst, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Home_for_Sale_and_Open_House_signs.jpg)
+- A house under construction: Goose Green Photography, CC0 (https://commons.wikimedia.org/wiki/File:A_house_under_construction.jpg)
+- La Plaza Mall McAllen Texas - panoramio: Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:La_Plaza_Mall_McAllen_Texas_-_panoramio.jpg)
+- Edinburg, TX, USA - panoramio - Mig Esc: Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Edinburg,_TX,_USA_-_panoramio_-_Mig_Esc.jpg)
+- Edinburg, TX, USA - panoramio - Mig Esc (2): Mig Esc, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Edinburg,_TX,_USA_-_panoramio_-_Mig_Esc_(2).jpg)
 
 MUSIC
 "Rising Tide", "I Can Feel it Coming", "Dreamer" and "Inspired" by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
