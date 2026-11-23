@@ -5,6 +5,7 @@ Layout (all text inside the Shorts/Reels/TikTok safe zone x 60-1020, y 220-1340)
   "full breakdown on YouTube" line. Background: blurred, darkened copy of the same footage.
 Usage: python3 pipeline/shorts_from_episode.py <short.json>
 config: {"timeline": ".../timeline.json", "blocks": [28, 29, 33], "out": "demo/shorts/s1.mp4",
+         (a block may also be an inline dict, e.g. {"narr": "h01", "visuals": [...]} for the Short's own hook line)
          "hook": ["LINE 1", "LINE 2", "*ORANGE LINE*"], "credit": "Source: ...",
          "music": {"track": "assets/music/X.mp3", "offset": 30}, "end_text": "..."}
 """
@@ -48,7 +49,7 @@ def main(cfg):
     sub["fps"] = FPS; sub["out"] = os.path.join(tmp, "clean.mp4"); sub["tmp"] = os.path.join(tmp, "build")
     blocks = []
     for i in cfg["blocks"]:
-        b = copy.deepcopy(tl["blocks"][i])
+        b = copy.deepcopy(tl["blocks"][i] if isinstance(i, int) else i)   # int: episode block; dict: inline block (e.g. hook line)
         for key in ("headline", "kinetic", "texts", "credit", "chapter"): b.pop(key, None)
         b["no_captions"] = True; blocks.append(b)
     blocks[-1]["pad"] = [blocks[-1].get("pad", [0.5, 0.8])[0], 2.6]      # room for the closing line
@@ -66,7 +67,7 @@ def main(cfg):
         D = longform.probe_dur(os.path.join(sub["tmp"], f"blk_{k:03d}.mp4"))
         if b.get("narr"):
             mp3 = os.path.join(tl["audio_dir"], f"{b['narr']}.mp3")
-            trimmed = os.path.join(sub["tmp"], f"trim_{b['narr']}.wav")   # matches longform trim_narration
+            trimmed = os.path.join(sub["tmp"], f"trim_{b['narr']}_{int(os.path.getmtime(mp3))}_{os.path.getsize(mp3)}.wav")   # matches longform trim_narration
             if tl.get("trim_narration") and os.path.exists(trimmed): mp3 = trimmed
             nd = longform.probe_dur(mp3); pad0 = b.get("pad", [0.5, 0.8])[0]
             chunks = longform.caption_chunks(narr[b["narr"]], maxc=cfg.get("cap_chars", 22))
