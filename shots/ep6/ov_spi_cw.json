@@ -1,0 +1,16 @@
+{
+ "frames_dir": "demo/ep2/spi_frames",
+ "labels_json": "demo/ep2/spi_frames/labels.json",
+ "out_mp4": "demo/ep6/v_spi_cw.mp4",
+ "fps_in": 24,
+ "labels_from": 0.1,
+ "callouts": [
+  {
+   "text": "One road on or off the island",
+   "sub": "Queen Isabella Causeway \u00b7 Port Isabel to South Padre Island",
+   "start": 1.5,
+   "end": 8.6
+  }
+ ],
+ "credit": "Imagery: USGS The National Map \u00b7 Elevation: AWS Terrain Tiles"
+}

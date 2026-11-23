@@ -1,0 +1,116 @@
+{
+ "seconds": 18,
+ "fps": 60,
+ "county": "48215",
+ "views": [
+  [
+   0,
+   -98.32,
+   26.03,
+   -97.98,
+   26.24
+  ],
+  [
+   0.45,
+   -98.26,
+   26.04,
+   -98.02,
+   26.2
+  ],
+  [
+   1,
+   -98.24,
+   26.035,
+   -98.03,
+   26.17
+  ]
+ ],
+ "sites": [
+  [
+   "McAllen",
+   26.2034,
+   -98.23,
+   0.03,
+   "white"
+  ],
+  [
+   "Pharr",
+   26.1948,
+   -98.1836,
+   0.06,
+   "white"
+  ],
+  [
+   "San Juan",
+   26.1892,
+   -98.1553,
+   0.09,
+   "white"
+  ],
+  [
+   "Alamo",
+   26.1834,
+   -98.1231,
+   0.12,
+   "white"
+  ],
+  [
+   "Donna",
+   26.1704,
+   -98.052,
+   0.15,
+   "white"
+  ],
+  [
+   "Pharr International Bridge",
+   26.068,
+   -98.2035,
+   0.3,
+   "orange"
+  ],
+  [
+   "Donna International Bridge",
+   26.0605,
+   -98.0735,
+   0.4,
+   "orange"
+  ]
+ ],
+ "labels": [
+  [
+   "MEXICO",
+   26.04,
+   -98.15,
+   0.02,
+   40,
+   [
+    100,
+    116,
+    139
+   ]
+  ],
+  [
+   "PLANNED TRUCK CORRIDOR \u00b7 ABOUT 13 MILES \u00b7 NOT YET FUNDED",
+   26.115,
+   -98.13,
+   0.55,
+   30,
+   [
+    253,
+    224,
+    71
+   ]
+  ]
+ ],
+ "note": "Map: U.S. Census Bureau TIGER/Line \u00b7 Corridor route not shown",
+ "mexico_coast": [
+  [
+   -97.5,
+   26.25
+  ],
+  [
+   -97.5,
+   25.1
+  ]
+ ]
+}

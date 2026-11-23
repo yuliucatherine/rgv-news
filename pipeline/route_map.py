@@ -43,7 +43,7 @@ def main(cfg, out):
     tx4 = st[st.STUSPS == "TX"].geometry.iloc[0]
     mex = None
     if cfg.get("mexico_coast"):
-        cst = cfg["mexico_coast"]; poly = Polygon([(-101, 24.0), (cst[-1][0], 24.0)] + cst[::-1] + [(cst[0][0], 27.0), (-101, 30.0)])
+        cst = cfg["mexico_coast"]; poly = Polygon([(-101, 24.0), (cst[-1][0], 24.0)] + cst[::-1] + [(-97.40, cst[0][1]), (-97.6, 26.2), (-101, 30.0)])  # inland of the Gulf
         mex = gpd.GeoSeries([poly.difference(tx4)], crs=4269).to_crs(3857).simplify(200).iloc[0]
     tx = gpd.GeoSeries([tx4], crs=4269).to_crs(3857).simplify(150).iloc[0]
     co = gpd.read_file(g + "cb_2023_us_county_500k.zip"); co = co[co.STATEFP == "48"].to_crs(3857).geometry.simplify(150)

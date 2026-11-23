@@ -1,0 +1,30 @@
+{
+ "fps": 60,
+ "seconds": 6.0,
+ "step": 0.5,
+ "title": "ON THE RECORD",
+ "subtitle": "What local and state reporting shows",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Aug 26, 2026",
+   "headline": "Texas commits $192M to widen the only highway to Starbase"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Dec 16, 2025",
+   "headline": "Traffic to SpaceX has surged — and TxDOT wants to widen the only road in"
+  },
+  {
+   "outlet": "KRGV",
+   "date": "Nov 6, 2025",
+   "headline": "TxDOT shares plans for proposed second South Padre Island causeway"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Feb 26, 2026",
+   "headline": "Valley leaders push to fund key connector highways"
+  }
+ ]
+}

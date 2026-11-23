@@ -1,0 +1,22 @@
+{
+ "photo": "assets/photos/ep6/aerial/a_sh4_flats.jpg",
+ "crop": [
+  0,
+  100,
+  3440,
+  2035
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "ONLY ROAD TO STARBASE",
+ "number": "10x",
+ "headline": [
+  "THE TRAFFIC.",
+  "SAME TWO LANES."
+ ],
+ "sub": "Funded vs. stuck: Valley roads, bridges, I-69",
+ "pad_color": [
+  25,
+  36,
+  56
+ ]
+}

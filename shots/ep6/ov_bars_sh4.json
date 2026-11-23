@@ -1,0 +1,37 @@
+{
+ "frames_dir": "demo/ep6/bars_sh4",
+ "labels_json": "demo/ep6/bars_sh4/labels.json",
+ "out_mp4": "demo/ep6/v_bars_sh4.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "2019": [
+   "",
+   645,
+   "",
+   0,
+   "vehicles a day"
+  ],
+  "2023": [
+   "",
+   4683,
+   "",
+   0,
+   "vehicles a day"
+  ],
+  "2024": [
+   "",
+   6743,
+   "",
+   0,
+   "vehicles a day"
+  ],
+  "2050 (projected)": [
+   "~",
+   19700,
+   "",
+   0,
+   "TxDOT projection"
+  ]
+ },
+ "credit": "Source: TxDOT traffic counts via RGV Business Journal (Dec 16, 2025)"
+}
