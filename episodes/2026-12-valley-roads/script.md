@@ -11,7 +11,7 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 **N00:** In twenty nineteen, about six hundred forty-five vehicles a day used State Highway 4, the only road from Brownsville to Starbase. By twenty twenty-four, it was carrying more than sixty-seven hundred, ten times as many, on the same two lanes.
 *KINETIC: 645 → 6,743 A DAY*
 (RGV Business Journal, Dec 16, 2025 and Aug 26, 2026, citing TxDOT data)
-**N01:** This August, Texas finally put a price on fixing it: one hundred ninety-two million dollars to turn it into a four-lane highway. The project is scheduled to go out for bids before next August, and construction would take years after that.
+**N01:** This August, Texas finally put a price on fixing it: one hundred ninety-two million dollars to turn it into a four-lane highway. The project is scheduled to go out for bids before next August, with construction to follow.
 (RGV Business Journal, Aug 26, 2026; TxDOT 2027 Unified Transportation Program)
 **N02:** That's the pattern across the Valley right now. Jobs and investment are arriving faster than the roads, bridges and highways built to carry them, and the gap decides where the next wave of growth can actually go.
 **N03:** So which projects are funded, which are stuck, and what does that mean if you build, buy or lend in the Valley? This is RGV News.
