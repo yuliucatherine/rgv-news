@@ -11,7 +11,7 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 **N00:** In twenty nineteen, about six hundred forty-five vehicles a day used State Highway 4, the only road from Brownsville to Starbase. By twenty twenty-four, it was carrying more than sixty-seven hundred, ten times as many, on the same two lanes.
 *KINETIC: 645 → 6,743 A DAY*
 (RGV Business Journal, Dec 16, 2025 and Aug 26, 2026, citing TxDOT data)
-**N01:** This August, Texas finally put a price on fixing it: one hundred ninety-two million dollars to turn it into a four-lane highway. But the bids won't go out until fiscal twenty twenty-seven.
+**N01:** This August, Texas finally put a price on fixing it: one hundred ninety-two million dollars to turn it into a four-lane highway. The project is scheduled to go out for bids before next August, and construction would take years after that.
 (RGV Business Journal, Aug 26, 2026; TxDOT 2027 Unified Transportation Program)
 **N02:** That's the pattern across the Valley right now. Jobs and investment are arriving faster than the roads, bridges and highways built to carry them, and the gap decides where the next wave of growth can actually go.
 **N03:** So which projects are funded, which are stuck, and what does that mean if you build, buy or lend in the Valley? This is RGV News.
@@ -59,8 +59,8 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 
 ## PART 4: THE INTERSTATE GAP
 [VISUAL: map of I-69C, I-69E and I-2 in the Valley, with the unfinished link north highlighted]
-**N17:** Then there's the biggest gap of all. The Valley has interstates, I-2, I-69 Central and I-69 East, but they still don't connect to the rest of the national interstate system. The missing pieces run north through mostly rural counties toward Corpus Christi.
-(Federal Highway Administration route designations; I-69 Texas Alliance)
+**N17:** Then there's the biggest gap of all. The Valley has interstates, I-2, I-69 Central and I-69 East, but they still don't connect to the rest of the national interstate system. Interstate 69 East signs still end at Raymondville. North of there, TxDOT has about four hundred million dollars in contracts on U.S. 77 through Kenedy County, but that covers less than half of the miles still needed.
+(TxDOT update via The Monitor, Jun 11, 2025: about $400M under contract in Kenedy County; Cameron County RMA I-69 update: 19.8 of the remaining 44 miles across Kenedy County)
 **N18:** Closer to home, TxDOT is studying the I-69 Connector, a new east-west freeway between Edinburg and Harlingen. Its own fact sheet puts the final environmental decision in twenty twenty-seven, and Cameron County's mobility chief has said that if TxDOT won't build it, the counties should.
 (TxDOT I-69 Connector fact sheet; Rio Grande Guardian, Feb 2026)
 
@@ -70,8 +70,8 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 **N20:** Then treat the rest as options, not promises. The second causeway, the trade corridor and the I-69 Connector all matter, but none has a construction start date, and land priced as if they're coming soon carries real timing risk.
 **N21:** For builders, the near-term demand follows the trucks and the commuters: industrial and logistics space near the Pharr and Donna bridges, and housing and services along the Brownsville-to-Starbase corridor.
 **N22:** For lenders, ask one question about any deal that depends on a new road: is it in the state's ten-year plan with real money behind it, or is it still in a study?
-**N23:** Our watch list: the State Highway 4 bids in fiscal twenty twenty-seven, the Donna bridge construction schedule, the second causeway's environmental decision, and the Legislature, which opens January twelfth and controls the transportation money.
-*ON SCREEN: SH 4 BIDS: FY2027 · DONNA BRIDGE: BY END OF 2028 · CAUSEWAY: ENVIRONMENTAL STUDY · LEGISLATURE: JAN 12*
+**N23:** Our watch list: the State Highway 4 bids, scheduled before next August, the Donna bridge construction schedule, the second causeway's environmental decision, and the Legislature, which opens January twelfth and controls the transportation money.
+*ON SCREEN: SH 4 BIDS: BY AUG 2027 · DONNA BRIDGE: BY END OF 2028 · CAUSEWAY: ENVIRONMENTAL STUDY · LEGISLATURE: JAN 12*
 **N24:** In the Valley, growth goes where the roads go. Right now, some of those roads are funded, and some are still lines on a map. This is RGV News.
 *END CARD*
 
@@ -86,12 +86,11 @@ Legend: **NARRATION** (James) · *ON SCREEN* · [VISUAL] · (SOURCE)
 
 ## Open items before narration
 - Copy exact og:title headlines for the montage from the saved pages.
-- N17 wording on the interstate gap: confirm current status of the US 77 (Raymondville-Robstown) and US 281 upgrades before narration.
 - Pharr bridge "thousands of trucks a day" is from RGVBJ; keep the wording general.
 
 ## Short hook lines (one standalone sentence each, recorded separately)
-- "Ten times the traffic on the only road to Starbase, and the fix is still out for bid."
+- "Ten times the traffic on the only road to Starbase, and the fix isn't even out for bids yet."
 - "South Padre Island has one bridge. A second one could cost a billion dollars."
-- "A hundred trucks an hour are coming to the Donna bridge. The road behind it isn't funded."
+- "A hundred trucks an hour are coming to the Donna bridge. The truck road behind it is stuck."
 - "The Valley has three truck corridors, and none of them connect."
 - "The Rio Grande Valley's interstates still don't connect to the rest of America."
