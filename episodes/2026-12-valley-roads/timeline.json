@@ -1,0 +1,1037 @@
+{
+ "fps": 60,
+ "trim_narration": true,
+ "out": "demo/ep6/episode6.mp4",
+ "audio_dir": "episodes/2026-12-valley-roads/audio",
+ "narration_json": "episodes/2026-12-valley-roads/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Rising_Tide.mp3",
+    "chapter": 0,
+    "offset": 10
+   },
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 2,
+    "offset": 45
+   },
+   {
+    "track": "assets/music/Industrial_Cinematic.mp3",
+    "chapter": 3,
+    "offset": 10
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 4,
+    "offset": 50
+   },
+   {
+    "track": "assets/music/Inspired.mp3",
+    "chapter": 5,
+    "offset": 20
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/aerial/a_sh4_flats.jpg",
+     "weight": 0.45,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.35,
+      0.6,
+      0.55,
+      0.5
+     ],
+     "credit": "State Highway 4 near Boca Chica · Imagery: USGS The National Map"
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 0,
+     "weight": 0.55,
+     "len": 8.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "chapter": "Cold open: one road, ten times the traffic",
+   "credit": "Source: TxDOT counts via RGV Business Journal",
+   "kinetic": {
+    "words": [
+     "645",
+     "→ 6,743",
+     "A DAY"
+    ],
+    "at": 7.0,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   },
+   "credit_y": 1000
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "demo/ep6/v_sh4_192_s.mp4",
+     "ss": 4.0,
+     "weight": 0.6,
+     "len": 8.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "TxDOT · 2027 Unified Transportation Program",
+      "big": "$192M",
+      "lines": [
+       "SH 4: two lanes to a divided four-lane highway",
+       "bids scheduled before August 2027"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Aug 26, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/r09.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: L1CENSET0K1LL, Public domain · McAllen"
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_pharr_bridge.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.6,
+      0.5,
+      0.45
+     ],
+     "credit": "Pharr International Bridge · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/r07.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: formulanone from Huntsville, United States, CC BY-SA 2.0 · Brownsville"
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_causeway.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Queen Isabella Causeway · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "on the record",
+   "dur": 6.0,
+   "visuals": [
+    {
+     "video": "demo/ep6/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 2.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "THE VALLEY'S ROAD PROBLEM",
+      "sub": "Where the next boom can (and can't) go"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "THE ONE ROAD TO STARBASE",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: The one road to Starbase",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 8.5,
+     "weight": 1.0,
+     "len": 12.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Dec 16, 2025",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "TXDOT'S PLAN FOR SH 4",
+      "items": [
+       "Two lanes to a divided four-lane highway",
+       "Brownsville to Starbase",
+       "Inside the state's existing right-of-way",
+       "No new land to buy"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_sh4_flats.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.6,
+      0.5,
+      0.4,
+      0.55
+     ],
+     "credit": "State Highway 4 near Boca Chica · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Dec 16, 2025 and Aug 26, 2026"
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "video": "demo/ep6/v_bars_sh4_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_starbase_wide.jpg",
+     "weight": 0.35,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Starbase · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "ALONG THE CORRIDOR",
+      "items": [
+       "Starbase has approved commercial projects",
+       "Rio West: housing, retail, restaurants",
+       "County wants four lanes west to FM 511"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.35
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_sh4_west.jpg",
+     "weight": 0.3,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.4,
+      0.5,
+      0.6,
+      0.5
+     ],
+     "credit": "West end of SH 4, toward Brownsville · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Dec 16, 2025"
+  },
+  {
+   "label": "part 2",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "ONE BRIDGE TO THE ISLAND",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: One bridge to the island",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "video": "demo/ep6/v_spi_cw_s.mp4",
+     "ss": 0,
+     "weight": 0.65,
+     "len": 9.0
+    },
+    {
+     "image": "assets/photos/ep6/r02.jpg",
+     "weight": 0.35,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: G. Lamar, CC BY 2.0 · Queen Isabella Causeway"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: TxDOT, South Padre Island Second Access Project",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/ep6/map_spi.mp4",
+     "ss": 0,
+     "weight": 0.75,
+     "len": 12.0
+    },
+    {
+     "image": "assets/photos/ep6/r01.jpg",
+     "weight": 0.25,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: TheGinger68, CC BY-SA 4.0 · South Padre Island"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: KRGV; TxDOT; Texas Transportation Commission, Dec 2023",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Second causeway · State Highway 104",
+      "big": "UP TO $1B",
+      "lines": [
+       "two routes, about 8 miles across the Laguna Madre",
+       "four lanes · 5 to 6 years to build"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.45
+    },
+    {
+     "video": "demo/ep6/map_spi.mp4",
+     "ss": 12.5,
+     "weight": 0.55,
+     "len": 11.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: TxDOT public meeting via KRGV, Nov 2025",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/aerial/a_spi_north.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.55,
+      0.5,
+      0.45
+     ],
+     "credit": "North end of South Padre Island · Imagery: USGS The National Map"
+    },
+    {
+     "image": "assets/photos/ep6/r03.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Shannon247, Public domain · Port Isabel and the Queen Isabella Causeway"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "NO START",
+     "DATE YET"
+    ],
+    "at": 4.5,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "label": "part 3",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "THE TRUCKS AND THE BRIDGES",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: The trucks and the bridges",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/aerial/a_pharr_bridge.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.45,
+      0.5,
+      0.6
+     ],
+     "credit": "Pharr International Bridge · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Feb 26, 2026"
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/r06.jpg",
+     "weight": 0.35,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Congressman Ruben Hinojosa, Public domain · Donna port of entry"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Donna International Bridge",
+      "big": "$62M",
+      "lines": [
+       "U.S. and Mexican inspectors in one facility",
+       "six dedicated lanes",
+       "up to 100 trucks an hour · done by end of 2028"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.35
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_donna_bridge.jpg",
+     "weight": 0.3,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.4,
+      0.4,
+      0.5,
+      0.5
+     ],
+     "credit": "Donna International Bridge · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Feb 26, 2026"
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "video": "demo/ep6/map_hidalgo.mp4",
+     "ss": 0,
+     "weight": 0.65,
+     "len": 15.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "International Bridge Trade Corridor",
+      "big": "$150M",
+      "lines": [
+       "requested by Gov. Abbott in 2023",
+       "toll-free, about 13 miles · funding stuck"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.35
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Feb 26, 2026; Donna interim city manager Jesus Reyna",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_pharr_n.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Pharr · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "100 TRUCKS",
+     "AN HOUR"
+    ],
+    "at": 1.6,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "video": "demo/ep6/v_port_s.mp4",
+     "ss": 2.0,
+     "weight": 0.6,
+     "len": 8.0
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "THREE HEAVYWEIGHT CORRIDORS",
+      "items": [
+       "Port of Harlingen",
+       "Port of Brownsville",
+       "Hidalgo County",
+       "None connect to each other"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Walker Smith, Port of Harlingen, via RGV Business Journal, Feb 26, 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 4",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "THE INTERSTATE GAP",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: The interstate gap",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "video": "demo/ep6/map_i69.mp4",
+     "ss": 0,
+     "weight": 0.76,
+     "len": 19.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_us77_kenedy.jpg",
+     "weight": 0.24,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "U.S. 77, Kenedy County · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: TxDOT via The Monitor, Jun 11, 2025; Cameron County RMA",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "video": "demo/ep6/map_connector.mp4",
+     "ss": 0,
+     "weight": 0.65,
+     "len": 12.0
+    },
+    {
+     "image": "assets/photos/ep6/r08.jpg",
+     "weight": 0.35,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: formulanone from Huntsville, United States, CC BY-SA 2.0 · Harlingen"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: TxDOT I-69 Connector fact sheet; Rio Grande Guardian, Feb 2026",
+   "credit_y": 1000
+  },
+  {
+   "label": "part 5",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "WHAT IT MEANS FOR BUILDERS, BUYERS AND LENDERS",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: What it means for builders, buyers and lenders",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FUNDED: PLAN AROUND IT",
+      "items": [
+       "SH 4 widening: $192M, bids before Aug 2027",
+       "Donna bridge lanes: done by end of 2028"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "video": "demo/ep1/v_starbase_s.mp4",
+     "ss": 21.0,
+     "weight": 0.5,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "NOT FUNDED YET: TREAT AS OPTIONS",
+      "items": [
+       "Second causeway: environmental study",
+       "Trade corridor: funding stuck",
+       "I-69 Connector: decision in 2027"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_laguna.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Laguna Madre · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FOR BUILDERS",
+      "items": [
+       "Industrial and logistics near the Pharr and Donna bridges",
+       "Housing and services on the Brownsville-Starbase corridor"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_sh4_west.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.6,
+      0.5,
+      0.4,
+      0.5
+     ],
+     "credit": "SH 4, east of Brownsville · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "card": {
+      "type": "quote",
+      "quote": "Is it in the state's ten-year plan with real money behind it, or is it still in a study?",
+      "by": "The lender's question",
+      "source": "RGV News"
+     },
+     "weight": 0.6
+    },
+    {
+     "image": "assets/photos/ep6/r05.jpg",
+     "weight": 0.4,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Anthony Acosta, CC BY-SA 4.0 · South Padre Island"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "OUR WATCH LIST",
+      "items": [
+       "SH 4 bids: by August 2027",
+       "Donna bridge: done by end of 2028",
+       "Second causeway: environmental decision",
+       "Legislature opens Jan 12"
+      ],
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "video": "demo/ep6/v_spi_cw_s.mp4",
+     "ss": 12.0,
+     "weight": 0.5,
+     "len": 6.0
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_sh4_flats.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.15,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "State Highway 4 near Boca Chica · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 3,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

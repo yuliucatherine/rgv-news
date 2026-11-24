@@ -64,7 +64,7 @@ B = [
     N("n00", [IMG("a_sh4_flats", 0.45, zoom=(1.0, 1.15), pan=(0.35, 0.6, 0.55, 0.5), place=SH4P), V(SBV, 0, 8.0, w=0.55)],
       chapter="Cold open: one road, ten times the traffic", credit="Source: TxDOT counts via RGV Business Journal",
       kinetic=K(["645", "→ 6,743", "A DAY"], at=7.0, step=0.5, size=120)),
-    N("n01", [V(SH4, 0, 8.0, w=0.6),
+    N("n01", [V(SH4, 4.0, 8.0, w=0.6),
               stat("TxDOT · 2027 Unified Transportation Program", "$192M", ["SH 4: two lanes to a divided four-lane highway",
                                                                              "bids scheduled before August 2027"], w=0.4)],
       credit=RGVBJ + ", Aug 26, 2026"),
@@ -98,7 +98,7 @@ B = [
                                                                          "four lanes · 5 to 6 years to build"], "blue", w=0.45),
               V(M_SPI, 12.5, 11.0, w=0.55)], credit="Source: TxDOT public meeting via KRGV, Nov 2025"),
     N("n11", [IMG("a_spi_north", 0.5, zoom=(1.0, 1.12), pan=(0.5, 0.55, 0.5, 0.45), place="North end of South Padre Island"),
-              PH("r04", "a_laguna", w=0.5, zoom=(1.0, 1.1), place="South Padre Island")],
+              PH("r03", "a_laguna", w=0.5, zoom=(1.0, 1.1), place="Port Isabel and the Queen Isabella Causeway")],
       kinetic=K(["NO START", "DATE YET"], at=4.5, step=0.5, size=120)),
     # ---------------- part 3: the trucks and the bridges
     section("PART 3", "THE TRUCKS AND THE BRIDGES", "Part 3: The trucks and the bridges"),
