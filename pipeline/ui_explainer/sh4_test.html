@@ -1,0 +1,138 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- RGV News "explainer UI" style test (vertical 1080x1920). Everything is drawn from window.render(t), so a
+     headless browser can step it frame by frame at 60 fps (pipeline/ui_explainer/render.js). Data: TxDOT counts via
+     RGV Business Journal (Dec 16, 2025); $192M and bid timing: RGV Business Journal (Aug 26, 2026). -->
+<style>
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-Medium.otf);font-weight:500}
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-Bold.otf);font-weight:700}
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-Black.otf);font-weight:900}
+@font-face{font-family:Mono;src:url(file:///usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Bold.ttf);font-weight:700}
+@font-face{font-family:Mono;src:url(file:///usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Regular.ttf);font-weight:400}
+:root{--bg:#120e0d;--card:#1b1819;--line:#2c2729;--ink:#f4efe9;--mute:#8d8580;--org:#f97316;--teal:#2dd4bf;--red:#ef4444}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);font-family:Inter,sans-serif;color:var(--ink)}
+#glow{position:absolute;inset:0;background:radial-gradient(900px 700px at 50% 38%,rgba(249,115,22,.16),transparent 70%)}
+#grain{position:absolute;inset:0;opacity:.05;background-image:repeating-radial-gradient(circle at 17% 23%,#fff 0 1px,transparent 1px 3px)}
+.chip{position:absolute;left:60px;top:236px;display:flex;align-items:center;gap:14px;padding:12px 22px;border:2px solid var(--line);
+  border-radius:16px;background:#1a1617;font:700 30px Mono;letter-spacing:1px}
+.bars{display:flex;gap:4px;align-items:flex-end}.bars i{display:block;width:6px;background:var(--org);border-radius:2px}
+.brand{position:absolute;right:60px;top:244px;font:700 26px Mono;color:var(--mute)}
+.card{position:absolute;left:60px;width:960px;background:var(--card);border:2px solid var(--line);border-radius:28px;padding:34px 38px}
+.ctitle{font:700 36px Inter;color:var(--ink)}
+.csub{font:400 24px Mono;color:var(--mute);margin-top:6px}
+#cap{position:absolute;left:60px;width:960px;top:1236px;text-align:center;font:900 66px Inter;line-height:1.08;letter-spacing:-1px}
+#cap span{transition:none}
+.tag{position:absolute;padding:8px 18px;border-radius:12px;font:700 28px Mono;color:#08110f;background:var(--teal)}
+</style></head>
+<body>
+<div id="glow"></div><div id="grain"></div>
+<div class="chip" id="chip"><span class="bars"><i style="height:10px"></i><i style="height:18px"></i><i style="height:26px"></i></span><span id="chiptxt">SH 4</span></div>
+<div class="brand">RGV NEWS</div>
+<svg id="stage" width="1080" height="1920" style="position:absolute;left:0;top:0"></svg>
+<div class="card" id="bidcard" style="top:820px">
+  <div class="ctitle">SH 4 widening · $192M</div><div class="csub">TxDOT 2027 plan · status</div>
+  <div id="steps" style="display:flex;justify-content:space-between;margin-top:30px"></div>
+</div>
+<div class="card" id="countcard" style="top:330px;height:860px">
+  <div class="ctitle">Vehicles a day · State Highway 4</div><div class="csub">each dot = 100 vehicles</div>
+  <div style="display:flex;align-items:baseline;gap:22px;margin-top:22px">
+    <div id="count" style="font:900 150px Inter;letter-spacing:-4px">645</div>
+    <div id="year" style="font:700 40px Mono;color:var(--org)">2019</div></div>
+  <svg id="dots" width="884" height="470" style="margin-top:8px"></svg>
+</div>
+<div id="cap"></div>
+<script>
+const NS="http://www.w3.org/2000/svg";
+const T0=5.815;  // n00 starts here (after the hook line h01)
+// caption phrases: [start, end, [[word, spoken weight], ...]] (times from pause detection on the voice clips)
+const P=[[0,1.60,[["Ten",3],["times",5],["the",3],["traffic",7]]],
+ [1.73,3.13,[["on",2],["the",3],["only",4],["road",4],["to",2],["Starbase,",8]]],
+ [3.42,5.47,[["and",3],["the",3],["fix",3],["isn't",5],["even",4],["out",3],["for",3],["bids",4],["yet.",3]]],
+ [T0+0,T0+1.09,[["In",2],["2019,",14]]],
+ [T0+1.32,T0+5.30,[["about",5],["645",20],["vehicles",8],["a",1],["day",3],["used",4],["State",5],["Highway",7],["4,",4]]],
+ [T0+5.65,T0+8.01,[["the",3],["only",4],["road",4],["from",4],["Brownsville",11],["to",2],["Starbase.",8]]],
+ [T0+8.44,T0+9.58,[["By",2],["2024,",18]]],
+ [T0+9.76,T0+12.27,[["it",2],["was",3],["carrying",8],["more",4],["than",4],["6,700,",19]]],
+ [T0+12.57,T0+13.75,[["ten",3],["times",5],["as",2],["many,",4]]],
+ [T0+14.04,T0+15.56,[["on",2],["the",3],["same",4],["two",3],["lanes.",5]]]];
+const WORDS=[];
+for(const [a,b,ws] of P){const tot=ws.reduce((s,w)=>s+w[1],0);let t=a;
+  ws.forEach(([w,k],i)=>{const d=(b-a)*k/tot;WORDS.push({w,a:t,b:t+d,ph:P.indexOf(P.find(p=>p[0]===a))});t+=d;});}
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), ease=x=>{x=clamp(x);return x*x*(3-2*x)},
+ back=x=>{x=clamp(x);const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)}, win=(t,a,b)=>ease((t-a)/(b-a));
+const el=(tag,at,parent)=>{const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);(parent||stage).appendChild(e);return e};
+
+// ---- road (perspective, scene A and C) ----
+const road=el("g",{});
+const roadPoly=el("polygon",{points:"470,330 610,330 980,1150 100,1150",fill:"#231f20",stroke:"#3a3436","stroke-width":4},road);
+const lane=el("line",{x1:540,y1:330,x2:540,y2:1150,stroke:"#f4efe9","stroke-width":8,"stroke-dasharray":"40 46"},road);
+const cars=[];for(let i=0;i<34;i++){cars.push(el("rect",{rx:10,fill:i%5==0?"#f97316":"#e7e1da"},road));}
+// ---- mascot: a map pin in a hard hat ----
+const pin=el("g",{});
+el("path",{d:"M0,-70 C38,-70 62,-44 62,-10 C62,30 0,80 0,80 C0,80 -62,30 -62,-10 C-62,-44 -38,-70 0,-70Z",fill:"#f97316"},pin);
+el("circle",{cx:-20,cy:-10,r:9,fill:"#120e0d"},pin);el("circle",{cx:20,cy:-10,r:9,fill:"#120e0d"},pin);
+const hat=el("g",{},pin);el("path",{d:"M-58,-46 Q0,-112 58,-46Z",fill:"#facc15"},hat);el("rect",{x:-70,y:-50,width:140,height:12,rx:6,fill:"#eab308"},hat);
+const pinGlow=el("circle",{r:120,fill:"rgba(249,115,22,.18)"});stage.insertBefore(pinGlow,pin);
+const ptr=el("line",{stroke:"#2dd4bf","stroke-width":5,"stroke-linecap":"round"});
+const onlyTag=document.createElement("div");onlyTag.className="tag";onlyTag.textContent="Only road in";document.body.appendChild(onlyTag);
+const tenx=document.createElement("div");Object.assign(tenx.style,{position:"absolute",right:"70px",top:"360px",font:"900 190px Inter",color:"#f97316",letterSpacing:"-6px"});tenx.textContent="10×";document.body.appendChild(tenx);
+const same=document.createElement("div");Object.assign(same.style,{position:"absolute",left:"60px",width:"960px",top:"340px",textAlign:"center",font:"900 96px Inter"});same.innerHTML='SAME <span style="color:#f97316">2</span> LANES';document.body.appendChild(same);
+// ---- bid stepper ----
+const STEPS=["Funded","Design","Bids","Build"];const stepEls=STEPS.map((s,i)=>{const d=document.createElement("div");
+  d.style.cssText="display:flex;flex-direction:column;align-items:center;gap:12px;width:200px";
+  d.innerHTML=`<div class="dot" style="width:62px;height:62px;border-radius:31px;border:4px solid #3a3436;display:flex;align-items:center;justify-content:center;font:900 32px Inter"></div><div style="font:700 28px Mono">${s}</div>`;
+  document.getElementById("steps").appendChild(d);return d});
+// ---- dot grid: 70 dots, 10 x 7 ----
+const dots=[];const dsv=document.getElementById("dots");
+for(let i=0;i<70;i++){const c=document.createElementNS(NS,"circle");c.setAttribute("cx",44+(i%10)*88);c.setAttribute("cy",40+Math.floor(i/10)*64);c.setAttribute("r",22);dsv.appendChild(c);dots.push(c)}
+
+function caption(t){
+  const cur=WORDS.findIndex(w=>t>=w.a&&t<w.b);let i=cur;
+  if(i<0){const past=WORDS.filter(w=>w.b<=t);if(!past.length||t-past[past.length-1].b>0.6){cap.innerHTML="";return}i=WORDS.length-1-[...WORDS].reverse().findIndex(w=>w.b<=t)}
+  const ph=WORDS[i].ph, inPh=WORDS.filter(w=>w.ph===ph); const k=inPh.indexOf(WORDS[i]);
+  const s=Math.floor(k/3)*3, chunk=inPh.slice(s,s+3);   // three words at a time, like the reference
+  cap.innerHTML=chunk.map(w=>`<span style="color:${w===WORDS[i]&&cur>=0?"#f97316":(w.b<=t?"#f4efe9":"#5d5652")}">${w.w}</span>`).join(" ");
+}
+window.render=function(t){
+  const A=t<T0+0.2, C=t>=T0+12.4;   // scene A: hook; B: counting; C: same two lanes
+  // chip text per beat, like CONNECTED -> TESTING -> SLOW -> CROWDED in the reference
+  chiptxt.textContent=t<3.4?"ONLY ROAD IN":t<T0?"NOT BID YET":t<T0+8.3?"COUNTING · 2019":t<T0+12.4?"COUNTING · 2024":"SAME 2 LANES";
+  // road + cars (scenes A and C)
+  const rOn=A?win(t,0,0.4):C?win(t,T0+12.4,T0+12.9):0; road.setAttribute("opacity",rOn);
+  const dens=C?1:clamp(0.25+t/5);   // more cars as the hook goes on; packed in scene C
+  cars.forEach((c,i)=>{const n=cars.length*dens;if(i>=n){c.setAttribute("width",0);return}
+    const lane=i%2, sp=C?0.05:0.16, f=((i*0.137+t*sp*(lane?1:-1))%1+1)%1, y=330+f*820, wscale=0.35+0.65*f;
+    const cx=lane?(540+ (y-330)/820*230):(540-(y-330)/820*230); const w=58*wscale,h=96*wscale;
+    c.setAttribute("x",cx-w/2);c.setAttribute("y",y-h/2);c.setAttribute("width",w);c.setAttribute("height",h)});
+  lane.setAttribute("stroke-dashoffset",-t*120);
+  roadPoly.setAttribute("transform",C?"translate(0,229.5) scale(1,0.85)":`translate(0,${A&&t>3.3?-300*win(t,3.3,3.8):0})`);
+  [lane,...cars].forEach(e=>e.setAttribute("transform",roadPoly.getAttribute("transform")));
+  // mascot
+  const pOn=A?back((t-0.15)/0.5):C?back((t-T0-12.6)/0.5):0, bob=Math.sin(t*3)*8;
+  const px=A?205:880, py=(A?440:1080)+bob;
+  pin.setAttribute("transform",`translate(${px},${py}) scale(${pOn})`);pinGlow.setAttribute("cx",px);pinGlow.setAttribute("cy",py);pinGlow.setAttribute("opacity",pOn*0.9);
+  hat.setAttribute("transform",`rotate(${Math.sin(t*2.2)*6})`);
+  const tOn=A?win(t,0.6,0.9)*(1-win(t,3.2,3.4)):0;
+  ptr.setAttribute("x1",px+60);ptr.setAttribute("y1",py+10);ptr.setAttribute("x2",px+60+190*tOn);ptr.setAttribute("y2",py+10+120*tOn);ptr.setAttribute("opacity",tOn);
+  onlyTag.style.left=(px+200)+"px";onlyTag.style.top=(py+110)+"px";onlyTag.style.opacity=tOn;
+  const xOn=A?back((t-0.95)/0.45)*(1-win(t,3.2,3.4)):0;tenx.style.transform=`scale(${xOn})`;tenx.style.opacity=xOn>0?1:0;
+  // bid card (end of hook)
+  const bOn=A?win(t,3.4,3.85):0;bidcard.style.opacity=bOn;bidcard.style.transform=`translateY(${(1-bOn)*80}px)`;
+  stepEls.forEach((s,i)=>{const d=s.querySelector(".dot"),at=3.9+i*0.35,on=t>at;
+    if(i<2&&on){d.style.background="#2dd4bf";d.style.borderColor="#2dd4bf";d.style.color="#08110f";d.textContent="✓"}
+    else if(i==2){const blink=t>at&&Math.floor(t*3)%2==0;d.style.borderColor=t>at?"#f97316":"#3a3436";d.style.background=blink?"rgba(249,115,22,.25)":"none";d.textContent=t>at?"…":""}
+    else {d.style.background="none";d.style.borderColor="#3a3436";d.textContent=""}});
+  // counting card (scene B)
+  const cOn=(!A&&!C)?win(t,T0+0.2,T0+0.6):(C?1-win(t,T0+12.3,T0+12.6):0);
+  countcard.style.opacity=cOn;countcard.style.transform=`translateY(${(1-cOn)*60}px)`;
+  const g=win(t,T0+8.5,T0+12.0), val=Math.round(645+(6743-645)*g);
+  count.textContent=val.toLocaleString("en-US");year.textContent=g<0.5?"2019":"2024";
+  const lit=Math.round(6.45+(67.43-6.45)*g), first=win(t,T0+1.6,T0+3.6);
+  dots.forEach((d,i)=>{const on=i<Math.round(6.45*first)||(g>0&&i<lit);
+    d.setAttribute("fill",on?(i<6?"#2dd4bf":"#f97316"):"#2a2527");d.setAttribute("r",on?22:16)});
+  same.style.opacity=C?win(t,T0+13.9,T0+14.3):0;same.style.transform=`scale(${0.8+0.2*back((t-T0-13.9)/0.4)})`;
+  caption(t);
+};
+render(0);
+</script></body></html>
