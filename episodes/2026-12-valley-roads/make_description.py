@@ -16,7 +16,7 @@ for p in used:
 lines = []
 for p in used:
     c = cred[os.path.splitext(os.path.basename(p))[0]]
-    name = re.sub(r"\s*\(\d{6,}\)", "", os.path.splitext(c["file"])[0])
+    name = c.get("title") or re.sub(r"\s*\(\d{6,}\)", "", os.path.splitext(c["file"])[0])
     lines.append(f"- {name}: {c['artist']}, {c['license']}")
 music = [os.path.basename(s["track"])[:-4].replace("_", " ") for s in tl["music"]["segments"]]
 mus = ", ".join(f'"{m}"' for m in music[:-1]) + f' and "{music[-1]}"'
