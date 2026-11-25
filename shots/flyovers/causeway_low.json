@@ -7,7 +7,7 @@
  "min_elev": 0.0,
  "fps": 24,
  "seconds": 9,
- "samples": 12,
+ "samples": 8,
  "lens": 24,
  "view_transform": "AgX",
  "resolution": [
