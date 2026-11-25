@@ -255,3 +255,12 @@ YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local t
   seen in AI-tool videos. The Nov 24 test (`pipeline/ui_explainer/`) stays in the repo but is not used.
 - The Blender 3D shots read as higher quality. New styles should build on that bar: real imagery, 3D terrain and
   cinematic light, not flat UI graphics.
+
+## Fresh Blender angles every episode (owner request, Nov 24, 2026)
+- The owner has seen the Brownsville-to-Starbase SH 4 flyover (demo/ep1/v_starbase_s.mp4) too many times. Don't reuse a
+  flyover across episodes; render new angles instead. Library in shots/flyovers/ (outputs in demo/flyovers/):
+  sh4_dusk_west (from the Gulf looking west at sunset), starbase_orbit (slow overhead arc), causeway_low (low pass along
+  the Queen Isabella Causeway), pharr_bridge_top (orbit over the Pharr bridge), donna_dusk (golden hour toward Donna).
+- geo_shot.py options for distinct looks: "sun" {elevation, azimuth, energy, color, angle}, "sky" (physical sky gradient:
+  sun_elevation, sun_rotation, strength), "world_color", "imagery_tint", "camera.orbit" {center, radius_m, height,
+  start_deg, end_deg, end_height}, "dof" {fstop}. Still one simple move per shot. Road routes: shots/ep6/routes_tiger.json.

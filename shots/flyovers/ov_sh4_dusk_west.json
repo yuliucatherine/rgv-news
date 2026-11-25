@@ -1,0 +1,8 @@
+{
+ "frames_dir": "demo/flyovers/sh4_dusk_west",
+ "labels_json": "demo/flyovers/sh4_dusk_west/labels.json",
+ "out_mp4": "demo/flyovers/v_sh4_dusk_west.mp4",
+ "fps_in": 24,
+ "labels_from": 0.15,
+ "credit": "Imagery: USGS The National Map \u00b7 Elevation: AWS Terrain Tiles \u00b7 Roads: U.S. Census TIGER"
+}

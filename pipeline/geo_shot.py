@@ -1,5 +1,6 @@
 """Reusable Blender aerial flyover: real elevation draped with real aerial imagery, an optional
-glowing route that draws itself, and named points exported for 2D labels.
+glowing route that draws itself, and named points exported for 2D labels. Options for distinct looks: "sun"
+(elevation/azimuth/energy/color), "world_color", "imagery_tint", "camera.orbit" (one slow arc) and "dof".
 Driven by a JSON config (see shots/*.json). Writes PNG frames + labels.json.
 Usage: python3 geo_shot.py <config.json> <frames_dir>      (env ONLY_FRAME=n renders one test frame)
 """
@@ -68,6 +69,7 @@ im = np.asarray(Image.open(tex_src).convert("RGB")).astype(np.float32)
 nod = (im.min(-1) > 245)
 im[nod] = (14, 22, 40)
 im = im * cfg.get("imagery_gain", 1.08)
+if cfg.get("imagery_tint"): im = im * np.array(cfg["imagery_tint"], np.float32)   # e.g. warm [1.08,0.96,0.82] for golden hour
 Image.fromarray(np.clip(im, 0, 255).astype(np.uint8)).save(proc, quality=92)
 mat = bpy.data.materials.new("terrain"); mat.use_nodes = True
 nt = mat.node_tree; bsdf = nt.nodes["Principled BSDF"]
@@ -101,23 +103,45 @@ for k, route in enumerate(cfg.get("routes", [])):
     cu.bevel_factor_end = 1.0; cu.keyframe_insert("bevel_factor_end", frame=max(2, f1))
 
 # ---------- light, world, camera ----------
-bpy.ops.object.light_add(type="SUN", rotation=(math.radians(55), 0, math.radians(-40)))
-bpy.context.object.data.energy = 2.2
+sun = cfg.get("sun", {})   # {"elevation": deg above horizon, "azimuth": deg, "energy": x, "color": [r,g,b], "angle": deg}
+bpy.ops.object.light_add(type="SUN", rotation=(math.radians(90 - sun.get("elevation", 35)), 0, math.radians(sun.get("azimuth", -40))))
+bpy.context.object.data.energy = sun.get("energy", 2.2)
+bpy.context.object.data.color = tuple(sun.get("color", [1, 1, 1]))
+bpy.context.object.data.angle = math.radians(sun.get("angle", 1.0))   # softer shadows when larger
 world = bpy.data.worlds.new("w"); sc.world = world; world.use_nodes = True
-bg = world.node_tree.nodes["Background"]; bg.inputs["Color"].default_value = (0.012, 0.02, 0.045, 1)
-bg.inputs["Strength"].default_value = 0.8
+bg = world.node_tree.nodes["Background"]; bg.inputs["Color"].default_value = tuple(cfg.get("world_color", [0.012, 0.02, 0.045])) + (1,)
+bg.inputs["Strength"].default_value = cfg.get("world_strength", 0.8)
+if cfg.get("sky"):   # physical sky gradient (Nishita) behind the horizon, e.g. dusk: {"sun_elevation": 4, "sun_rotation": 260, "strength": 0.25}
+    sk = cfg["sky"]; tex = world.node_tree.nodes.new("ShaderNodeTexSky"); tex.sky_type = next(s for s in ("NISHITA", "MULTIPLE_SCATTERING", "SINGLE_SCATTERING") if s in [i.identifier for i in tex.bl_rna.properties["sky_type"].enum_items])
+    tex.sun_elevation = math.radians(sk.get("sun_elevation", 5)); tex.sun_rotation = math.radians(sk.get("sun_rotation", 0))
+    for k_, v_ in (("air_density", sk.get("air", 1.5)), ("dust_density", sk.get("dust", 2.0))):
+        if hasattr(tex, k_): setattr(tex, k_, v_)
+    world.node_tree.links.new(tex.outputs["Color"], bg.inputs["Color"]); bg.inputs["Strength"].default_value = sk.get("strength", 0.3)
 sc.view_settings.view_transform = cfg.get("view_transform", "AgX")
 mist = cfg.get("mist")
 bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data.lens = cfg.get("lens", 30)
 cam.data.clip_end = 5000
 target = bpy.data.objects.new("target", None); sc.collection.objects.link(target)
 tc = cam.constraints.new("TRACK_TO"); tc.target = target
-for f_rel, key in [(0, "start"), (1, "end")]:
-    c = cfg["camera"][key]
-    x, y = ll(*c["over"]); tx, ty = ll(*c["look_at"])
-    cam.location = (x, y, c["height"]); target.location = (tx, ty, zat(tx, ty))
-    f = 1 if f_rel == 0 else nframes
-    cam.keyframe_insert("location", frame=f); target.keyframe_insert("location", frame=f)
+orb = cfg["camera"].get("orbit")
+if orb:   # one slow arc around a point: {"center": [lon,lat], "radius_m": m, "height": bu, "start_deg": a, "end_deg": b}
+    cx, cy = ll(*orb["center"]); r_bu = orb["radius_m"] / SCALE; target.location = (cx, cy, zat(cx, cy))
+    for f in range(1, nframes + 1):
+        u = (f - 1) / max(1, nframes - 1); u = u * u * (3 - 2 * u) if orb.get("ease", True) else u
+        a = math.radians(orb["start_deg"] + (orb["end_deg"] - orb["start_deg"]) * u)
+        hgt = orb["height"] + (orb.get("end_height", orb["height"]) - orb["height"]) * u
+        rr = r_bu * (1 + (orb.get("end_radius_scale", 1.0) - 1) * u)
+        cam.location = (cx + rr * math.sin(a), cy - rr * math.cos(a), hgt); cam.keyframe_insert("location", frame=f)
+    target.keyframe_insert("location", frame=1)
+else:
+    for f_rel, key in [(0, "start"), (1, "end")]:
+        c = cfg["camera"][key]
+        x, y = ll(*c["over"]); tx, ty = ll(*c["look_at"])
+        cam.location = (x, y, c["height"]); target.location = (tx, ty, zat(tx, ty))
+        f = 1 if f_rel == 0 else nframes
+        cam.keyframe_insert("location", frame=f); target.keyframe_insert("location", frame=f)
+if cfg.get("dof"):   # miniature / tabletop look: focus on the target, shallow depth of field
+    cam.data.dof.use_dof = True; cam.data.dof.focus_object = target; cam.data.dof.aperture_fstop = cfg["dof"].get("fstop", 2.0)
 
 r = sc.render; r.engine = "CYCLES"; r.resolution_x, r.resolution_y = RES; r.fps = FPS
 sc.cycles.samples = cfg.get("samples", 12); sc.cycles.use_denoising = True; sc.cycles.device = "CPU"

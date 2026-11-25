@@ -1,0 +1,80 @@
+{
+ "terrain_dir": "data/terrain_bridges",
+ "metres_per_unit": 50,
+ "vertical_exaggeration": 3,
+ "downsample": 4,
+ "min_elev": 0.0,
+ "fps": 24,
+ "seconds": 8,
+ "samples": 12,
+ "lens": 30,
+ "view_transform": "AgX",
+ "resolution": [
+  1280,
+  720
+ ],
+ "imagery_glow": 0.12,
+ "imagery_tint": [
+  1.06,
+  0.94,
+  0.8
+ ],
+ "world_color": [
+  0.09,
+  0.05,
+  0.035
+ ],
+ "world_strength": 0.6,
+ "sun": {
+  "elevation": 7,
+  "energy": 3.2,
+  "color": [
+   1.0,
+   0.72,
+   0.45
+  ],
+  "angle": 3,
+  "azimuth": 100
+ },
+ "camera": {
+  "start": {
+   "over": [
+    -98.082,
+    26.03
+   ],
+   "height": 14,
+   "look_at": [
+    -98.07,
+    26.075
+   ]
+  },
+  "end": {
+   "over": [
+    -98.079,
+    26.04
+   ],
+   "height": 10,
+   "look_at": [
+    -98.068,
+    26.08
+   ]
+  }
+ },
+ "labels": [
+  {
+   "name": "Donna International Bridge",
+   "lon": -98.0745,
+   "lat": 26.0605
+  },
+  {
+   "name": "MEXICO",
+   "lon": -98.085,
+   "lat": 26.045
+  }
+ ],
+ "sky": {
+  "sun_elevation": 3,
+  "sun_rotation": 265,
+  "strength": 0.25
+ }
+}

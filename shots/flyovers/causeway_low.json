@@ -1,0 +1,127 @@
+{
+ "terrain_dir": "data/terrain_spi",
+ "texture": "data/terrain_spi/texture.jpg",
+ "metres_per_unit": 50,
+ "vertical_exaggeration": 4,
+ "downsample": 4,
+ "min_elev": 0.0,
+ "fps": 24,
+ "seconds": 9,
+ "samples": 12,
+ "lens": 24,
+ "view_transform": "AgX",
+ "resolution": [
+  1280,
+  720
+ ],
+ "imagery_glow": 0.15,
+ "sun": {
+  "elevation": 50,
+  "azimuth": -150,
+  "energy": 1.5
+ },
+ "routes": [
+  {
+   "points": [
+    [
+     -97.20597,
+     26.0781
+    ],
+    [
+     -97.20221,
+     26.08047
+    ],
+    [
+     -97.20001,
+     26.08157
+    ],
+    [
+     -97.19153,
+     26.08539
+    ],
+    [
+     -97.19007,
+     26.0859
+    ],
+    [
+     -97.18767,
+     26.08645
+    ],
+    [
+     -97.1853,
+     26.08669
+    ],
+    [
+     -97.18265,
+     26.0866
+    ],
+    [
+     -97.16953,
+     26.08535
+    ],
+    [
+     -97.16679,
+     26.0847
+    ],
+    [
+     -97.16402,
+     26.08443
+    ]
+   ],
+   "color": [
+    0.18,
+    0.83,
+    0.75
+   ],
+   "glow": 4,
+   "width": 0.11,
+   "lift": 0.4,
+   "draw": [
+    0.05,
+    0.75
+   ]
+  }
+ ],
+ "camera": {
+  "start": {
+   "over": [
+    -97.222,
+    26.088
+   ],
+   "height": 8,
+   "look_at": [
+    -97.172,
+    26.083
+   ]
+  },
+  "end": {
+   "over": [
+    -97.197,
+    26.09
+   ],
+   "height": 6,
+   "look_at": [
+    -97.162,
+    26.085
+   ]
+  }
+ },
+ "labels": [
+  {
+   "name": "South Padre Island",
+   "lon": -97.163,
+   "lat": 26.09
+  },
+  {
+   "name": "Port Isabel",
+   "lon": -97.212,
+   "lat": 26.074
+  }
+ ],
+ "sky": {
+  "sun_elevation": 45,
+  "sun_rotation": 200,
+  "strength": 0.07
+ },
+ "imagery_gain": 0.95
+}

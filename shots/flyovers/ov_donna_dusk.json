@@ -1,0 +1,8 @@
+{
+ "frames_dir": "demo/flyovers/donna_dusk",
+ "labels_json": "demo/flyovers/donna_dusk/labels.json",
+ "out_mp4": "demo/flyovers/v_donna_dusk.mp4",
+ "fps_in": 24,
+ "labels_from": 0.15,
+ "credit": "Imagery: USGS The National Map \u00b7 Elevation: AWS Terrain Tiles \u00b7 Roads: U.S. Census TIGER"
+}
