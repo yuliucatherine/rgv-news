@@ -249,3 +249,9 @@ YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local t
   James as an extra clip (~100 credits) and placed first. Never start a Short on a transition word (So, Then, And, Now).
 - Open on a real place in motion (flyover, aerial, map); the text card comes second.
 - Make follow-ups on winners: Brownsville channel (which ships can come now), Starbase SH-4 fix, LNG jobs cliff.
+
+## Visual style: no explainer-UI look (owner rule, Nov 25, 2026)
+- The owner does not want the code-built "explainer UI" style (mock app cards, mascot, status chip, karaoke captions)
+  seen in AI-tool videos. The Nov 24 test (`pipeline/ui_explainer/`) stays in the repo but is not used.
+- The Blender 3D shots read as higher quality. New styles should build on that bar: real imagery, 3D terrain and
+  cinematic light, not flat UI graphics.
