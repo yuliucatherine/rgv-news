@@ -1,0 +1,93 @@
+{
+ "terrain_dir": "data/terrain_bridges_wide",
+ "metres_per_unit": 50,
+ "vertical_exaggeration": 3,
+ "downsample": 4,
+ "min_elev": 15.0,
+ "fps": 24,
+ "seconds": 9,
+ "samples": 8,
+ "lens": 35,
+ "view_transform": "AgX",
+ "resolution": [
+  1280,
+  720
+ ],
+ "imagery_glow": 0.15,
+ "sun": {
+  "elevation": 45,
+  "azimuth": -120,
+  "energy": 1.5
+ },
+ "routes": [
+  {
+   "points": [
+    [
+     -98.20076,
+     26.09458
+    ],
+    [
+     -98.20184,
+     26.08932
+    ],
+    [
+     -98.20199,
+     26.08797
+    ],
+    [
+     -98.20192,
+     26.08599
+    ],
+    [
+     -98.20516,
+     26.06701
+    ]
+   ],
+   "color": [
+    1.0,
+    0.45,
+    0.09
+   ],
+   "glow": 8,
+   "width": 0.14,
+   "lift": 0.3,
+   "draw": [
+    0.1,
+    0.6
+   ]
+  }
+ ],
+ "camera": {
+  "orbit": {
+   "center": [
+    -98.2028,
+    26.08
+   ],
+   "radius_m": 3200,
+   "height": 36,
+   "start_deg": 0,
+   "end_deg": 35,
+   "end_height": 28
+  }
+ },
+ "labels": [
+  {
+   "name": "Pharr International Bridge",
+   "lon": -98.2035,
+   "lat": 26.07
+  },
+  {
+   "name": "MEXICO",
+   "lon": -98.205,
+   "lat": 26.058
+  }
+ ],
+ "sky": {
+  "sun_elevation": 40,
+  "sun_rotation": 200,
+  "strength": 0.06
+ },
+ "imagery_gain": 0.95,
+ "skirt": true,
+ "texture": "data/terrain_bridges_wide/texture_hi.jpg"
+}

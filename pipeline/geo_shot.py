@@ -80,6 +80,20 @@ em = bsdf.inputs.get("Emission Color") or bsdf.inputs.get("Emission")
 nt.links.new(img.outputs["Color"], em); bsdf.inputs["Emission Strength"].default_value = cfg.get("imagery_glow", 0.35)
 terrain.data.materials.append(mat)
 
+# ---------- optional ground skirt: a huge flat plane in the terrain's average colour so the map edge never shows ----------
+if cfg.get("skirt"):
+    sk_ = cfg["skirt"] if isinstance(cfg["skirt"], dict) else {}
+    pim = np.asarray(Image.open(proc).convert("RGB")).astype(np.float32)
+    edge = np.concatenate([pim[:40].reshape(-1, 3), pim[-40:].reshape(-1, 3), pim[:, :40].reshape(-1, 3), pim[:, -40:].reshape(-1, 3)])
+    srgb = np.array(sk_.get("color", (edge.mean(0) / 255).tolist()), np.float32)
+    lin = np.where(srgb <= 0.04045, srgb / 12.92, ((srgb + 0.055) / 1.055) ** 2.4)
+    bpy.ops.mesh.primitive_plane_add(size=sk_.get("size_bu", 9000), location=(0, 0, float(z.min()) - sk_.get("drop", 0.05)))
+    skm = bpy.data.materials.new("skirt"); skm.use_nodes = True; sb = skm.node_tree.nodes["Principled BSDF"]
+    sb.inputs["Base Color"].default_value = tuple(lin.tolist()) + (1,); sb.inputs["Roughness"].default_value = 1.0
+    (sb.inputs.get("Emission Color") or sb.inputs.get("Emission")).default_value = tuple(lin.tolist()) + (1,)
+    sb.inputs["Emission Strength"].default_value = cfg.get("imagery_glow", 0.35)
+    bpy.context.object.data.materials.append(skm)
+
 nframes = int(SECS * FPS); sc.frame_start, sc.frame_end = 1, nframes
 
 # ---------- glowing route that draws itself ----------

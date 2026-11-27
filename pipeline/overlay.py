@@ -58,9 +58,13 @@ def tracked_labels(d, pts, a=1.0, avoid_left=0, values=None):
                 d.text((px, py + 8), note, font=F("SemiBold", 24), fill=SUB + (int(255 * la),), anchor="ms",
                        stroke_width=4, stroke_fill=NAVY + (int(200 * la),))
             continue
+        la *= min(1.0, max(0.0, (min(x, 1 - x) - 0.02) / 0.06))   # fade out as the pin nears the frame edge
+        if la <= 0: continue
+        txt = NAMES.get(lab, lab); tw = d.textlength(txt, font=F("Bold", 32))
+        tx = min(max(px, 40 + tw / 2), W - 40 - tw / 2)              # keep the whole name inside the frame
         d.line([(px, py), (px, py - 80)], fill=(255, 255, 255, int(220 * la)), width=3)
         d.ellipse([px - 8, py - 8, px + 8, py + 8], fill=(255, 255, 255, int(255 * la)), outline=NAVY + (int(255 * la),), width=3)
-        d.text((px, py - 88), NAMES.get(lab, lab), font=F("Bold", 32), fill=INK + (int(255 * la),), anchor="ms",
+        d.text((tx, py - 88), txt, font=F("Bold", 32), fill=INK + (int(255 * la),), anchor="ms",
                stroke_width=5, stroke_fill=NAVY + (int(220 * la),))
 
 
