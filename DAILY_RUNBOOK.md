@@ -160,6 +160,9 @@ Posts per episode:
   Episode 1: https://www.youtube.com/watch?v=Fp4NCLi_k-I
   Episode 3: https://www.youtube.com/watch?v=EHK9LqRBihU
   Episode 4: https://www.youtube.com/watch?v=6wr0QbbNtj0 (Metricool post 436790086)
+  Episode 5: https://www.youtube.com/watch?v=0ZlIy0C5ByI (Metricool post 439528128)
+  Episode 6: https://www.youtube.com/watch?v=VAxBJ711ChE (Metricool post 441130808)
+  (Find a published post's links with getScheduledPosts over its date: providers[].detailedStatus holds the URL.)
 - Instagram and TikTok captions don't make links clickable: keep the YouTube channel link in both profile bios.
 - Schedule Metricool posts that pull from R2 one at a time: parallel downloads from the r2.dev URL can time out
   (Nov 18, 2026). A failed create makes no post, so retrying it alone is safe.
@@ -264,3 +267,10 @@ YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local t
 - geo_shot.py options for distinct looks: "sun" {elevation, azimuth, energy, color, angle}, "sky" (physical sky gradient:
   sun_elevation, sun_rotation, strength), "world_color", "imagery_tint", "camera.orbit" {center, radius_m, height,
   start_deg, end_deg, end_height}, "dof" {fstop}. Still one simple move per shot. Road routes: shots/ep6/routes_tiger.json.
+
+## Flyover edges and hook repeats (Nov 27, 2026)
+- geo_shot `"skirt": true` adds a huge flat plane in the map's edge colour, so the terrain edge never shows as a dark band.
+  Fetch a terrain box wide enough for the camera's view (data/terrain_bridges_wide: Pharr + Donna, 4096 px USGS texture_hi.jpg).
+- Tracked labels now stay fully inside the frame and fade out as the pin nears the edge (overlay.py).
+- A Short's hook visual must not repeat in the next block; swap the block inline (shorts_from_episode accepts dict blocks).
+- Covers: pick the frame from the hook (frame_fraction ~0.07) so each cover shows a real place, and make every cover in a batch different.
