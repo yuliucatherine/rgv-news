@@ -1,0 +1,37 @@
+{
+ "frames_dir": "demo/ep7/bars_wages",
+ "labels_json": "demo/ep7/bars_wages/labels.json",
+ "out_mp4": "demo/ep7/v_bars_wages.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Hidalgo & Starr": [
+   "$",
+   35971,
+   "",
+   0,
+   "median annual wage, 2025"
+  ],
+  "Cameron County": [
+   "$",
+   36942,
+   "",
+   0,
+   "median annual wage, 2025"
+  ],
+  "Texas": [
+   "$",
+   48621,
+   "",
+   0,
+   "median annual wage, 2025"
+  ],
+  "Austin area": [
+   "$",
+   59784,
+   "",
+   0,
+   "median annual wage, 2025"
+  ]
+ },
+ "credit": "Source: Texas Workforce Commission report via RGV Business Journal (Aug 2, 2026)"
+}

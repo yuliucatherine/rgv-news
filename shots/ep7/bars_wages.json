@@ -1,0 +1,109 @@
+{
+ "seconds": 12,
+ "fps": 24,
+ "max_height": 9.5,
+ "radius": 1.3,
+ "lens": 32,
+ "samples": 4,
+ "spacing": 7.0,
+ "resolution": [
+  960,
+  540
+ ],
+ "camera": {
+  "start": {
+   "pos": [
+    5,
+    -39,
+    11
+   ],
+   "look": [
+    0,
+    0,
+    4.6
+   ]
+  },
+  "end": {
+   "pos": [
+    -2,
+    -34,
+    9.5
+   ],
+   "look": [
+    0,
+    0,
+    5.0
+   ]
+  }
+ },
+ "bars": [
+  {
+   "label": "Hidalgo & Starr",
+   "segments": [
+    {
+     "value": 35971,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.04,
+    0.22
+   ]
+  },
+  {
+   "label": "Cameron County",
+   "segments": [
+    {
+     "value": 36942,
+     "color": [
+      0.98,
+      0.45,
+      0.09
+     ]
+    }
+   ],
+   "grow": [
+    0.14,
+    0.32
+   ]
+  },
+  {
+   "label": "Texas",
+   "segments": [
+    {
+     "value": 48621,
+     "color": [
+      0.18,
+      0.83,
+      0.75
+     ]
+    }
+   ],
+   "grow": [
+    0.24000000000000002,
+    0.42000000000000004
+   ]
+  },
+  {
+   "label": "Austin area",
+   "segments": [
+    {
+     "value": 59784,
+     "color": [
+      0.22,
+      0.55,
+      0.95
+     ]
+    }
+   ],
+   "grow": [
+    0.34,
+    0.52
+   ]
+  }
+ ]
+}

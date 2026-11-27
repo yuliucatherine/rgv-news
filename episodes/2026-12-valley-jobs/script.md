@@ -1,4 +1,4 @@
-# RGV News, Episode 7: "$41 Billion in Projects, 700 Jobs Lost: Is the Rio Grande Valley Boom Real? What Builders & Investors Need to Know"
+# RGV News, Episode 7: "Rio Grande Valley: $41B in Projects, 700 Jobs Lost. What Builders & Investors Need to Know"
 Draft v1, Nov 27, 2026. Episodes 1-3 voice; light urgency from real dates; simple camera moves; real imagery first
 (new Blender flyovers: Starbase orbit, Pharr bridge orbit, Donna at golden hour, SH 4 at sunset; USGS aerials of
 McAllen and Brownsville; Dallas Fed and TWC charts). Target 6-7 min (about 6,000 narration characters).

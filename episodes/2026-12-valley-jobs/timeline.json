@@ -1,0 +1,1127 @@
+{
+ "fps": 60,
+ "trim_narration": true,
+ "out": "demo/ep7/episode7.mp4",
+ "audio_dir": "episodes/2026-12-valley-jobs/audio",
+ "narration_json": "episodes/2026-12-valley-jobs/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Crusade_Heavy_Industry.mp3",
+    "chapter": 0,
+    "offset": 30
+   },
+   {
+    "track": "assets/music/Deliberate_Thought.mp3",
+    "chapter": 2,
+    "offset": 10
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 3,
+    "offset": 20
+   },
+   {
+    "track": "assets/music/Dreamer.mp3",
+    "chapter": 4,
+    "offset": 15
+   },
+   {
+    "track": "assets/music/I_Can_Feel_it_Coming.mp3",
+    "chapter": 5,
+    "offset": 10
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_starbase_orbit_s.mp4",
+     "ss": 0,
+     "weight": 0.55,
+     "len": 8.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Cameron County · its four biggest projects",
+      "big": "$41.1B",
+      "lines": [
+       "Rio Grande LNG · Texas LNG",
+       "Starbase · Saronic's Port Alpha shipyard"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.45
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "chapter": "Cold open: $41 billion in projects, 700 jobs lost",
+   "credit": "Source: RGV Business Journal, Oct 3, 2026, citing Cameron County",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_brownsville_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.4,
+      0.5,
+      0.55,
+      0.5
+     ],
+     "credit": "Brownsville · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Rio Grande Valley employment · Q3 2026",
+      "big": "-0.6%",
+      "lines": [
+       "annualized, three months through September",
+       "about 700 jobs · Texas and U.S. still grew"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Federal Reserve Bank of Dallas, Rio Grande Valley Economic Indicators, Q3 2026",
+   "kinetic": {
+    "words": [
+     "ABOUT 700",
+     "JOBS LOST"
+    ],
+    "at": 8.5,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/p01.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Anthony Acosta, CC BY-SA 4.0 · McAllen"
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_edinburg_sub.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.45,
+      0.55
+     ],
+     "credit": "Edinburg · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v_sh4_dusk_west_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 10.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "on the record",
+   "dur": 6.0,
+   "visuals": [
+    {
+     "video": "demo/ep7/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 2.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "THE BOOM VS. THE PAYCHECKS",
+      "sub": "Where the Valley's money and jobs actually are"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "THE MONEY ON PAPER",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: The money on paper",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/ep6/v_port_s.mp4",
+     "ss": 0,
+     "weight": 0.55,
+     "len": 11.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Cameron County estimates",
+      "big": "$31.8B",
+      "lines": [
+       "Rio Grande LNG alone",
+       "of about $41.1B across the four projects"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.45
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Oct 3, 2026, citing Cameron County",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Rio Grande LNG · NextDecade",
+      "big": "~80%",
+      "lines": [
+       "Trains 1 and 2 complete, September 2026",
+       "first LNG expected Q2 2027"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.45
+    },
+    {
+     "video": "demo/ep6/v_port_s.mp4",
+     "ss": 12.0,
+     "weight": 0.55,
+     "len": 10.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: NextDecade third quarter 2026 business update, Oct 29, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "THE OTHER BIG PROJECTS",
+      "items": [
+       "Texas LNG: investment decision delayed two years",
+       "Saronic Port Alpha: 95% county tax abatement, June",
+       "Abatement phases start in 2029"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_brownsville_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.6,
+      0.45,
+      0.45,
+      0.55
+     ],
+     "credit": "Brownsville · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: RGV Business Journal, Oct 3, 2026; KSAT; USNI News, Jul 16, 2026"
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Regional project tallies",
+      "big": "$110B+",
+      "lines": [
+       "underway, approved or just announced",
+       "not money spent · not paychecks written"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Strategic Partnerships Inc.; San Antonio Express-News (Nov 2026)"
+  },
+  {
+   "label": "part 2",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "THE JOBS ON THE GROUND",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: The jobs on the ground",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "VALLEY JOB GROWTH IN 2026 (ANNUALIZED)",
+      "items": [
+       "First quarter: +1.4%",
+       "Second quarter: +1.3%",
+       "Third quarter: -0.6%"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_weslaco_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Weslaco · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Federal Reserve Bank of Dallas, Rio Grande Valley Economic Indicators, Q1-Q3 2026"
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "McAllen metro · year through October",
+      "big": "+4,500",
+      "lines": [
+       "jobs, to 311,800 · mostly health care and education",
+       "Brownsville metro: about -300"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 20, 2026, citing Texas Workforce Commission data"
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/p17.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Billy D. Wagner, CC BY-SA 4.0 · Harlingen, in the Brownsville metro"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Federal Reserve Bank of Dallas, Rio Grande Valley Economic Indicators, Q3 2026",
+   "kinetic": {
+    "words": [
+     "BROWNSVILLE",
+     "-2.8%"
+    ],
+    "at": 1.0,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Unemployment rate · September 2026",
+      "big": "6.0%",
+      "lines": [
+       "Brownsville 6.0% · McAllen 5.8%",
+       "Texas 4.4%"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.35
+    },
+    {
+     "image": "assets/photos/ep4/p14.jpg",
+     "weight": 0.3,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Mig Esc, CC BY 3.0 · Edinburg"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Brownsville labor force",
+      "big": "-2.1%",
+      "lines": [
+       "year over year",
+       "part of why unemployment fell"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.35
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Federal Reserve Bank of Dallas, Rio Grande Valley Economic Indicators, Q3 2026"
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_harlingen.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Harlingen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "FEWER PEOPLE",
+     "WORKING OR LOOKING"
+    ],
+    "at": 3.2,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 110,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "label": "part 3",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "WHY THE PAYCHECKS LAG",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: Why the paychecks lag",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_pharr_bridge_top_s.mp4",
+     "ss": 0,
+     "weight": 0.6,
+     "len": 9.0
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "DALLAS FED · LUIS TORRES, NOV 2026",
+      "items": [
+       "Weak hiring reflects the supply of workers",
+       "Not a weak economy"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 18, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "WHAT'S HOLDING HIRING BACK",
+      "items": [
+       "Labor force growth flat or negative",
+       "Immigration policies keep some workers out of some industries",
+       "Wage growth still solid"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/p16.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Alex Garrido, CC BY 3.0 · Edinburg"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 18, 2026"
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Rio Grande Valley · 2025",
+      "big": "2.6% vs. 0.2%",
+      "lines": [
+       "economic output grew 2.6%",
+       "jobs grew 0.2%"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.45
+    },
+    {
+     "video": "demo/flyovers/v2/v_pharr_bridge_top_s.mp4",
+     "ss": 9.5,
+     "weight": 0.55,
+     "len": 8.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Feb 15, 2026, citing the Dallas Fed",
+   "kinetic": {
+    "words": [
+     "LOW HIRE",
+     "LOW FIRE"
+    ],
+    "at": 10.0,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   },
+   "credit_y": 1000
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "video": "demo/ep7/v_bars_wages_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 20.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Rio Grande LNG",
+      "big": "7,500 → 700",
+      "lines": [
+       "peak construction workers approved by FERC",
+       "permanent jobs once the plant runs"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.35
+    },
+    {
+     "image": "assets/photos/ep4/p11.jpg",
+     "weight": 0.3,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Goose Green Photography, CC0 · illustrative"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Saronic Port Alpha",
+      "big": "UP TO 10,000",
+      "lines": [
+       "direct jobs over a decade (company estimate)",
+       "abatement phases start in 2029"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.35
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: FERC (Apr 2026); NextDecade; Defense News and USNI News (Jul 2026)"
+  },
+  {
+   "label": "part 4",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "THE CRACKS TO WATCH",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: The cracks to watch",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_donna_dusk_s.mp4",
+     "ss": 0,
+     "weight": 0.6,
+     "len": 9.0
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "TRUCKING BANKRUPTCIES",
+      "items": [
+       "Xoco Transport, Hidalgo: Chapter 11",
+       "American Petroleum Carriers, McAllen: Chapter 11",
+       "Three more carriers in Laredo"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 23, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Valley business bankruptcies",
+      "big": "62 → 127",
+      "lines": [
+       "2024 to 2025: doubled",
+       "trucking: revenue drops, truck debt, diesel prices"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/r07.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: formulanone from Huntsville, United States, CC BY-SA 2.0 · U.S. 77/83 at TX 48"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: RGV Business Journal, Mar 7, 2026 and Nov 23, 2026"
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_airport_east.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Farmland in Cameron County · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "New World screwworm",
+      "big": "3 COUNTIES",
+      "lines": [
+       "first Hidalgo County detection, Nov 21",
+       "parts of Cameron, Hidalgo and Willacy restricted"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Texas Animal Health Commission order, Nov 23, 2026; RGV Business Journal, Nov 24 and 26, 2026"
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_rio_hondo_fields.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Farmland near Rio Hondo · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "part 5",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "WHAT IT MEANS FOR BUILDERS, BUYERS AND LENDERS",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: What it means for builders, buyers and lenders",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Valley city sales tax · year through October",
+      "big": "+6.2%",
+      "lines": [
+       "Texas Comptroller data",
+       "lags actual sales by about two months"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.45
+    },
+    {
+     "image": "assets/photos/ep4/p13.jpg",
+     "weight": 0.55,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Mig Esc, CC BY 3.0 · La Plaza Mall, McAllen"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 25, 2026, citing the Texas Comptroller"
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FOR BUILDERS",
+      "items": [
+       "Price for when workers arrive",
+       "McAllen: health care and education jobs now",
+       "Brownsville: first LNG Q2 2027, Saronic from 2029"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "video": "demo/flyovers/v_sh4_dusk_west_s.mp4",
+     "ss": 11.0,
+     "weight": 0.5,
+     "len": 5.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FOR LENDERS",
+      "items": [
+       "Freight and trucking borrowers",
+       "Ranch exposure in the screwworm zone",
+       "Rental demand tied to construction crews"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_edinburg_new.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Edinburg · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "OUR WATCH LIST",
+      "items": [
+       "Dallas Fed Texas jobs forecast: monthly",
+       "Rio Grande LNG first gas: by year end",
+       "Pharr: 384-acre zone expansion, by end of December",
+       "First LNG: Q2 2027"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "video": "demo/flyovers/v2/v_starbase_orbit_s.mp4",
+     "ss": 9.0,
+     "weight": 0.5,
+     "len": 8.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Federal Reserve Bank of Dallas; NextDecade, Oct 29, 2026; RGV Business Journal, Nov 23, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_donna_dusk_s.mp4",
+     "ss": 9.5,
+     "weight": 0.5,
+     "len": 6.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.15,
+      1.0
+     ],
+     "pan": [
+      0.55,
+      0.5,
+      0.45,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 3,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}

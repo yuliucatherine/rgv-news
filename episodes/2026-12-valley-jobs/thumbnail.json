@@ -1,0 +1,22 @@
+{
+ "photo": "demo/flyovers/starbase_orbit/f0150.png",
+ "crop": [
+  0,
+  0,
+  1280,
+  720
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "RIO GRANDE VALLEY",
+ "number": "$41B",
+ "headline": [
+  "IN PROJECTS.",
+  "700 JOBS LOST."
+ ],
+ "sub": "Is the boom real? Jobs, wages and what to watch",
+ "pad_color": [
+  25,
+  36,
+  56
+ ]
+}

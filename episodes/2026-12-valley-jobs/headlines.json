@@ -1,0 +1,30 @@
+{
+ "fps": 60,
+ "seconds": 6.0,
+ "step": 0.5,
+ "title": "ON THE RECORD",
+ "subtitle": "What local reporting and the Dallas Fed show",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Oct 3, 2026",
+   "headline": "These four projects are driving more than $41B in Cameron County investment"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Nov 18, 2026",
+   "headline": "Sluggish job growth in the Rio Grande Valley doesn’t reflect economic gains, Dallas Fed researcher says"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Nov 20, 2026",
+   "headline": "McAllen metro added 4,500 jobs through October, while Brownsville lost 300 jobs over the year"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Nov 23, 2026",
+   "headline": "Two Rio Grande Valley trucking companies file for bankruptcy protection, plus three more in Laredo"
+  }
+ ]
+}
