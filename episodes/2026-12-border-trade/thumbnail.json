@@ -1,0 +1,22 @@
+{
+ "photo": "demo/flyovers/v2/pharr_bridge_top/f0160.png",
+ "crop": [
+  0,
+  0,
+  1280,
+  720
+ ],
+ "chip": "INVESTOR BRIEF",
+ "kicker": "PHARR BRIDGE",
+ "number": "2X",
+ "headline": [
+  "THE BRIDGE.",
+  "EMPTIER FACTORIES."
+ ],
+ "sub": "Reynosa vacancy hit a 10-year high. What it means for the Valley",
+ "pad_color": [
+  25,
+  36,
+  56
+ ]
+}

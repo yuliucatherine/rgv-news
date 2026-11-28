@@ -1,0 +1,1100 @@
+{
+ "fps": 60,
+ "trim_narration": true,
+ "out": "demo/ep8/episode8.mp4",
+ "audio_dir": "episodes/2026-12-border-trade/audio",
+ "narration_json": "episodes/2026-12-border-trade/narration.json",
+ "music": {
+  "level_lufs": -27,
+  "segments": [
+   {
+    "track": "assets/music/Rising_Tide.mp3",
+    "chapter": 0,
+    "offset": 25
+   },
+   {
+    "track": "assets/music/Industrial_Cinematic.mp3",
+    "chapter": 2,
+    "offset": 25
+   },
+   {
+    "track": "assets/music/I_Can_Feel_it_Coming.mp3",
+    "chapter": 3,
+    "offset": 30
+   },
+   {
+    "track": "assets/music/Unanswered_Questions.mp3",
+    "chapter": 4,
+    "offset": 40
+   },
+   {
+    "track": "assets/music/Inspired.mp3",
+    "chapter": 5,
+    "offset": 30
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "narr": "n00",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_pharr_bridge_top_s.mp4",
+     "ss": 0,
+     "weight": 0.6,
+     "len": 6.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Pharr International Bridge",
+      "big": "4 → 8 LANES",
+      "lines": [
+       "second structure open this fall",
+       "about $50B in trade a year"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.4
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "chapter": "Cold open: a bigger bridge, emptier factories",
+   "credit": "Source: RGV Business Journal, Oct 8, 2026; Texas Comptroller",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n01",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_reynosa_south_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 12.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: DATOZ via RGV Business Journal, Jun 22, 2026",
+   "kinetic": {
+    "words": [
+     "10-YEAR HIGH",
+     "IN VACANCY"
+    ],
+    "at": 6.0,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 110,
+    "box": "0x091020@0.55"
+   },
+   "credit_y": 1000
+  },
+  {
+   "narr": "n02",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_pharr_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Pharr · Imagery: USGS The National Map"
+    },
+    {
+     "image": "assets/photos/ep6/r09.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: L1CENSET0K1LL, Public domain · McAllen"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n03",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_donna_dusk_s.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 9.9
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "on the record",
+   "dur": 6.0,
+   "visuals": [
+    {
+     "video": "demo/ep8/headlines.mp4",
+     "ss": 0,
+     "weight": 1.0,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0,
+    0
+   ]
+  },
+  {
+   "label": "title",
+   "dur": 2.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "THE BORDER TRADE BET",
+      "sub": "A bigger bridge, emptier factories"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "label": "part 1",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 1",
+      "title": "THE BIGGER BRIDGE",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 1: The bigger bridge",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n04",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_pharr_bridge_top_s.mp4",
+     "ss": 6.5,
+     "weight": 0.55,
+     "len": 8.0
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Bridge director Luis Bazán",
+      "big": "~5,000",
+      "lines": [
+       "trucks a day, both directions",
+       "new structure: 4 more lanes, 100% more capacity"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.45
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Oct 8, 2026 and Dec 30, 2025",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n05",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "PHARR BRIDGE UPGRADES",
+      "items": [
+       "FAST lanes for pre-cleared cargo: since March",
+       "20-acre truck park, about 300 spaces: early 2027"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_pharr_bridge.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Pharr International Bridge · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: Texas Border Business (2026)"
+  },
+  {
+   "narr": "n06",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Texas Comptroller",
+      "big": "$50B",
+      "lines": [
+       "trade a year through the Pharr bridge",
+       "about 92,000 jobs supported"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.45
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_wide.jpg",
+     "weight": 0.55,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Oct 8, 2026"
+  },
+  {
+   "narr": "n07",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/aerial/a_donna_bridge.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Donna International Bridge · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "list",
+      "title": "THE GATEWAY FORUM QUESTION",
+      "items": [
+       "Can the roads keep up?",
+       "Truck corridor behind Pharr and Donna: funding stuck"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Oct 8, 2026; Episode 6"
+  },
+  {
+   "narr": "n08",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/r08.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: formulanone from Huntsville, United States, CC BY-SA 2.0 · U.S. 77/83"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "part 2",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 2",
+      "title": "THE EMPTY FACTORIES",
+      "accent": "blue"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 2: The empty factories",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n09",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_reynosa_south_s.mp4",
+     "ss": 12.5,
+     "weight": 0.38,
+     "len": 5.5
+    },
+    {
+     "video": "demo/ep8/v_bars_vacancy_s.mp4",
+     "ss": 0,
+     "weight": 0.62,
+     "len": 9.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: DATOZ via RGV Business Journal, Jun 22, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n10",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "WHY THE SPACE IS EMPTY",
+      "items": [
+       "Move-outs and corporate adjustments",
+       "Expansions on hold over trade rules",
+       "Not a wave of speculative building"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.5
+    },
+    {
+     "video": "demo/ep8/v_bars_vacancy_s.mp4",
+     "ss": 9.5,
+     "weight": 0.5,
+     "len": 7.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: DATOZ via RGV Business Journal; Newmark; Solili",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n11",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Reynosa · early 2026",
+      "big": "-2,500",
+      "lines": [
+       "maquila jobs",
+       "a large logistics facility closed in March"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "video": "demo/flyovers/v2/v_donna_dusk_s.mp4",
+     "ss": 10.0,
+     "weight": 0.5,
+     "len": 6.0
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Mar 4 and Mar 24, 2026",
+   "credit_y": 1000
+  },
+  {
+   "narr": "n12",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Leased in Reynosa and Matamoros, past year",
+      "big": "553,000+ SQ FT",
+      "lines": [
+       "up 59%",
+       "led by electronics"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Vertiv · power equipment for AI data centers",
+      "big": "$150M",
+      "lines": [
+       "expansion in Reynosa",
+       "about 1,000 jobs"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Jun 22 and Jul 5, 2026"
+  },
+  {
+   "narr": "n13",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_brownsville_n.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Brownsville, across from Matamoros · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: DATOZ via RGV Business Journal",
+   "kinetic": {
+    "words": [
+     "MATAMOROS",
+     "ABOUT 3%"
+    ],
+    "at": 1.0,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "narr": "n14",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_weslaco_wide.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Weslaco · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "kinetic": {
+    "words": [
+     "A PAUSE,",
+     "NOT A COLLAPSE"
+    ],
+    "at": 1.5,
+    "step": 0.5,
+    "hold": 2.8,
+    "size": 120,
+    "box": "0x091020@0.55"
+   }
+  },
+  {
+   "label": "part 3",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 3",
+      "title": "A TRADE DEAL ON A ONE-YEAR CLOCK",
+      "accent": "orange"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 3: A trade deal on a one-year clock",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n15",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "U.S.-Mexico-Canada Agreement · July 1, 2026",
+      "big": "NOT RENEWED",
+      "lines": [
+       "stays in force",
+       "reviewed every year"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/r06.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: Congressman Ruben Hinojosa, Public domain · Donna port of entry"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Jul 1, 2026"
+  },
+  {
+   "narr": "n16",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "SINCE THE DECISION",
+      "items": [
+       "Officials: no immediate tariff or customs changes",
+       "Rep. Henry Cuellar: cross-border investment 'freezing'"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: RGV Business Journal, Jul 1, 2026; Rio Grande Guardian"
+  },
+  {
+   "narr": "n17",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Two readings of the same deal",
+      "big": "10 YEARS vs. 1 YEAR",
+      "lines": [
+       "Mexico: ten-year deal with an annual review",
+       "U.S.: yearly reviews until all agree to extend"
+      ],
+      "accent": "blue"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_edinburg_new.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Edinburg · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: Rio Times, Oct 2026; RGV Business Journal"
+  },
+  {
+   "narr": "n18",
+   "visuals": [
+    {
+     "image": "assets/photos/ep6/r07.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: formulanone from Huntsville, United States, CC BY-SA 2.0 · U.S. 77/83 at TX 48"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Valley business bankruptcies",
+      "big": "62 → 127",
+      "lines": [
+       "2024 to 2025: doubled"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: RGV Business Journal, Mar 7 and Nov 23, 2026"
+  },
+  {
+   "label": "part 4",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 4",
+      "title": "WHAT'S STILL MOVING",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 4: What's still moving",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n19",
+   "visuals": [
+    {
+     "image": "assets/photos/ep4/aerial/a_pharr_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.6,
+      0.5,
+      0.4,
+      0.5
+     ],
+     "credit": "Pharr · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Pharr tax increment zone",
+      "big": "+384 ACRES",
+      "lines": [
+       "near the international bridge",
+       "vote slated by end of December"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Nov 23, 2026"
+  },
+  {
+   "narr": "n20",
+   "visuals": [
+    {
+     "card": {
+      "type": "stat",
+      "label": "Mission · Bettcher",
+      "big": "$3M",
+      "lines": [
+       "about 50 new jobs"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.33
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_harlingen.jpg",
+     "weight": 0.34,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Harlingen · Imagery: USGS The National Map"
+    },
+    {
+     "card": {
+      "type": "stat",
+      "label": "Port of Harlingen",
+      "big": "$12.5M",
+      "lines": [
+       "infrastructure push for trade"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.33
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, Apr 30 and Jun 28, 2026"
+  },
+  {
+   "narr": "n21",
+   "visuals": [
+    {
+     "image": "assets/photos/ep5/aerial/a_airport_east.jpg",
+     "weight": 1.0,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Cameron County · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Source: RGV Business Journal, May 26 and Jun 12, 2026"
+  },
+  {
+   "label": "part 5",
+   "dur": 1.5,
+   "visuals": [
+    {
+     "card": {
+      "type": "section",
+      "tag": "PART 5",
+      "title": "WHAT IT MEANS FOR BUILDERS, BUYERS AND LENDERS",
+      "accent": "teal"
+     },
+     "weight": 1.0
+    }
+   ],
+   "chapter": "Part 5: What it means for builders, buyers and lenders",
+   "pad": [
+    0.5,
+    0.8
+   ]
+  },
+  {
+   "narr": "n22",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FOR BUILDERS",
+      "items": [
+       "Industrial near new bridge capacity",
+       "Truck routes that are actually funded",
+       "Careful with speculative space"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_pharr_bridge.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.12,
+      1.0
+     ],
+     "pan": [
+      0.4,
+      0.6,
+      0.5,
+      0.5
+     ],
+     "credit": "Pharr International Bridge · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n23",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FOR BUYERS AND INVESTORS",
+      "items": [
+       "Watch leases, not ribbon cuttings",
+       "Leasing: electronics, data-center suppliers",
+       "Pulled back: e-commerce, auto parts"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_wide.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.15,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n24",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "FOR LENDERS",
+      "items": [
+       "Trucking, warehousing, customs brokers",
+       "Stress-test tariff changes at each review"
+      ],
+      "accent": "orange"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/r08.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.1,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Photo: formulanone from Huntsville, United States, CC BY-SA 2.0 · U.S. 77/83"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "narr": "n25",
+   "visuals": [
+    {
+     "card": {
+      "type": "list",
+      "title": "OUR WATCH LIST",
+      "items": [
+       "Pharr zone expansion vote: by end of December",
+       "Pharr truck park: early 2027",
+       "The trade deal's next annual review"
+      ],
+      "accent": "teal"
+     },
+     "weight": 0.5
+    },
+    {
+     "image": "assets/photos/ep6/aerial/a_donna_bridge.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.15,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "Donna International Bridge · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ],
+   "credit": "Sources: RGV Business Journal, Nov 23 and Jul 1, 2026; Texas Border Business"
+  },
+  {
+   "narr": "n26",
+   "visuals": [
+    {
+     "video": "demo/flyovers/v2/v_pharr_bridge_top_s.mp4",
+     "ss": 0,
+     "weight": 0.5,
+     "len": 7.0
+    },
+    {
+     "image": "assets/photos/ep4/aerial/a_mcallen_n.jpg",
+     "weight": 0.5,
+     "zoom": [
+      1.15,
+      1.0
+     ],
+     "pan": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "credit": "McAllen · Imagery: USGS The National Map"
+    }
+   ],
+   "pad": [
+    0.15,
+    0.3
+   ]
+  },
+  {
+   "label": "end",
+   "dur": 3,
+   "visuals": [
+    {
+     "card": {
+      "type": "title",
+      "title": "RGV NEWS",
+      "sub": "Not financial advice · Sources in the description"
+     },
+     "weight": 1.0
+    }
+   ],
+   "pad": [
+    0.5,
+    0.8
+   ]
+  }
+ ]
+}
