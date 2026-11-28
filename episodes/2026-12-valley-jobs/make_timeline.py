@@ -9,7 +9,7 @@ P = [0.15, 0.3]
 HL, BARS = f"{E7}/headlines.mp4", f"{E7}/v_bars_wages_s.mp4"
 SB, SH4D = f"{FLY}/v2/v_starbase_orbit_s.mp4", f"{FLY}/v_sh4_dusk_west_s.mp4"
 DON, PHR = f"{FLY}/v2/v_donna_dusk_s.mp4", f"{FLY}/v2/v_pharr_bridge_top_s.mp4"
-PORT = "demo/ep6/v_port_s.mp4"
+PORT = f"{E7}/v_port_s.mp4"
 USGS = "Imagery: USGS The National Map"
 RGVBJ = "Source: RGV Business Journal"
 FED = "Source: Federal Reserve Bank of Dallas, Rio Grande Valley Economic Indicators"
@@ -55,9 +55,9 @@ B = [
               stat("Cameron County · its four biggest projects", "$41.1B", ["Rio Grande LNG · Texas LNG",
                                                                             "Starbase · Saronic's Port Alpha shipyard"], w=0.45)],
       chapter="Cold open: $41 billion in projects, 700 jobs lost", credit=RGVBJ + ", Oct 3, 2026, citing Cameron County"),
-    N("n01", [IMG("a_brownsville_n", 0.5, zoom=(1.0, 1.12), pan=(0.4, 0.5, 0.55, 0.5), place="Brownsville"),
-              stat("Rio Grande Valley employment · Q3 2026", "-0.6%", ["annualized, three months through September",
-                                                                       "about 700 jobs · Texas and U.S. still grew"], "blue", w=0.5)],
+    N("n01", [stat("Rio Grande Valley employment · Q3 2026", "-0.6%", ["annualized, three months through September",
+                                                                       "about 700 jobs · Texas and U.S. still grew"], "blue", w=0.5),
+              IMG("a_brownsville_n", 0.5, zoom=(1.0, 1.12), pan=(0.4, 0.5, 0.55, 0.5), place="Brownsville")],
       credit=FED + ", Q3 2026", kinetic=K(["ABOUT 700", "JOBS LOST"], at=8.5, step=0.5, size=120)),
     N("n02", [IMG("p01", 0.5, zoom=(1.0, 1.1), place="McAllen"),
               IMG("a_edinburg_sub", 0.5, zoom=(1.12, 1.0), pan=(0.5, 0.5, 0.45, 0.55), place="Edinburg")]),
@@ -85,7 +85,7 @@ B = [
       credit="Sources: Strategic Partnerships Inc.; San Antonio Express-News (Nov 2026)"),
     # ---------------- part 2: the jobs on the ground
     section("PART 2", "THE JOBS ON THE GROUND", "Part 2: The jobs on the ground", "blue"),
-    N("n08", [lst("VALLEY JOB GROWTH IN 2026 (ANNUALIZED)", ["First quarter: +1.4%", "Second quarter: +1.3%",
+    N("n08", [lst("VALLEY JOB GROWTH, 2026", ["First quarter: +1.4% (annualized)", "Second quarter: +1.3%",
                                                             "Third quarter: -0.6%"], "blue", w=0.5),
               IMG("a_weslaco_wide", 0.5, zoom=(1.0, 1.12), place="Weslaco")], credit=FED + ", Q1-Q3 2026"),
     N("n09", [IMG("a_mcallen_n", 0.5, zoom=(1.12, 1.0), place="McAllen"),

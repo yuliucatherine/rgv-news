@@ -1,0 +1,16 @@
+{
+ "frames_dir": "demo/ep3/channel_frames",
+ "labels_json": "demo/ep3/channel_frames/labels.json",
+ "out_mp4": "demo/ep7/v_port.mp4",
+ "fps_in": 24,
+ "labels_from": 0.12,
+ "callouts": [
+  {
+   "text": "Port of Brownsville",
+   "sub": "Rio Grande LNG site and the Brownsville Ship Channel",
+   "start": 2.0,
+   "end": 9.6
+  }
+ ],
+ "credit": "Imagery: USGS The National Map \u00b7 Elevation: AWS Terrain Tiles"
+}
