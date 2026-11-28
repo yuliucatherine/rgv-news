@@ -274,3 +274,13 @@ YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local t
 - Tracked labels now stay fully inside the frame and fade out as the pin nears the edge (overlay.py).
 - A Short's hook visual must not repeat in the next block; swap the block inline (shorts_from_episode accepts dict blocks).
 - Covers: pick the frame from the hook (frame_fraction ~0.07) so each cover shows a real place, and make every cover in a batch different.
+
+## Posting autonomy and fixed schedule (owner rule, Nov 28, 2026; replaces "ask before posting" for Shorts)
+- Shorts no longer need the owner's approval: QC them (contact sheet, covers all different, no back-to-back repeats,
+  captions match the narration and sources) and schedule them directly. Brand 8063182 (RGV News) only.
+- Goal: a Short in every slot, every day: 10:20 AM, 2:20 PM, 6:20 PM and 10:20 PM Central (4 a day). Keep at least
+  48 hours of slots filled; check the calendar daily and fill gaps.
+- Long episodes: every other day at 5:00 PM Central (Ep 7 Sun Nov 29, Ep 8 Tue Dec 1, Ep 9 Thu Dec 3, ...).
+  Keep the time consistent. Episodes are still sent to the owner for review before they post.
+- Supply: about 8 Shorts per episode (one hook line each), plus Episode 6 / back-catalog re-cuts with fresh hooks
+  and fresh Blender angles when stock runs low.

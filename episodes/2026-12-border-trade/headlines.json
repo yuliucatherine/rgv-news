@@ -1,0 +1,30 @@
+{
+ "fps": 60,
+ "seconds": 6.0,
+ "step": 0.5,
+ "title": "ON THE RECORD",
+ "subtitle": "What border trade reporting shows",
+ "footer": "Full sources linked in the description",
+ "items": [
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Oct 8, 2026",
+   "headline": "Pharr doubles bridge capacity as data centers and produce drive new trade demand"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Jun 22, 2026",
+   "headline": "More industrial space sits empty in Reynosa as vacancy hits 10-year high, but developers keep building"
+  },
+  {
+   "outlet": "RGV Business Journal",
+   "date": "Jul 1, 2026",
+   "headline": "U.S. declines to renew USMCA, creating new uncertainty for Rio Grande Valley trade"
+  },
+  {
+   "outlet": "Rio Grande Guardian",
+   "date": "2026",
+   "headline": "Cuellar: U.S. decision to drop long-term USMCA renewal is 'freezing' South Texas investment"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "terrain_dir": "data/terrain_reynosa",
+ "metres_per_unit": 50,
+ "vertical_exaggeration": 3,
+ "downsample": 4,
+ "min_elev": 20.0,
+ "fps": 24,
+ "seconds": 9,
+ "samples": 8,
+ "lens": 32,
+ "view_transform": "AgX",
+ "resolution": [
+  1280,
+  720
+ ],
+ "imagery_glow": 0.15,
+ "imagery_tint": [
+  1.0,
+  0.98,
+  0.94
+ ],
+ "world_color": [
+  0.05,
+  0.07,
+  0.1
+ ],
+ "world_strength": 0.6,
+ "sun": {
+  "elevation": 30,
+  "azimuth": -130,
+  "energy": 2.2,
+  "angle": 2
+ },
+ "camera": {
+  "start": {
+   "over": [
+    -98.168,
+    25.998
+   ],
+   "height": 30,
+   "look_at": [
+    -98.212,
+    26.068
+   ]
+  },
+  "end": {
+   "over": [
+    -98.176,
+    26.008
+   ],
+   "height": 26,
+   "look_at": [
+    -98.214,
+    26.075
+   ]
+  }
+ },
+ "labels": [
+  {
+   "name": "Pharr International Bridge",
+   "lon": -98.2035,
+   "lat": 26.07
+  },
+  {
+   "name": "Reynosa industrial parks",
+   "lon": -98.19,
+   "lat": 26.025
+  },
+  {
+   "name": "Pharr, Texas",
+   "lon": -98.19,
+   "lat": 26.13
+  }
+ ],
+ "sky": {
+  "sun_elevation": 25,
+  "sun_rotation": 220,
+  "strength": 0.08
+ },
+ "skirt": true,
+ "texture": "data/terrain_reynosa/texture_hi.jpg",
+ "nodata_fill": "mean"
+}

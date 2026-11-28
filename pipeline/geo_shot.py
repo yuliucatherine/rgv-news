@@ -68,6 +68,8 @@ proc = os.path.join(fdir, "_texture.jpg")
 im = np.asarray(Image.open(tex_src).convert("RGB")).astype(np.float32)
 nod = (im.min(-1) > 245)
 im[nod] = (14, 22, 40)
+if cfg.get("nodata_fill") == "mean" and nod.any() and (~nod).any():   # blank imagery (outside USGS coverage) as neutral ground
+    im[nod] = im[~nod].mean(0)
 im = im * cfg.get("imagery_gain", 1.08)
 if cfg.get("imagery_tint"): im = im * np.array(cfg["imagery_tint"], np.float32)   # e.g. warm [1.08,0.96,0.82] for golden hour
 Image.fromarray(np.clip(im, 0, 255).astype(np.uint8)).save(proc, quality=92)

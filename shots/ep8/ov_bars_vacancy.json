@@ -1,0 +1,30 @@
+{
+ "frames_dir": "demo/ep8/bars_vacancy",
+ "labels_json": "demo/ep8/bars_vacancy/labels.json",
+ "out_mp4": "demo/ep8/v_bars_vacancy.mp4",
+ "fps_in": 24,
+ "label_values": {
+  "Reynosa, 2024 peak": [
+   "",
+   7.97,
+   "%",
+   2,
+   "industrial vacancy"
+  ],
+  "Reynosa, Q1 2026": [
+   "",
+   10.41,
+   "%",
+   2,
+   "industrial vacancy"
+  ],
+  "Matamoros, Q1 2026": [
+   "",
+   3.19,
+   "%",
+   2,
+   "industrial vacancy"
+  ]
+ },
+ "credit": "Source: DATOZ via RGV Business Journal (Jun 22, 2026). Other trackers report lower rates."
+}
