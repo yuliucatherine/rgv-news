@@ -230,7 +230,7 @@
      "video": "demo/ep7/v_port_s.mp4",
      "ss": 0,
      "weight": 0.55,
-     "len": 11.0
+     "len": 10.5
     },
     {
      "card": {
@@ -271,9 +271,9 @@
     },
     {
      "video": "demo/ep7/v_port_s.mp4",
-     "ss": 12.0,
+     "ss": 10.5,
      "weight": 0.55,
-     "len": 10.0
+     "len": 9.5
     }
    ],
    "pad": [
