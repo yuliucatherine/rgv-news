@@ -284,3 +284,5 @@ YouTube Shorts were the reverse: Starship footage led (1,401 and 1,109), local t
   Keep the time consistent. Episodes are still sent to the owner for review before they post.
 - Supply: about 8 Shorts per episode (one hook line each), plus Episode 6 / back-catalog re-cuts with fresh hooks
   and fresh Blender angles when stock runs low.
+- ElevenLabs credits (owner, Nov 28, 2026): about 6,000-7,500 per episode. If a generation fails for lack of credits,
+  stop new narration, tell the owner, and wait for the monthly reset; keep Shorts going from rendered stock meanwhile.
